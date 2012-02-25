@@ -1,0 +1,221 @@
+commit 312c74dcc3f2438d60b2d7f5ded64cc8505dfc18
+Author: Eli Cohen <eli@mellanox.co.il>
+Date:   Thu Aug 19 11:42:47 2010 +0300
+
+    Adapt address to resolution to upstream implementation
+    
+    Signed-off-by: Eli Cohen <eli@mellanox.co.il>
+
+diff --git a/include/infiniband/driver.h b/include/infiniband/driver.h
+index efb13e5..593ac3c 100644
+--- a/include/infiniband/driver.h
++++ b/include/infiniband/driver.h
+@@ -136,11 +136,6 @@ int ibv_cmd_create_ah(struct ibv_pd *pd, struct ibv_ah *ah,
+ int ibv_cmd_destroy_ah(struct ibv_ah *ah);
+ int ibv_cmd_attach_mcast(struct ibv_qp *qp, const union ibv_gid *gid, uint16_t lid);
+ int ibv_cmd_detach_mcast(struct ibv_qp *qp, const union ibv_gid *gid, uint16_t lid);
+-int ibv_cmd_get_eth_l2_addr(struct ibv_pd *pd, uint8_t port, const union ibv_gid *gid,
+-			    int sgid_idx, uint8_t *mac, uint16_t *vlan_id);
+-
+-int ibv_cmd_get_eth_l2_addr(struct ibv_pd *pd, uint8_t port, const union ibv_gid *gid,
+-                            int sgid_idx, uint8_t *mac, uint16_t *vlan_id);
+ 
+ int ibv_dontfork_range(void *base, size_t size);
+ int ibv_dofork_range(void *base, size_t size);
+@@ -169,4 +164,9 @@ const char *ibv_get_sysfs_path(void);
+ int ibv_read_sysfs_file(const char *dir, const char *file,
+ 			char *buf, size_t size);
+ 
++int ibv_resolve_eth_gid(const struct ibv_pd *pd, uint8_t port_num,
++			union ibv_gid *dgid, uint8_t sgid_index,
++			uint8_t mac[], uint16_t *vlan, uint8_t *tagged,
++			uint8_t *is_mcast);
++
+ #endif /* INFINIBAND_DRIVER_H */
+diff --git a/include/infiniband/kern-abi.h b/include/infiniband/kern-abi.h
+index c110bf0..ce5ac03 100644
+--- a/include/infiniband/kern-abi.h
++++ b/include/infiniband/kern-abi.h
+@@ -94,7 +94,6 @@ enum {
+ 	IB_USER_VERBS_CMD_QUERY_XRC_RCV_QP,
+ 	IB_USER_VERBS_CMD_REG_XRC_RCV_QP,
+ 	IB_USER_VERBS_CMD_UNREG_XRC_RCV_QP,
+-	IB_USER_VERBS_CMD_GET_ETH_L2_ADDR,
+ };
+ 
+ /*
+@@ -947,7 +946,6 @@ enum {
+ 	IB_USER_VERBS_CMD_QUERY_XRC_RCV_QP_V2 = -1,
+ 	IB_USER_VERBS_CMD_REG_XRC_RCV_QP_V2 = -1,
+ 	IB_USER_VERBS_CMD_UNREG_XRC_RCV_QP_V2 = -1,
+-	IB_USER_VERBS_CMD_GET_ETH_L2_ADDR_V2 = -1,
+ };
+ 
+ struct ibv_destroy_cq_v1 {
+@@ -1023,21 +1021,4 @@ struct ibv_create_srq_resp_v5 {
+ 	__u32 srq_handle;
+ };
+ 
+-struct ibv_get_eth_l2_addr {
+-        __u32 command;
+-        __u16 in_words;
+-        __u16 out_words;
+-        __u64 response;
+-        __u32 pd_handle;
+-        __u8  port;
+-        __u8  sgid_idx;
+-        __u8  reserved[2];
+-        __u8  dgid[16];
+-};
+-
+-struct ibv_get_eth_l2_addr_resp {
+-        __u8    mac[6];
+-        __u16   vlan_id;
+-};
+-
+ #endif /* KERN_ABI_H */
+diff --git a/src/cmd.c b/src/cmd.c
+index a88f2a7..fa67df2 100644
+--- a/src/cmd.c
++++ b/src/cmd.c
+@@ -1407,24 +1407,3 @@ int ibv_cmd_unreg_xrc_rcv_qp(struct ibv_xrc_domain *d, uint32_t xrc_qp_num)
+ 	return 0;
+ }
+ 
+-int ibv_cmd_get_eth_l2_addr(struct ibv_pd *pd, uint8_t port, const union ibv_gid *gid,
+-                            int sgid_idx, uint8_t *mac, uint16_t *vlan_id)
+-{
+-        struct ibv_get_eth_l2_addr cmd;
+-        struct ibv_get_eth_l2_addr_resp resp;
+-
+-        IBV_INIT_CMD_RESP(&cmd, sizeof cmd, GET_ETH_L2_ADDR, &resp, sizeof resp);
+-        memcpy(cmd.dgid, gid, sizeof cmd.dgid);
+-        cmd.pd_handle = pd->handle;
+-        cmd.port = port;
+-        cmd.sgid_idx = sgid_idx;
+-
+-        if (write(pd->context->cmd_fd, &cmd, sizeof cmd) != sizeof cmd)
+-                return errno;
+-
+-        memcpy(mac, resp.mac, 6);
+-        *vlan_id = resp.vlan_id;
+-
+-        return 0;
+-}
+-
+diff --git a/src/libibverbs.map b/src/libibverbs.map
+index 4d4acdc..fce6965 100644
+--- a/src/libibverbs.map
++++ b/src/libibverbs.map
+@@ -64,7 +64,6 @@ IBVERBS_1.0 {
+ 		ibv_cmd_destroy_ah;
+ 		ibv_cmd_attach_mcast;
+ 		ibv_cmd_detach_mcast;
+-		ibv_cmd_get_eth_l2_addr;
+ 		ibv_copy_qp_attr_from_kern;
+ 		ibv_copy_path_rec_from_kern;
+ 		ibv_copy_path_rec_to_kern;
+diff --git a/src/verbs.c b/src/verbs.c
+index 16f6864..33ffd28 100644
+--- a/src/verbs.c
++++ b/src/verbs.c
+@@ -656,3 +656,99 @@ int ibv_unreg_xrc_rcv_qp(struct ibv_xrc_domain *d,
+ 	return d->context->more_ops->unreg_xrc_rcv_qp(d, xrc_rcv_qpn);
+ }
+ 
++
++static uint16_t get_vlan_id(const union ibv_gid *dgid)
++{
++	return dgid->raw[11] << 8 | dgid->raw[12];
++}
++
++static void get_ll_mac(const union ibv_gid *gid, uint8_t *mac)
++{
++	memcpy(mac, &gid->raw[8], 3);
++	memcpy(mac + 3, &gid->raw[13], 3);
++	mac[0] ^= 2;
++}
++
++static int is_multicast_gid(const union ibv_gid *gid)
++{
++	return gid->raw[0] == 0xff;
++}
++
++static void get_mcast_mac(const union ibv_gid *gid, uint8_t *mac)
++{
++	int i;
++
++	mac[0] = 0x33;
++	mac[1] = 0x33;
++	for (i = 2; i < 6; ++i)
++		mac[i] = gid->raw[i + 10];
++}
++
++static int is_link_local_gid(const union ibv_gid *gid)
++{
++	uint32_t hi = *(uint32_t *)(gid->raw);
++	uint32_t lo = *(uint32_t *)(gid->raw + 4);
++	if (hi == htonl(0xfe800000) && lo == 0)
++		return 1;
++
++	return 0;
++}
++
++static int resolve_gid(const union ibv_gid *dgid, uint8_t *mac, uint8_t *is_mcast)
++{
++	if (is_link_local_gid(dgid)) {
++		get_ll_mac(dgid, mac);
++		*is_mcast = 0;
++	} else if (is_multicast_gid(dgid)) {
++		get_mcast_mac(dgid, mac);
++		*is_mcast = 1;
++	} else
++		return -EINVAL;
++
++	return 0;
++}
++
++static int is_tagged_vlan(const union ibv_gid *gid)
++{
++	uint16_t tag;
++
++	tag = gid->raw[11] << 8 |  gid->raw[12];
++
++	return tag < 0x1000;
++}
++
++int __ibv_resolve_eth_gid(struct ibv_pd *pd, uint8_t port_num,
++			  const union ibv_gid *dgid, uint8_t sgid_index,
++			  uint8_t mac[], uint16_t *vlan, uint8_t *tagged,
++			  uint8_t *is_mcast)
++{
++	int err;
++	union ibv_gid sgid;
++	int stagged, svlan;
++
++	err = resolve_gid(dgid, mac, is_mcast);
++	if (err)
++		return err;
++
++	err = ibv_query_gid(pd->context, port_num, sgid_index, &sgid);
++	if (err)
++		return err;
++
++	stagged = is_tagged_vlan(&sgid);
++	if (stagged) {
++		if (!is_tagged_vlan(dgid) && !is_mcast)
++			return -1;
++
++		svlan = get_vlan_id(&sgid);
++		if (svlan != get_vlan_id(dgid) && !is_mcast)
++			return -1;
++
++		*tagged = 1;
++		*vlan = svlan;
++	} else
++		*tagged = 0;
++
++	return 0;
++}
++default_symver(__ibv_resolve_eth_gid, ibv_resolve_eth_gid);
++

@@ -1,0 +1,1854 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+BEGIN_C_DECLS	include/infiniband/driver.h	42;"	d
+BEGIN_C_DECLS	include/infiniband/driver.h	45;"	d
+BEGIN_C_DECLS	include/infiniband/marshall.h	42;"	d
+BEGIN_C_DECLS	include/infiniband/marshall.h	45;"	d
+BEGIN_C_DECLS	include/infiniband/verbs.h	43;"	d
+BEGIN_C_DECLS	include/infiniband/verbs.h	46;"	d
+DEB_AUTO_UPDATE_LIBTOOL	debian/rules	/^DEB_AUTO_UPDATE_LIBTOOL := post$/;"	m
+DEB_DH_INSTALL_SOURCEDIR	debian/rules	/^DEB_DH_INSTALL_SOURCEDIR := debian\/tmp$/;"	m
+DEB_DH_MAKESHLIBS_ARGS_ALL	debian/rules	/^DEB_DH_MAKESHLIBS_ARGS_ALL := -V 'libibverbs1 (>= 1.1.2)'$/;"	m
+DEFAULT_ABI	src/ibverbs.h	60;"	d
+END_C_DECLS	include/infiniband/driver.h	43;"	d
+END_C_DECLS	include/infiniband/driver.h	46;"	d
+END_C_DECLS	include/infiniband/marshall.h	43;"	d
+END_C_DECLS	include/infiniband/marshall.h	46;"	d
+END_C_DECLS	include/infiniband/verbs.h	44;"	d
+END_C_DECLS	include/infiniband/verbs.h	47;"	d
+FINI	src/ibverbs.h	58;"	d
+HIDDEN	src/ibverbs.h	55;"	d
+IBV_ACCESS_LOCAL_WRITE	include/infiniband/verbs.h	/^	IBV_ACCESS_LOCAL_WRITE		= 1,$/;"	e	enum:ibv_access_flags
+IBV_ACCESS_MW_BIND	include/infiniband/verbs.h	/^	IBV_ACCESS_MW_BIND		= (1<<4)$/;"	e	enum:ibv_access_flags
+IBV_ACCESS_REMOTE_ATOMIC	include/infiniband/verbs.h	/^	IBV_ACCESS_REMOTE_ATOMIC	= (1<<3),$/;"	e	enum:ibv_access_flags
+IBV_ACCESS_REMOTE_READ	include/infiniband/verbs.h	/^	IBV_ACCESS_REMOTE_READ		= (1<<2),$/;"	e	enum:ibv_access_flags
+IBV_ACCESS_REMOTE_WRITE	include/infiniband/verbs.h	/^	IBV_ACCESS_REMOTE_WRITE		= (1<<1),$/;"	e	enum:ibv_access_flags
+IBV_ATOMIC_GLOB	include/infiniband/verbs.h	/^	IBV_ATOMIC_GLOB$/;"	e	enum:ibv_atomic_cap
+IBV_ATOMIC_HCA	include/infiniband/verbs.h	/^	IBV_ATOMIC_HCA,$/;"	e	enum:ibv_atomic_cap
+IBV_ATOMIC_NONE	include/infiniband/verbs.h	/^	IBV_ATOMIC_NONE,$/;"	e	enum:ibv_atomic_cap
+IBV_BLACK	src/memory.c	/^		IBV_BLACK$/;"	e	enum:ibv_mem_node::__anon1	file:
+IBV_CMD_REG_MR_HAS_RESP_PARAMS	include/infiniband/driver.h	78;"	d
+IBV_CMD_RESIZE_CQ_HAS_RESP_PARAMS	include/infiniband/driver.h	92;"	d
+IBV_DEVICE_AUTO_PATH_MIG	include/infiniband/verbs.h	/^	IBV_DEVICE_AUTO_PATH_MIG	= 1 <<  4,$/;"	e	enum:ibv_device_cap_flags
+IBV_DEVICE_BAD_PKEY_CNTR	include/infiniband/verbs.h	/^	IBV_DEVICE_BAD_PKEY_CNTR	= 1 <<  1,$/;"	e	enum:ibv_device_cap_flags
+IBV_DEVICE_BAD_QKEY_CNTR	include/infiniband/verbs.h	/^	IBV_DEVICE_BAD_QKEY_CNTR	= 1 <<  2,$/;"	e	enum:ibv_device_cap_flags
+IBV_DEVICE_CHANGE_PHY_PORT	include/infiniband/verbs.h	/^	IBV_DEVICE_CHANGE_PHY_PORT	= 1 <<  5,$/;"	e	enum:ibv_device_cap_flags
+IBV_DEVICE_CURR_QP_STATE_MOD	include/infiniband/verbs.h	/^	IBV_DEVICE_CURR_QP_STATE_MOD	= 1 <<  7,$/;"	e	enum:ibv_device_cap_flags
+IBV_DEVICE_INIT_TYPE	include/infiniband/verbs.h	/^	IBV_DEVICE_INIT_TYPE		= 1 <<  9,$/;"	e	enum:ibv_device_cap_flags
+IBV_DEVICE_LIBRARY_EXTENSION	include/infiniband/driver.h	54;"	d
+IBV_DEVICE_N_NOTIFY_CQ	include/infiniband/verbs.h	/^	IBV_DEVICE_N_NOTIFY_CQ		= 1 << 14$/;"	e	enum:ibv_device_cap_flags
+IBV_DEVICE_PORT_ACTIVE_EVENT	include/infiniband/verbs.h	/^	IBV_DEVICE_PORT_ACTIVE_EVENT	= 1 << 10,$/;"	e	enum:ibv_device_cap_flags
+IBV_DEVICE_RAW_MULTI	include/infiniband/verbs.h	/^	IBV_DEVICE_RAW_MULTI		= 1 <<  3,$/;"	e	enum:ibv_device_cap_flags
+IBV_DEVICE_RC_RNR_NAK_GEN	include/infiniband/verbs.h	/^	IBV_DEVICE_RC_RNR_NAK_GEN	= 1 << 12,$/;"	e	enum:ibv_device_cap_flags
+IBV_DEVICE_RESIZE_MAX_WR	include/infiniband/verbs.h	/^	IBV_DEVICE_RESIZE_MAX_WR	= 1,$/;"	e	enum:ibv_device_cap_flags
+IBV_DEVICE_SHUTDOWN_PORT	include/infiniband/verbs.h	/^	IBV_DEVICE_SHUTDOWN_PORT	= 1 <<  8,$/;"	e	enum:ibv_device_cap_flags
+IBV_DEVICE_SRQ_RESIZE	include/infiniband/verbs.h	/^	IBV_DEVICE_SRQ_RESIZE		= 1 << 13,$/;"	e	enum:ibv_device_cap_flags
+IBV_DEVICE_SYS_IMAGE_GUID	include/infiniband/verbs.h	/^	IBV_DEVICE_SYS_IMAGE_GUID	= 1 << 11,$/;"	e	enum:ibv_device_cap_flags
+IBV_DEVICE_UD_AV_PORT_ENFORCE	include/infiniband/verbs.h	/^	IBV_DEVICE_UD_AV_PORT_ENFORCE	= 1 <<  6,$/;"	e	enum:ibv_device_cap_flags
+IBV_EVENT_CLIENT_REREGISTER	include/infiniband/verbs.h	/^	IBV_EVENT_CLIENT_REREGISTER$/;"	e	enum:ibv_event_type
+IBV_EVENT_COMM_EST	include/infiniband/verbs.h	/^	IBV_EVENT_COMM_EST,$/;"	e	enum:ibv_event_type
+IBV_EVENT_CQ_ERR	include/infiniband/verbs.h	/^	IBV_EVENT_CQ_ERR,$/;"	e	enum:ibv_event_type
+IBV_EVENT_DEVICE_FATAL	include/infiniband/verbs.h	/^	IBV_EVENT_DEVICE_FATAL,$/;"	e	enum:ibv_event_type
+IBV_EVENT_LID_CHANGE	include/infiniband/verbs.h	/^	IBV_EVENT_LID_CHANGE,$/;"	e	enum:ibv_event_type
+IBV_EVENT_PATH_MIG	include/infiniband/verbs.h	/^	IBV_EVENT_PATH_MIG,$/;"	e	enum:ibv_event_type
+IBV_EVENT_PATH_MIG_ERR	include/infiniband/verbs.h	/^	IBV_EVENT_PATH_MIG_ERR,$/;"	e	enum:ibv_event_type
+IBV_EVENT_PKEY_CHANGE	include/infiniband/verbs.h	/^	IBV_EVENT_PKEY_CHANGE,$/;"	e	enum:ibv_event_type
+IBV_EVENT_PORT_ACTIVE	include/infiniband/verbs.h	/^	IBV_EVENT_PORT_ACTIVE,$/;"	e	enum:ibv_event_type
+IBV_EVENT_PORT_ERR	include/infiniband/verbs.h	/^	IBV_EVENT_PORT_ERR,$/;"	e	enum:ibv_event_type
+IBV_EVENT_QP_ACCESS_ERR	include/infiniband/verbs.h	/^	IBV_EVENT_QP_ACCESS_ERR,$/;"	e	enum:ibv_event_type
+IBV_EVENT_QP_FATAL	include/infiniband/verbs.h	/^	IBV_EVENT_QP_FATAL,$/;"	e	enum:ibv_event_type
+IBV_EVENT_QP_LAST_WQE_REACHED	include/infiniband/verbs.h	/^	IBV_EVENT_QP_LAST_WQE_REACHED,$/;"	e	enum:ibv_event_type
+IBV_EVENT_QP_REQ_ERR	include/infiniband/verbs.h	/^	IBV_EVENT_QP_REQ_ERR,$/;"	e	enum:ibv_event_type
+IBV_EVENT_SM_CHANGE	include/infiniband/verbs.h	/^	IBV_EVENT_SM_CHANGE,$/;"	e	enum:ibv_event_type
+IBV_EVENT_SQ_DRAINED	include/infiniband/verbs.h	/^	IBV_EVENT_SQ_DRAINED,$/;"	e	enum:ibv_event_type
+IBV_EVENT_SRQ_ERR	include/infiniband/verbs.h	/^	IBV_EVENT_SRQ_ERR,$/;"	e	enum:ibv_event_type
+IBV_EVENT_SRQ_LIMIT_REACHED	include/infiniband/verbs.h	/^	IBV_EVENT_SRQ_LIMIT_REACHED,$/;"	e	enum:ibv_event_type
+IBV_INIT_CMD	src/ibverbs.h	84;"	d
+IBV_INIT_CMD_RESP	src/ibverbs.h	94;"	d
+IBV_MIG_ARMED	include/infiniband/verbs.h	/^	IBV_MIG_ARMED$/;"	e	enum:ibv_mig_state
+IBV_MIG_MIGRATED	include/infiniband/verbs.h	/^	IBV_MIG_MIGRATED,$/;"	e	enum:ibv_mig_state
+IBV_MIG_REARM	include/infiniband/verbs.h	/^	IBV_MIG_REARM,$/;"	e	enum:ibv_mig_state
+IBV_MTU_1024	include/infiniband/verbs.h	/^	IBV_MTU_1024 = 3,$/;"	e	enum:ibv_mtu
+IBV_MTU_2048	include/infiniband/verbs.h	/^	IBV_MTU_2048 = 4,$/;"	e	enum:ibv_mtu
+IBV_MTU_256	include/infiniband/verbs.h	/^	IBV_MTU_256  = 1,$/;"	e	enum:ibv_mtu
+IBV_MTU_4096	include/infiniband/verbs.h	/^	IBV_MTU_4096 = 5$/;"	e	enum:ibv_mtu
+IBV_MTU_512	include/infiniband/verbs.h	/^	IBV_MTU_512  = 2,$/;"	e	enum:ibv_mtu
+IBV_MW_TYPE_1	include/infiniband/verbs.h	/^	IBV_MW_TYPE_1			= 1,$/;"	e	enum:ibv_mw_type
+IBV_MW_TYPE_2	include/infiniband/verbs.h	/^	IBV_MW_TYPE_2			= 2$/;"	e	enum:ibv_mw_type
+IBV_NODE_CA	include/infiniband/verbs.h	/^	IBV_NODE_CA 		= 1,$/;"	e	enum:ibv_node_type
+IBV_NODE_RNIC	include/infiniband/verbs.h	/^	IBV_NODE_RNIC$/;"	e	enum:ibv_node_type
+IBV_NODE_ROUTER	include/infiniband/verbs.h	/^	IBV_NODE_ROUTER,$/;"	e	enum:ibv_node_type
+IBV_NODE_SWITCH	include/infiniband/verbs.h	/^	IBV_NODE_SWITCH,$/;"	e	enum:ibv_node_type
+IBV_NODE_UNKNOWN	include/infiniband/verbs.h	/^	IBV_NODE_UNKNOWN	= -1,$/;"	e	enum:ibv_node_type
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, ACKNOWLEDGE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, ATOMIC_ACKNOWLEDGE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, COMPARE_SWAP),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, FETCH_ADD),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, RDMA_READ_REQUEST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, RDMA_READ_RESPONSE_FIRST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, RDMA_READ_RESPONSE_LAST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, RDMA_READ_RESPONSE_MIDDLE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, RDMA_READ_RESPONSE_ONLY),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, RDMA_WRITE_FIRST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, RDMA_WRITE_LAST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, RDMA_WRITE_LAST_WITH_IMMEDIATE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, RDMA_WRITE_MIDDLE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, RDMA_WRITE_ONLY),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, RDMA_WRITE_ONLY_WITH_IMMEDIATE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, SEND_FIRST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, SEND_LAST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, SEND_LAST_WITH_IMMEDIATE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, SEND_MIDDLE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, SEND_ONLY),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RC, SEND_ONLY_WITH_IMMEDIATE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, ACKNOWLEDGE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, ATOMIC_ACKNOWLEDGE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, COMPARE_SWAP),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, FETCH_ADD),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, RDMA_READ_REQUEST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, RDMA_READ_RESPONSE_FIRST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, RDMA_READ_RESPONSE_LAST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, RDMA_READ_RESPONSE_MIDDLE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, RDMA_READ_RESPONSE_ONLY),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, RDMA_WRITE_FIRST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, RDMA_WRITE_LAST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, RDMA_WRITE_LAST_WITH_IMMEDIATE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, RDMA_WRITE_MIDDLE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, RDMA_WRITE_ONLY),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, RDMA_WRITE_ONLY_WITH_IMMEDIATE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, SEND_FIRST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, SEND_LAST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, SEND_LAST_WITH_IMMEDIATE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, SEND_MIDDLE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, SEND_ONLY),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(RD, SEND_ONLY_WITH_IMMEDIATE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(UC, RDMA_WRITE_FIRST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(UC, RDMA_WRITE_LAST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(UC, RDMA_WRITE_LAST_WITH_IMMEDIATE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(UC, RDMA_WRITE_MIDDLE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(UC, RDMA_WRITE_ONLY),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(UC, RDMA_WRITE_ONLY_WITH_IMMEDIATE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(UC, SEND_FIRST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(UC, SEND_LAST),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(UC, SEND_LAST_WITH_IMMEDIATE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(UC, SEND_MIDDLE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(UC, SEND_ONLY),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(UC, SEND_ONLY_WITH_IMMEDIATE),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(UD, SEND_ONLY),$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	/^	IBV_OPCODE(UD, SEND_ONLY_WITH_IMMEDIATE)$/;"	e	enum:__anon20
+IBV_OPCODE	include/infiniband/opcode.h	45;"	d
+IBV_OPCODE_ACKNOWLEDGE	include/infiniband/opcode.h	/^	IBV_OPCODE_ACKNOWLEDGE                       = 0x11,$/;"	e	enum:__anon20
+IBV_OPCODE_ATOMIC_ACKNOWLEDGE	include/infiniband/opcode.h	/^	IBV_OPCODE_ATOMIC_ACKNOWLEDGE                = 0x12,$/;"	e	enum:__anon20
+IBV_OPCODE_COMPARE_SWAP	include/infiniband/opcode.h	/^	IBV_OPCODE_COMPARE_SWAP                      = 0x13,$/;"	e	enum:__anon20
+IBV_OPCODE_FETCH_ADD	include/infiniband/opcode.h	/^	IBV_OPCODE_FETCH_ADD                         = 0x14,$/;"	e	enum:__anon20
+IBV_OPCODE_RC	include/infiniband/opcode.h	/^	IBV_OPCODE_RC                                = 0x00,$/;"	e	enum:__anon20
+IBV_OPCODE_RD	include/infiniband/opcode.h	/^	IBV_OPCODE_RD                                = 0x40,$/;"	e	enum:__anon20
+IBV_OPCODE_RDMA_READ_REQUEST	include/infiniband/opcode.h	/^	IBV_OPCODE_RDMA_READ_REQUEST                 = 0x0c,$/;"	e	enum:__anon20
+IBV_OPCODE_RDMA_READ_RESPONSE_FIRST	include/infiniband/opcode.h	/^	IBV_OPCODE_RDMA_READ_RESPONSE_FIRST          = 0x0d,$/;"	e	enum:__anon20
+IBV_OPCODE_RDMA_READ_RESPONSE_LAST	include/infiniband/opcode.h	/^	IBV_OPCODE_RDMA_READ_RESPONSE_LAST           = 0x0f,$/;"	e	enum:__anon20
+IBV_OPCODE_RDMA_READ_RESPONSE_MIDDLE	include/infiniband/opcode.h	/^	IBV_OPCODE_RDMA_READ_RESPONSE_MIDDLE         = 0x0e,$/;"	e	enum:__anon20
+IBV_OPCODE_RDMA_READ_RESPONSE_ONLY	include/infiniband/opcode.h	/^	IBV_OPCODE_RDMA_READ_RESPONSE_ONLY           = 0x10,$/;"	e	enum:__anon20
+IBV_OPCODE_RDMA_WRITE_FIRST	include/infiniband/opcode.h	/^	IBV_OPCODE_RDMA_WRITE_FIRST                  = 0x06,$/;"	e	enum:__anon20
+IBV_OPCODE_RDMA_WRITE_LAST	include/infiniband/opcode.h	/^	IBV_OPCODE_RDMA_WRITE_LAST                   = 0x08,$/;"	e	enum:__anon20
+IBV_OPCODE_RDMA_WRITE_LAST_WITH_IMMEDIATE	include/infiniband/opcode.h	/^	IBV_OPCODE_RDMA_WRITE_LAST_WITH_IMMEDIATE    = 0x09,$/;"	e	enum:__anon20
+IBV_OPCODE_RDMA_WRITE_MIDDLE	include/infiniband/opcode.h	/^	IBV_OPCODE_RDMA_WRITE_MIDDLE                 = 0x07,$/;"	e	enum:__anon20
+IBV_OPCODE_RDMA_WRITE_ONLY	include/infiniband/opcode.h	/^	IBV_OPCODE_RDMA_WRITE_ONLY                   = 0x0a,$/;"	e	enum:__anon20
+IBV_OPCODE_RDMA_WRITE_ONLY_WITH_IMMEDIATE	include/infiniband/opcode.h	/^	IBV_OPCODE_RDMA_WRITE_ONLY_WITH_IMMEDIATE    = 0x0b,$/;"	e	enum:__anon20
+IBV_OPCODE_SEND_FIRST	include/infiniband/opcode.h	/^	IBV_OPCODE_SEND_FIRST                        = 0x00,$/;"	e	enum:__anon20
+IBV_OPCODE_SEND_LAST	include/infiniband/opcode.h	/^	IBV_OPCODE_SEND_LAST                         = 0x02,$/;"	e	enum:__anon20
+IBV_OPCODE_SEND_LAST_WITH_IMMEDIATE	include/infiniband/opcode.h	/^	IBV_OPCODE_SEND_LAST_WITH_IMMEDIATE          = 0x03,$/;"	e	enum:__anon20
+IBV_OPCODE_SEND_MIDDLE	include/infiniband/opcode.h	/^	IBV_OPCODE_SEND_MIDDLE                       = 0x01,$/;"	e	enum:__anon20
+IBV_OPCODE_SEND_ONLY	include/infiniband/opcode.h	/^	IBV_OPCODE_SEND_ONLY                         = 0x04,$/;"	e	enum:__anon20
+IBV_OPCODE_SEND_ONLY_WITH_IMMEDIATE	include/infiniband/opcode.h	/^	IBV_OPCODE_SEND_ONLY_WITH_IMMEDIATE          = 0x05,$/;"	e	enum:__anon20
+IBV_OPCODE_UC	include/infiniband/opcode.h	/^	IBV_OPCODE_UC                                = 0x20,$/;"	e	enum:__anon20
+IBV_OPCODE_UD	include/infiniband/opcode.h	/^	IBV_OPCODE_UD                                = 0x60,$/;"	e	enum:__anon20
+IBV_PINGPONG_H	examples/pingpong.h	34;"	d
+IBV_PORT_ACTIVE	include/infiniband/verbs.h	/^	IBV_PORT_ACTIVE		= 4,$/;"	e	enum:ibv_port_state
+IBV_PORT_ACTIVE_DEFER	include/infiniband/verbs.h	/^	IBV_PORT_ACTIVE_DEFER	= 5$/;"	e	enum:ibv_port_state
+IBV_PORT_ARMED	include/infiniband/verbs.h	/^	IBV_PORT_ARMED		= 3,$/;"	e	enum:ibv_port_state
+IBV_PORT_DOWN	include/infiniband/verbs.h	/^	IBV_PORT_DOWN		= 1,$/;"	e	enum:ibv_port_state
+IBV_PORT_INIT	include/infiniband/verbs.h	/^	IBV_PORT_INIT		= 2,$/;"	e	enum:ibv_port_state
+IBV_PORT_NOP	include/infiniband/verbs.h	/^	IBV_PORT_NOP		= 0,$/;"	e	enum:ibv_port_state
+IBV_QPS_ERR	include/infiniband/verbs.h	/^	IBV_QPS_ERR$/;"	e	enum:ibv_qp_state
+IBV_QPS_INIT	include/infiniband/verbs.h	/^	IBV_QPS_INIT,$/;"	e	enum:ibv_qp_state
+IBV_QPS_RESET	include/infiniband/verbs.h	/^	IBV_QPS_RESET,$/;"	e	enum:ibv_qp_state
+IBV_QPS_RTR	include/infiniband/verbs.h	/^	IBV_QPS_RTR,$/;"	e	enum:ibv_qp_state
+IBV_QPS_RTS	include/infiniband/verbs.h	/^	IBV_QPS_RTS,$/;"	e	enum:ibv_qp_state
+IBV_QPS_SQD	include/infiniband/verbs.h	/^	IBV_QPS_SQD,$/;"	e	enum:ibv_qp_state
+IBV_QPS_SQE	include/infiniband/verbs.h	/^	IBV_QPS_SQE,$/;"	e	enum:ibv_qp_state
+IBV_QPT_RC	include/infiniband/verbs.h	/^	IBV_QPT_RC = 2,$/;"	e	enum:ibv_qp_type
+IBV_QPT_UC	include/infiniband/verbs.h	/^	IBV_QPT_UC,$/;"	e	enum:ibv_qp_type
+IBV_QPT_UD	include/infiniband/verbs.h	/^	IBV_QPT_UD$/;"	e	enum:ibv_qp_type
+IBV_QP_ACCESS_FLAGS	include/infiniband/verbs.h	/^	IBV_QP_ACCESS_FLAGS		= 1 << 	3,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_ALT_PATH	include/infiniband/verbs.h	/^	IBV_QP_ALT_PATH			= 1 << 14,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_AV	include/infiniband/verbs.h	/^	IBV_QP_AV			= 1 << 	7,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_CAP	include/infiniband/verbs.h	/^	IBV_QP_CAP			= 1 << 19,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_CUR_STATE	include/infiniband/verbs.h	/^	IBV_QP_CUR_STATE		= 1 << 	1,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_DEST_QPN	include/infiniband/verbs.h	/^	IBV_QP_DEST_QPN			= 1 << 20$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_EN_SQD_ASYNC_NOTIFY	include/infiniband/verbs.h	/^	IBV_QP_EN_SQD_ASYNC_NOTIFY	= 1 << 	2,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_MAX_DEST_RD_ATOMIC	include/infiniband/verbs.h	/^	IBV_QP_MAX_DEST_RD_ATOMIC	= 1 << 17,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_MAX_QP_RD_ATOMIC	include/infiniband/verbs.h	/^	IBV_QP_MAX_QP_RD_ATOMIC		= 1 << 13,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_MIN_RNR_TIMER	include/infiniband/verbs.h	/^	IBV_QP_MIN_RNR_TIMER		= 1 << 15,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_PATH_MIG_STATE	include/infiniband/verbs.h	/^	IBV_QP_PATH_MIG_STATE		= 1 << 18,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_PATH_MTU	include/infiniband/verbs.h	/^	IBV_QP_PATH_MTU			= 1 << 	8,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_PKEY_INDEX	include/infiniband/verbs.h	/^	IBV_QP_PKEY_INDEX		= 1 << 	4,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_PORT	include/infiniband/verbs.h	/^	IBV_QP_PORT			= 1 << 	5,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_QKEY	include/infiniband/verbs.h	/^	IBV_QP_QKEY			= 1 << 	6,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_RETRY_CNT	include/infiniband/verbs.h	/^	IBV_QP_RETRY_CNT		= 1 << 10,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_RNR_RETRY	include/infiniband/verbs.h	/^	IBV_QP_RNR_RETRY		= 1 << 11,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_RQ_PSN	include/infiniband/verbs.h	/^	IBV_QP_RQ_PSN			= 1 << 12,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_SQ_PSN	include/infiniband/verbs.h	/^	IBV_QP_SQ_PSN			= 1 << 16,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_STATE	include/infiniband/verbs.h	/^	IBV_QP_STATE			= 1 << 	0,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QP_TIMEOUT	include/infiniband/verbs.h	/^	IBV_QP_TIMEOUT			= 1 << 	9,$/;"	e	enum:ibv_qp_attr_mask
+IBV_QUOTE	src/init.c	183;"	d	file:
+IBV_RATE_10_GBPS	include/infiniband/verbs.h	/^	IBV_RATE_10_GBPS  = 3,$/;"	e	enum:ibv_rate
+IBV_RATE_120_GBPS	include/infiniband/verbs.h	/^	IBV_RATE_120_GBPS = 10$/;"	e	enum:ibv_rate
+IBV_RATE_20_GBPS	include/infiniband/verbs.h	/^	IBV_RATE_20_GBPS  = 6,$/;"	e	enum:ibv_rate
+IBV_RATE_2_5_GBPS	include/infiniband/verbs.h	/^	IBV_RATE_2_5_GBPS = 2,$/;"	e	enum:ibv_rate
+IBV_RATE_30_GBPS	include/infiniband/verbs.h	/^	IBV_RATE_30_GBPS  = 4,$/;"	e	enum:ibv_rate
+IBV_RATE_40_GBPS	include/infiniband/verbs.h	/^	IBV_RATE_40_GBPS  = 7,$/;"	e	enum:ibv_rate
+IBV_RATE_5_GBPS	include/infiniband/verbs.h	/^	IBV_RATE_5_GBPS   = 5,$/;"	e	enum:ibv_rate
+IBV_RATE_60_GBPS	include/infiniband/verbs.h	/^	IBV_RATE_60_GBPS  = 8,$/;"	e	enum:ibv_rate
+IBV_RATE_80_GBPS	include/infiniband/verbs.h	/^	IBV_RATE_80_GBPS  = 9,$/;"	e	enum:ibv_rate
+IBV_RATE_MAX	include/infiniband/verbs.h	/^	IBV_RATE_MAX      = 0,$/;"	e	enum:ibv_rate
+IBV_RED	src/memory.c	/^		IBV_RED,$/;"	e	enum:ibv_mem_node::__anon1	file:
+IBV_REREG_MR_CHANGE_ACCESS	include/infiniband/verbs.h	/^	IBV_REREG_MR_CHANGE_ACCESS	= (1 << 2),$/;"	e	enum:ibv_rereg_mr_flags
+IBV_REREG_MR_CHANGE_PD	include/infiniband/verbs.h	/^	IBV_REREG_MR_CHANGE_PD		= (1 << 1),$/;"	e	enum:ibv_rereg_mr_flags
+IBV_REREG_MR_CHANGE_TRANSLATION	include/infiniband/verbs.h	/^	IBV_REREG_MR_CHANGE_TRANSLATION	= (1 << 0),$/;"	e	enum:ibv_rereg_mr_flags
+IBV_REREG_MR_KEEP_VALID	include/infiniband/verbs.h	/^	IBV_REREG_MR_KEEP_VALID		= (1 << 3)$/;"	e	enum:ibv_rereg_mr_flags
+IBV_SEND_FENCE	include/infiniband/verbs.h	/^	IBV_SEND_FENCE		= 1 << 0,$/;"	e	enum:ibv_send_flags
+IBV_SEND_INLINE	include/infiniband/verbs.h	/^	IBV_SEND_INLINE		= 1 << 3$/;"	e	enum:ibv_send_flags
+IBV_SEND_SIGNALED	include/infiniband/verbs.h	/^	IBV_SEND_SIGNALED	= 1 << 1,$/;"	e	enum:ibv_send_flags
+IBV_SEND_SOLICITED	include/infiniband/verbs.h	/^	IBV_SEND_SOLICITED	= 1 << 2,$/;"	e	enum:ibv_send_flags
+IBV_SRQ_LIMIT	include/infiniband/verbs.h	/^	IBV_SRQ_LIMIT	= 1 << 1$/;"	e	enum:ibv_srq_attr_mask
+IBV_SRQ_MAX_WR	include/infiniband/verbs.h	/^	IBV_SRQ_MAX_WR	= 1 << 0,$/;"	e	enum:ibv_srq_attr_mask
+IBV_SYSFS_NAME_MAX	include/infiniband/verbs.h	/^	IBV_SYSFS_NAME_MAX	= 64,$/;"	e	enum:__anon13
+IBV_SYSFS_PATH_MAX	include/infiniband/verbs.h	/^	IBV_SYSFS_PATH_MAX	= 256$/;"	e	enum:__anon13
+IBV_TRANSPORT_IB	include/infiniband/verbs.h	/^	IBV_TRANSPORT_IB	= 0,$/;"	e	enum:ibv_transport_type
+IBV_TRANSPORT_IWARP	include/infiniband/verbs.h	/^	IBV_TRANSPORT_IWARP$/;"	e	enum:ibv_transport_type
+IBV_TRANSPORT_UNKNOWN	include/infiniband/verbs.h	/^	IBV_TRANSPORT_UNKNOWN	= -1,$/;"	e	enum:ibv_transport_type
+IBV_WC_BAD_RESP_ERR	include/infiniband/verbs.h	/^	IBV_WC_BAD_RESP_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_BIND_MW	include/infiniband/verbs.h	/^	IBV_WC_BIND_MW,$/;"	e	enum:ibv_wc_opcode
+IBV_WC_COMP_SWAP	include/infiniband/verbs.h	/^	IBV_WC_COMP_SWAP,$/;"	e	enum:ibv_wc_opcode
+IBV_WC_FATAL_ERR	include/infiniband/verbs.h	/^	IBV_WC_FATAL_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_FETCH_ADD	include/infiniband/verbs.h	/^	IBV_WC_FETCH_ADD,$/;"	e	enum:ibv_wc_opcode
+IBV_WC_GENERAL_ERR	include/infiniband/verbs.h	/^	IBV_WC_GENERAL_ERR$/;"	e	enum:ibv_wc_status
+IBV_WC_GRH	include/infiniband/verbs.h	/^	IBV_WC_GRH		= 1 << 0,$/;"	e	enum:ibv_wc_flags
+IBV_WC_INV_EECN_ERR	include/infiniband/verbs.h	/^	IBV_WC_INV_EECN_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_INV_EEC_STATE_ERR	include/infiniband/verbs.h	/^	IBV_WC_INV_EEC_STATE_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_LOC_ACCESS_ERR	include/infiniband/verbs.h	/^	IBV_WC_LOC_ACCESS_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_LOC_EEC_OP_ERR	include/infiniband/verbs.h	/^	IBV_WC_LOC_EEC_OP_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_LOC_LEN_ERR	include/infiniband/verbs.h	/^	IBV_WC_LOC_LEN_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_LOC_PROT_ERR	include/infiniband/verbs.h	/^	IBV_WC_LOC_PROT_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_LOC_QP_OP_ERR	include/infiniband/verbs.h	/^	IBV_WC_LOC_QP_OP_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_LOC_RDD_VIOL_ERR	include/infiniband/verbs.h	/^	IBV_WC_LOC_RDD_VIOL_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_MW_BIND_ERR	include/infiniband/verbs.h	/^	IBV_WC_MW_BIND_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_RDMA_READ	include/infiniband/verbs.h	/^	IBV_WC_RDMA_READ,$/;"	e	enum:ibv_wc_opcode
+IBV_WC_RDMA_WRITE	include/infiniband/verbs.h	/^	IBV_WC_RDMA_WRITE,$/;"	e	enum:ibv_wc_opcode
+IBV_WC_RECV	include/infiniband/verbs.h	/^	IBV_WC_RECV			= 1 << 7,$/;"	e	enum:ibv_wc_opcode
+IBV_WC_RECV_RDMA_WITH_IMM	include/infiniband/verbs.h	/^	IBV_WC_RECV_RDMA_WITH_IMM$/;"	e	enum:ibv_wc_opcode
+IBV_WC_REM_ABORT_ERR	include/infiniband/verbs.h	/^	IBV_WC_REM_ABORT_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_REM_ACCESS_ERR	include/infiniband/verbs.h	/^	IBV_WC_REM_ACCESS_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_REM_INV_RD_REQ_ERR	include/infiniband/verbs.h	/^	IBV_WC_REM_INV_RD_REQ_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_REM_INV_REQ_ERR	include/infiniband/verbs.h	/^	IBV_WC_REM_INV_REQ_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_REM_OP_ERR	include/infiniband/verbs.h	/^	IBV_WC_REM_OP_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_RESP_TIMEOUT_ERR	include/infiniband/verbs.h	/^	IBV_WC_RESP_TIMEOUT_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_RETRY_EXC_ERR	include/infiniband/verbs.h	/^	IBV_WC_RETRY_EXC_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_RNR_RETRY_EXC_ERR	include/infiniband/verbs.h	/^	IBV_WC_RNR_RETRY_EXC_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WC_SEND	include/infiniband/verbs.h	/^	IBV_WC_SEND,$/;"	e	enum:ibv_wc_opcode
+IBV_WC_SUCCESS	include/infiniband/verbs.h	/^	IBV_WC_SUCCESS,$/;"	e	enum:ibv_wc_status
+IBV_WC_WITH_IMM	include/infiniband/verbs.h	/^	IBV_WC_WITH_IMM		= 1 << 1$/;"	e	enum:ibv_wc_flags
+IBV_WC_WR_FLUSH_ERR	include/infiniband/verbs.h	/^	IBV_WC_WR_FLUSH_ERR,$/;"	e	enum:ibv_wc_status
+IBV_WR_ATOMIC_CMP_AND_SWP	include/infiniband/verbs.h	/^	IBV_WR_ATOMIC_CMP_AND_SWP,$/;"	e	enum:ibv_wr_opcode
+IBV_WR_ATOMIC_FETCH_AND_ADD	include/infiniband/verbs.h	/^	IBV_WR_ATOMIC_FETCH_AND_ADD$/;"	e	enum:ibv_wr_opcode
+IBV_WR_RDMA_READ	include/infiniband/verbs.h	/^	IBV_WR_RDMA_READ,$/;"	e	enum:ibv_wr_opcode
+IBV_WR_RDMA_WRITE	include/infiniband/verbs.h	/^	IBV_WR_RDMA_WRITE,$/;"	e	enum:ibv_wr_opcode
+IBV_WR_RDMA_WRITE_WITH_IMM	include/infiniband/verbs.h	/^	IBV_WR_RDMA_WRITE_WITH_IMM,$/;"	e	enum:ibv_wr_opcode
+IBV_WR_SEND	include/infiniband/verbs.h	/^	IBV_WR_SEND,$/;"	e	enum:ibv_wr_opcode
+IBV_WR_SEND_WITH_IMM	include/infiniband/verbs.h	/^	IBV_WR_SEND_WITH_IMM,$/;"	e	enum:ibv_wr_opcode
+IB_USER_VERBS_ABI_VERSION	src/kern_abi.h	42;"	d
+IB_USER_VERBS_CMD_ALLOC_MW	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_ALLOC_MW,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_ALLOC_MW_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_ALLOC_MW_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_ALLOC_PD	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_ALLOC_PD,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_ALLOC_PD	src/kern_abi.h	/^	IB_USER_VERBS_CMD_ALLOC_PD,$/;"	e	enum:__anon6
+IB_USER_VERBS_CMD_ALLOC_PD_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_ALLOC_PD_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_ATTACH_MCAST	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_ATTACH_MCAST,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_ATTACH_MCAST_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_ATTACH_MCAST_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_BIND_MW	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_BIND_MW,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_BIND_MW_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_BIND_MW_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_CREATE_AH	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_CREATE_AH,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_CREATE_AH_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_CREATE_AH_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_CREATE_COMP_CHANNEL	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_CREATE_COMP_CHANNEL,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_CREATE_COMP_CHANNEL_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_CREATE_COMP_CHANNEL_V2 = -1,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_CREATE_CQ	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_CREATE_CQ,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_CREATE_CQ_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_CREATE_CQ_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_CREATE_QP	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_CREATE_QP,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_CREATE_QP_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_CREATE_QP_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_CREATE_SRQ	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_CREATE_SRQ,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_CREATE_SRQ_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_CREATE_SRQ_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_DEALLOC_MW	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DEALLOC_MW,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_DEALLOC_MW_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DEALLOC_MW_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_DEALLOC_PD	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DEALLOC_PD,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_DEALLOC_PD	src/kern_abi.h	/^	IB_USER_VERBS_CMD_DEALLOC_PD,$/;"	e	enum:__anon6
+IB_USER_VERBS_CMD_DEALLOC_PD_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DEALLOC_PD_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_DEREG_MR	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DEREG_MR,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_DEREG_MR	src/kern_abi.h	/^	IB_USER_VERBS_CMD_DEREG_MR$/;"	e	enum:__anon6
+IB_USER_VERBS_CMD_DEREG_MR_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DEREG_MR_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_DESTROY_AH	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DESTROY_AH,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_DESTROY_AH_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DESTROY_AH_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_DESTROY_CQ	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DESTROY_CQ,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_DESTROY_CQ_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DESTROY_CQ_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_DESTROY_QP	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DESTROY_QP,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_DESTROY_QP_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DESTROY_QP_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_DESTROY_SRQ	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DESTROY_SRQ,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_DESTROY_SRQ_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DESTROY_SRQ_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_DETACH_MCAST	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DETACH_MCAST,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_DETACH_MCAST_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_DETACH_MCAST_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_GET_CONTEXT	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_GET_CONTEXT,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_GET_CONTEXT	src/kern_abi.h	/^	IB_USER_VERBS_CMD_GET_CONTEXT,$/;"	e	enum:__anon6
+IB_USER_VERBS_CMD_GET_CONTEXT_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_GET_CONTEXT_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_GET_EVENT_FDS	src/kern_abi.h	/^	IB_USER_VERBS_CMD_GET_EVENT_FDS,$/;"	e	enum:__anon6
+IB_USER_VERBS_CMD_MODIFY_AH	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_MODIFY_AH,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_MODIFY_AH_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_MODIFY_AH_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_MODIFY_QP	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_MODIFY_QP,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_MODIFY_QP_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_MODIFY_QP_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_MODIFY_SRQ	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_MODIFY_SRQ,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_MODIFY_SRQ_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_MODIFY_SRQ_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_PEEK_CQ	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_PEEK_CQ,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_PEEK_CQ_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_PEEK_CQ_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_POLL_CQ	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_POLL_CQ,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_POLL_CQ_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_POLL_CQ_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_POST_RECV	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_POST_RECV,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_POST_RECV_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_POST_RECV_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_POST_SEND	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_POST_SEND,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_POST_SEND_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_POST_SEND_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_POST_SRQ_RECV	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_POST_SRQ_RECV$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_POST_SRQ_RECV_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_POST_SRQ_RECV_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_QUERY_AH	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_QUERY_AH,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_QUERY_AH_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_QUERY_AH_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_QUERY_DEVICE	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_QUERY_DEVICE,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_QUERY_DEVICE_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_QUERY_DEVICE_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_QUERY_GID_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_QUERY_GID_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_QUERY_MR	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_QUERY_MR,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_QUERY_MR_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_QUERY_MR_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_QUERY_PARAMS_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_QUERY_PARAMS_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_QUERY_PKEY_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_QUERY_PKEY_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_QUERY_PORT	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_QUERY_PORT,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_QUERY_PORT_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_QUERY_PORT_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_QUERY_QP	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_QUERY_QP,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_QUERY_QP_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_QUERY_QP_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_QUERY_SRQ	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_QUERY_SRQ,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_QUERY_SRQ_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_QUERY_SRQ_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_REG_MR	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_REG_MR,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_REG_MR	src/kern_abi.h	/^	IB_USER_VERBS_CMD_REG_MR,$/;"	e	enum:__anon6
+IB_USER_VERBS_CMD_REG_MR_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_REG_MR_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_REG_SMR	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_REG_SMR,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_REG_SMR_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_REG_SMR_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_REQ_NOTIFY_CQ	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_REQ_NOTIFY_CQ,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_REQ_NOTIFY_CQ_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_REQ_NOTIFY_CQ_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_REREG_MR	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_REREG_MR,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_REREG_MR_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_REREG_MR_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_CMD_RESIZE_CQ	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_RESIZE_CQ,$/;"	e	enum:__anon14
+IB_USER_VERBS_CMD_RESIZE_CQ_V2	include/infiniband/kern-abi.h	/^	IB_USER_VERBS_CMD_RESIZE_CQ_V2,$/;"	e	enum:__anon19
+IB_USER_VERBS_MAX_ABI_VERSION	include/infiniband/kern-abi.h	49;"	d
+IB_USER_VERBS_MIN_ABI_VERSION	include/infiniband/kern-abi.h	48;"	d
+IB_VERBS_H	src/ibverbs.h	35;"	d
+INFINIBAND_ARCH_H	include/infiniband/arch.h	34;"	d
+INFINIBAND_DRIVER_H	include/infiniband/driver.h	36;"	d
+INFINIBAND_MARSHALL_H	include/infiniband/marshall.h	34;"	d
+INFINIBAND_OPCODE_H	include/infiniband/opcode.h	34;"	d
+INFINIBAND_SA_H	include/infiniband/sa.h	35;"	d
+INFINIBAND_SA_KERN_ABI_H	include/infiniband/sa-kern-abi.h	34;"	d
+INFINIBAND_VERBS_H	include/infiniband/verbs.h	37;"	d
+INIT	src/ibverbs.h	57;"	d
+KERN_ABI_H	include/infiniband/kern-abi.h	36;"	d
+KERN_ABI_H	src/kern_abi.h	34;"	d
+MADV_DOFORK	src/memory.c	54;"	d	file:
+MADV_DONTFORK	src/memory.c	50;"	d	file:
+MAX_QP	examples/srq_pingpong.c	/^	MAX_QP             = 256,$/;"	e	enum:__anon24	file:
+PFX	src/ibverbs.h	73;"	d
+PINGPONG_RECV_WRID	examples/rc_pingpong.c	/^	PINGPONG_RECV_WRID = 1,$/;"	e	enum:__anon23	file:
+PINGPONG_RECV_WRID	examples/srq_pingpong.c	/^	PINGPONG_RECV_WRID = 1,$/;"	e	enum:__anon24	file:
+PINGPONG_RECV_WRID	examples/uc_pingpong.c	/^	PINGPONG_RECV_WRID = 1,$/;"	e	enum:__anon21	file:
+PINGPONG_RECV_WRID	examples/ud_pingpong.c	/^	PINGPONG_RECV_WRID = 1,$/;"	e	enum:__anon22	file:
+PINGPONG_SEND_WRID	examples/rc_pingpong.c	/^	PINGPONG_SEND_WRID = 2,$/;"	e	enum:__anon23	file:
+PINGPONG_SEND_WRID	examples/srq_pingpong.c	/^	PINGPONG_SEND_WRID = 2,$/;"	e	enum:__anon24	file:
+PINGPONG_SEND_WRID	examples/uc_pingpong.c	/^	PINGPONG_SEND_WRID = 2,$/;"	e	enum:__anon21	file:
+PINGPONG_SEND_WRID	examples/ud_pingpong.c	/^	PINGPONG_SEND_WRID = 2,$/;"	e	enum:__anon22	file:
+VALGRIND_MAKE_MEM_DEFINED	src/ibverbs.h	52;"	d
+__IBV_QUOTE	src/init.c	182;"	d	file:
+__attribute_const	include/infiniband/verbs.h	1098;"	d
+__attribute_const	include/infiniband/verbs.h	51;"	d
+__attribute_const	include/infiniband/verbs.h	53;"	d
+__ibv_ack_async_event	src/device.c	/^void __ibv_ack_async_event(struct ibv_async_event *event)$/;"	f
+__ibv_ack_async_event_1_0	src/compat-1_0.c	/^void __ibv_ack_async_event_1_0(struct ibv_async_event *event)$/;"	f
+__ibv_ack_cq_events	src/verbs.c	/^void __ibv_ack_cq_events(struct ibv_cq *cq, unsigned int nevents)$/;"	f
+__ibv_ack_cq_events_1_0	src/compat-1_0.c	/^void __ibv_ack_cq_events_1_0(struct ibv_cq_1_0 *cq, unsigned int nevents)$/;"	f
+__ibv_alloc_pd	src/verbs.c	/^struct ibv_pd *__ibv_alloc_pd(struct ibv_context *context)$/;"	f
+__ibv_alloc_pd_1_0	src/compat-1_0.c	/^struct ibv_pd_1_0 *__ibv_alloc_pd_1_0(struct ibv_context_1_0 *context)$/;"	f
+__ibv_attach_mcast	src/verbs.c	/^int __ibv_attach_mcast(struct ibv_qp *qp, const union ibv_gid *gid, uint16_t lid)$/;"	f
+__ibv_attach_mcast_1_0	src/compat-1_0.c	/^int __ibv_attach_mcast_1_0(struct ibv_qp_1_0 *qp, union ibv_gid *gid, uint16_t lid)$/;"	f
+__ibv_close_device	src/device.c	/^int __ibv_close_device(struct ibv_context *context)$/;"	f
+__ibv_close_device_1_0	src/compat-1_0.c	/^int __ibv_close_device_1_0(struct ibv_context_1_0 *context)$/;"	f
+__ibv_create_ah	src/verbs.c	/^struct ibv_ah *__ibv_create_ah(struct ibv_pd *pd, struct ibv_ah_attr *attr)$/;"	f
+__ibv_create_ah_1_0	src/compat-1_0.c	/^struct ibv_ah_1_0 *__ibv_create_ah_1_0(struct ibv_pd_1_0 *pd,$/;"	f
+__ibv_create_cq	src/verbs.c	/^struct ibv_cq *__ibv_create_cq(struct ibv_context *context, int cqe, void *cq_context,$/;"	f
+__ibv_create_cq_1_0	src/compat-1_0.c	/^struct ibv_cq_1_0 *__ibv_create_cq_1_0(struct ibv_context_1_0 *context, int cqe,$/;"	f
+__ibv_create_qp	src/verbs.c	/^struct ibv_qp *__ibv_create_qp(struct ibv_pd *pd,$/;"	f
+__ibv_create_qp_1_0	src/compat-1_0.c	/^struct ibv_qp_1_0 *__ibv_create_qp_1_0(struct ibv_pd_1_0 *pd,$/;"	f
+__ibv_create_srq	src/verbs.c	/^struct ibv_srq *__ibv_create_srq(struct ibv_pd *pd,$/;"	f
+__ibv_create_srq_1_0	src/compat-1_0.c	/^struct ibv_srq_1_0 *__ibv_create_srq_1_0(struct ibv_pd_1_0 *pd,$/;"	f
+__ibv_dealloc_pd	src/verbs.c	/^int __ibv_dealloc_pd(struct ibv_pd *pd)$/;"	f
+__ibv_dealloc_pd_1_0	src/compat-1_0.c	/^int __ibv_dealloc_pd_1_0(struct ibv_pd_1_0 *pd)$/;"	f
+__ibv_dereg_mr	src/verbs.c	/^int __ibv_dereg_mr(struct ibv_mr *mr)$/;"	f
+__ibv_dereg_mr_1_0	src/compat-1_0.c	/^int __ibv_dereg_mr_1_0(struct ibv_mr_1_0 *mr)$/;"	f
+__ibv_destroy_ah	src/verbs.c	/^int __ibv_destroy_ah(struct ibv_ah *ah)$/;"	f
+__ibv_destroy_ah_1_0	src/compat-1_0.c	/^int __ibv_destroy_ah_1_0(struct ibv_ah_1_0 *ah)$/;"	f
+__ibv_destroy_cq	src/verbs.c	/^int __ibv_destroy_cq(struct ibv_cq *cq)$/;"	f
+__ibv_destroy_cq_1_0	src/compat-1_0.c	/^int __ibv_destroy_cq_1_0(struct ibv_cq_1_0 *cq)$/;"	f
+__ibv_destroy_qp	src/verbs.c	/^int __ibv_destroy_qp(struct ibv_qp *qp)$/;"	f
+__ibv_destroy_qp_1_0	src/compat-1_0.c	/^int __ibv_destroy_qp_1_0(struct ibv_qp_1_0 *qp)$/;"	f
+__ibv_destroy_srq	src/verbs.c	/^int __ibv_destroy_srq(struct ibv_srq *srq)$/;"	f
+__ibv_destroy_srq_1_0	src/compat-1_0.c	/^int __ibv_destroy_srq_1_0(struct ibv_srq_1_0 *srq)$/;"	f
+__ibv_detach_mcast	src/verbs.c	/^int __ibv_detach_mcast(struct ibv_qp *qp, const union ibv_gid *gid, uint16_t lid)$/;"	f
+__ibv_detach_mcast_1_0	src/compat-1_0.c	/^int __ibv_detach_mcast_1_0(struct ibv_qp_1_0 *qp, union ibv_gid *gid, uint16_t lid)$/;"	f
+__ibv_free_device_list	src/device.c	/^void __ibv_free_device_list(struct ibv_device **list)$/;"	f
+__ibv_free_device_list_1_0	src/compat-1_0.c	/^void __ibv_free_device_list_1_0(struct ibv_device_1_0 **list)$/;"	f
+__ibv_get_async_event	src/device.c	/^int __ibv_get_async_event(struct ibv_context *context,$/;"	f
+__ibv_get_async_event_1_0	src/compat-1_0.c	/^int __ibv_get_async_event_1_0(struct ibv_context_1_0 *context,$/;"	f
+__ibv_get_cq_event	src/verbs.c	/^int __ibv_get_cq_event(struct ibv_comp_channel *channel,$/;"	f
+__ibv_get_cq_event_1_0	src/compat-1_0.c	/^int __ibv_get_cq_event_1_0(struct ibv_comp_channel *channel,$/;"	f
+__ibv_get_device_guid	src/device.c	/^uint64_t __ibv_get_device_guid(struct ibv_device *device)$/;"	f
+__ibv_get_device_guid_1_0	src/compat-1_0.c	/^uint64_t __ibv_get_device_guid_1_0(struct ibv_device_1_0 *device)$/;"	f
+__ibv_get_device_list	src/device.c	/^struct ibv_device **__ibv_get_device_list(int *num)$/;"	f
+__ibv_get_device_list_1_0	src/compat-1_0.c	/^struct ibv_device_1_0 **__ibv_get_device_list_1_0(int *num)$/;"	f
+__ibv_get_device_name	src/device.c	/^const char *__ibv_get_device_name(struct ibv_device *device)$/;"	f
+__ibv_get_device_name_1_0	src/compat-1_0.c	/^const char *__ibv_get_device_name_1_0(struct ibv_device_1_0 *device)$/;"	f
+__ibv_modify_qp	src/verbs.c	/^int __ibv_modify_qp(struct ibv_qp *qp, struct ibv_qp_attr *attr,$/;"	f
+__ibv_modify_qp_1_0	src/compat-1_0.c	/^int __ibv_modify_qp_1_0(struct ibv_qp_1_0 *qp, struct ibv_qp_attr *attr,$/;"	f
+__ibv_modify_srq	src/verbs.c	/^int __ibv_modify_srq(struct ibv_srq *srq,$/;"	f
+__ibv_modify_srq_1_0	src/compat-1_0.c	/^int __ibv_modify_srq_1_0(struct ibv_srq_1_0 *srq,$/;"	f
+__ibv_open_device	src/device.c	/^struct ibv_context *__ibv_open_device(struct ibv_device *device)$/;"	f
+__ibv_open_device_1_0	src/compat-1_0.c	/^struct ibv_context_1_0 *__ibv_open_device_1_0(struct ibv_device_1_0 *device)$/;"	f
+__ibv_query_device	src/verbs.c	/^int __ibv_query_device(struct ibv_context *context,$/;"	f
+__ibv_query_device_1_0	src/compat-1_0.c	/^int __ibv_query_device_1_0(struct ibv_context_1_0 *context,$/;"	f
+__ibv_query_gid	src/verbs.c	/^int __ibv_query_gid(struct ibv_context *context, uint8_t port_num,$/;"	f
+__ibv_query_gid_1_0	src/compat-1_0.c	/^int __ibv_query_gid_1_0(struct ibv_context_1_0 *context, uint8_t port_num,$/;"	f
+__ibv_query_pkey	src/verbs.c	/^int __ibv_query_pkey(struct ibv_context *context, uint8_t port_num,$/;"	f
+__ibv_query_pkey_1_0	src/compat-1_0.c	/^int __ibv_query_pkey_1_0(struct ibv_context_1_0 *context, uint8_t port_num,$/;"	f
+__ibv_query_port	src/verbs.c	/^int __ibv_query_port(struct ibv_context *context, uint8_t port_num,$/;"	f
+__ibv_query_port_1_0	src/compat-1_0.c	/^int __ibv_query_port_1_0(struct ibv_context_1_0 *context, uint8_t port_num,$/;"	f
+__ibv_query_qp	src/verbs.c	/^int __ibv_query_qp(struct ibv_qp *qp, struct ibv_qp_attr *attr,$/;"	f
+__ibv_query_qp_1_0	src/compat-1_0.c	/^int __ibv_query_qp_1_0(struct ibv_qp_1_0 *qp, struct ibv_qp_attr *attr,$/;"	f
+__ibv_query_srq	src/verbs.c	/^int __ibv_query_srq(struct ibv_srq *srq, struct ibv_srq_attr *srq_attr)$/;"	f
+__ibv_query_srq_1_0	src/compat-1_0.c	/^int __ibv_query_srq_1_0(struct ibv_srq_1_0 *srq, struct ibv_srq_attr *srq_attr)$/;"	f
+__ibv_reg_mr	src/verbs.c	/^struct ibv_mr *__ibv_reg_mr(struct ibv_pd *pd, void *addr,$/;"	f
+__ibv_reg_mr_1_0	src/compat-1_0.c	/^struct ibv_mr_1_0 *__ibv_reg_mr_1_0(struct ibv_pd_1_0 *pd, void *addr,$/;"	f
+__ibv_resize_cq	src/verbs.c	/^int __ibv_resize_cq(struct ibv_cq *cq, int cqe)$/;"	f
+__ibv_resize_cq_1_0	src/compat-1_0.c	/^int __ibv_resize_cq_1_0(struct ibv_cq_1_0 *cq, int cqe)$/;"	f
+__mm_add	src/memory.c	/^static void __mm_add(struct ibv_mem_node *new)$/;"	f	file:
+__mm_add_rebalance	src/memory.c	/^static void __mm_add_rebalance(struct ibv_mem_node *node)$/;"	f	file:
+__mm_find_start	src/memory.c	/^static struct ibv_mem_node *__mm_find_start(uintptr_t start, uintptr_t end)$/;"	f	file:
+__mm_next	src/memory.c	/^static struct ibv_mem_node *__mm_next(struct ibv_mem_node *node)$/;"	f	file:
+__mm_prev	src/memory.c	/^static struct ibv_mem_node *__mm_prev(struct ibv_mem_node *node)$/;"	f	file:
+__mm_remove	src/memory.c	/^static void __mm_remove(struct ibv_mem_node *node)$/;"	f	file:
+__mm_rotate_left	src/memory.c	/^static void __mm_rotate_left(struct ibv_mem_node *node)$/;"	f	file:
+__mm_rotate_right	src/memory.c	/^static void __mm_rotate_right(struct ibv_mem_node *node)$/;"	f	file:
+abi_compat	include/infiniband/verbs.h	/^	void		       *abi_compat;$/;"	m	struct:ibv_context
+abi_ver	src/init.c	/^	int			abi_ver;$/;"	m	struct:ibv_sysfs_dev	file:
+abi_ver	src/init.c	/^HIDDEN int abi_ver;$/;"	v
+access_flags	include/infiniband/kern-abi.h	/^	__u32 access_flags;$/;"	m	struct:ibv_reg_mr
+active_mtu	include/infiniband/kern-abi.h	/^	__u8  active_mtu;$/;"	m	struct:ibv_query_port_resp
+active_mtu	include/infiniband/verbs.h	/^	enum ibv_mtu		active_mtu;$/;"	m	struct:ibv_port_attr	typeref:enum:ibv_port_attr::ibv_mtu
+active_speed	include/infiniband/kern-abi.h	/^	__u8  active_speed;$/;"	m	struct:ibv_query_port_resp
+active_speed	include/infiniband/verbs.h	/^	uint8_t			active_speed;$/;"	m	struct:ibv_port_attr
+active_width	include/infiniband/kern-abi.h	/^	__u8  active_width;$/;"	m	struct:ibv_query_port_resp
+active_width	include/infiniband/verbs.h	/^	uint8_t			active_width;$/;"	m	struct:ibv_port_attr
+add_device	src/init.c	/^static void add_device(struct ibv_device *dev,$/;"	f	file:
+addr	include/infiniband/verbs.h	/^	uint64_t		addr;$/;"	m	struct:ibv_sge
+addr	include/infiniband/verbs.h	/^	void		       *addr;$/;"	m	struct:ibv_mr
+addr	include/infiniband/verbs.h	/^	void		       *addr;$/;"	m	struct:ibv_mw_bind
+ah	examples/ud_pingpong.c	/^	struct ibv_ah		*ah;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_ah	file:
+ah	include/infiniband/kern-abi.h	/^			__u32 ah;$/;"	m	struct:ibv_kern_send_wr::__anon15::__anon18
+ah	include/infiniband/verbs.h	/^			struct ibv_ah  *ah;$/;"	m	struct:ibv_send_wr::__anon9::__anon12	typeref:struct:ibv_send_wr::__anon9::__anon12::ibv_ah
+ah	src/compat-1_0.c	/^			struct ibv_ah_1_0 *ah;$/;"	m	struct:ibv_send_wr_1_0::__anon2::__anon5	typeref:struct:ibv_send_wr_1_0::__anon2::__anon5::ibv_ah_1_0	file:
+ah_attr	include/infiniband/kern-abi.h	/^	struct ibv_kern_ah_attr ah_attr;$/;"	m	struct:ibv_kern_qp_attr	typeref:struct:ibv_kern_qp_attr::ibv_kern_ah_attr
+ah_attr	include/infiniband/verbs.h	/^	struct ibv_ah_attr	ah_attr;$/;"	m	struct:ibv_qp_attr	typeref:struct:ibv_qp_attr::ibv_ah_attr
+ah_handle	include/infiniband/kern-abi.h	/^	__u32 ah_handle;$/;"	m	struct:ibv_destroy_ah
+alloc_context	include/infiniband/verbs.h	/^	struct ibv_context *	(*alloc_context)(struct ibv_device *device, int cmd_fd);$/;"	m	struct:ibv_device_ops	typeref:struct:ibv_device_ops::alloc_context
+alloc_mw	include/infiniband/verbs.h	/^	struct ibv_mw *		(*alloc_mw)(struct ibv_pd *pd, enum ibv_mw_type type);$/;"	m	struct:ibv_context_ops	typeref:struct:ibv_context_ops::alloc_mw
+alloc_pd	include/infiniband/verbs.h	/^	struct ibv_pd *		(*alloc_pd)(struct ibv_context *context);$/;"	m	struct:ibv_context_ops	typeref:struct:ibv_context_ops::alloc_pd
+alloc_pd	src/compat-1_0.c	/^	struct ibv_pd *		(*alloc_pd)(struct ibv_context *context);$/;"	m	struct:ibv_context_ops_1_0	typeref:struct:ibv_context_ops_1_0::alloc_pd	file:
+alt_ah_attr	include/infiniband/kern-abi.h	/^	struct ibv_kern_ah_attr alt_ah_attr;$/;"	m	struct:ibv_kern_qp_attr	typeref:struct:ibv_kern_qp_attr::ibv_kern_ah_attr
+alt_ah_attr	include/infiniband/verbs.h	/^	struct ibv_ah_attr	alt_ah_attr;$/;"	m	struct:ibv_qp_attr	typeref:struct:ibv_qp_attr::ibv_ah_attr
+alt_dest	include/infiniband/kern-abi.h	/^	struct ibv_qp_dest alt_dest;$/;"	m	struct:ibv_modify_qp	typeref:struct:ibv_modify_qp::ibv_qp_dest
+alt_dest	include/infiniband/kern-abi.h	/^	struct ibv_qp_dest alt_dest;$/;"	m	struct:ibv_query_qp_resp	typeref:struct:ibv_query_qp_resp::ibv_qp_dest
+alt_pkey_index	include/infiniband/kern-abi.h	/^	__u16	alt_pkey_index;$/;"	m	struct:ibv_kern_qp_attr
+alt_pkey_index	include/infiniband/kern-abi.h	/^	__u16 alt_pkey_index;$/;"	m	struct:ibv_modify_qp
+alt_pkey_index	include/infiniband/kern-abi.h	/^	__u16 alt_pkey_index;$/;"	m	struct:ibv_query_qp_resp
+alt_pkey_index	include/infiniband/verbs.h	/^	uint16_t		alt_pkey_index;$/;"	m	struct:ibv_qp_attr
+alt_port_num	include/infiniband/kern-abi.h	/^	__u8	alt_port_num;$/;"	m	struct:ibv_kern_qp_attr
+alt_port_num	include/infiniband/kern-abi.h	/^	__u8  alt_port_num;$/;"	m	struct:ibv_modify_qp
+alt_port_num	include/infiniband/kern-abi.h	/^	__u8  alt_port_num;$/;"	m	struct:ibv_query_qp_resp
+alt_port_num	include/infiniband/verbs.h	/^	uint8_t			alt_port_num;$/;"	m	struct:ibv_qp_attr
+alt_timeout	include/infiniband/kern-abi.h	/^	__u8	alt_timeout;$/;"	m	struct:ibv_kern_qp_attr
+alt_timeout	include/infiniband/kern-abi.h	/^	__u8  alt_timeout;$/;"	m	struct:ibv_modify_qp
+alt_timeout	include/infiniband/kern-abi.h	/^	__u8  alt_timeout;$/;"	m	struct:ibv_query_qp_resp
+alt_timeout	include/infiniband/verbs.h	/^	uint8_t			alt_timeout;$/;"	m	struct:ibv_qp_attr
+async_event	include/infiniband/verbs.h	/^	void			(*async_event)(struct ibv_async_event *event);$/;"	m	struct:ibv_context_ops
+async_events_completed	include/infiniband/verbs.h	/^	uint32_t		async_events_completed;$/;"	m	struct:ibv_cq
+async_events_completed	src/compat-1_0.c	/^	uint32_t		async_events_completed;$/;"	m	struct:ibv_cq_1_0	file:
+async_events_reported	include/infiniband/kern-abi.h	/^	__u32 async_events_reported;$/;"	m	struct:ibv_destroy_cq_resp
+async_fd	include/infiniband/kern-abi.h	/^	__u32 async_fd;$/;"	m	struct:ibv_get_context_resp
+async_fd	include/infiniband/verbs.h	/^	int			async_fd;$/;"	m	struct:ibv_context
+async_fd	src/compat-1_0.c	/^	int				async_fd;$/;"	m	struct:ibv_context_1_0	file:
+async_fd	src/kern_abi.h	/^	__u32 async_fd;$/;"	m	struct:ibv_get_event_fds_resp
+atomic	include/infiniband/kern-abi.h	/^		} atomic;$/;"	m	union:ibv_kern_send_wr::__anon15	typeref:struct:ibv_kern_send_wr::__anon15::__anon17
+atomic	include/infiniband/verbs.h	/^		} atomic;$/;"	m	union:ibv_send_wr::__anon9	typeref:struct:ibv_send_wr::__anon9::__anon11
+atomic	src/compat-1_0.c	/^		} atomic;$/;"	m	union:ibv_send_wr_1_0::__anon2	typeref:struct:ibv_send_wr_1_0::__anon2::__anon4	file:
+atomic_cap	include/infiniband/kern-abi.h	/^	__u32 atomic_cap;$/;"	m	struct:ibv_query_device_resp
+atomic_cap	include/infiniband/verbs.h	/^	enum ibv_atomic_cap	atomic_cap;$/;"	m	struct:ibv_device_attr	typeref:enum:ibv_device_attr::ibv_atomic_cap
+atomic_cap_str	examples/devinfo.c	/^static const char *atomic_cap_str(enum ibv_atomic_cap atom_cap)$/;"	f	file:
+attach_mcast	include/infiniband/verbs.h	/^	int			(*attach_mcast)(struct ibv_qp *qp, const union ibv_gid *gid,$/;"	m	struct:ibv_context_ops
+attach_mcast	src/compat-1_0.c	/^	int			(*attach_mcast)(struct ibv_qp *qp, union ibv_gid *gid,$/;"	m	struct:ibv_context_ops_1_0	file:
+attr	include/infiniband/kern-abi.h	/^	struct ibv_kern_ah_attr attr;$/;"	m	struct:ibv_create_ah	typeref:struct:ibv_create_ah::ibv_kern_ah_attr
+attr	include/infiniband/verbs.h	/^	struct ibv_srq_attr	attr;$/;"	m	struct:ibv_srq_init_attr	typeref:struct:ibv_srq_init_attr::ibv_srq_attr
+attr_mask	include/infiniband/kern-abi.h	/^	__u32 attr_mask;$/;"	m	struct:ibv_modify_qp
+attr_mask	include/infiniband/kern-abi.h	/^	__u32 attr_mask;$/;"	m	struct:ibv_modify_srq
+attr_mask	include/infiniband/kern-abi.h	/^	__u32 attr_mask;$/;"	m	struct:ibv_modify_srq_v3
+attr_mask	include/infiniband/kern-abi.h	/^	__u32 attr_mask;$/;"	m	struct:ibv_query_qp
+bad_pkey_cntr	include/infiniband/kern-abi.h	/^	__u32 bad_pkey_cntr;$/;"	m	struct:ibv_query_port_resp
+bad_pkey_cntr	include/infiniband/verbs.h	/^	uint32_t		bad_pkey_cntr;$/;"	m	struct:ibv_port_attr
+bad_wr	include/infiniband/kern-abi.h	/^	__u32 bad_wr;$/;"	m	struct:ibv_post_recv_resp
+bad_wr	include/infiniband/kern-abi.h	/^	__u32 bad_wr;$/;"	m	struct:ibv_post_send_resp
+bad_wr	include/infiniband/kern-abi.h	/^	__u32 bad_wr;$/;"	m	struct:ibv_post_srq_recv_resp
+bind_mw	include/infiniband/verbs.h	/^	int			(*bind_mw)(struct ibv_qp *qp, struct ibv_mw *mw,$/;"	m	struct:ibv_context_ops
+buf	examples/rc_pingpong.c	/^	void			*buf;$/;"	m	struct:pingpong_context	file:
+buf	examples/srq_pingpong.c	/^	void			*buf;$/;"	m	struct:pingpong_context	file:
+buf	examples/uc_pingpong.c	/^	void			*buf;$/;"	m	struct:pingpong_context	file:
+buf	examples/ud_pingpong.c	/^	void			*buf;$/;"	m	struct:pingpong_context	file:
+byte_len	include/infiniband/kern-abi.h	/^	__u32  byte_len;$/;"	m	struct:ibv_kern_wc
+byte_len	include/infiniband/verbs.h	/^	uint32_t		byte_len;$/;"	m	struct:ibv_wc
+cap	include/infiniband/verbs.h	/^	struct ibv_qp_cap	cap;$/;"	m	struct:ibv_qp_attr	typeref:struct:ibv_qp_attr::ibv_qp_cap
+cap	include/infiniband/verbs.h	/^	struct ibv_qp_cap	cap;$/;"	m	struct:ibv_qp_init_attr	typeref:struct:ibv_qp_init_attr::ibv_qp_cap
+cap	src/compat-1_0.c	/^	struct ibv_qp_cap	cap;$/;"	m	struct:ibv_qp_init_attr_1_0	typeref:struct:ibv_qp_init_attr_1_0::ibv_qp_cap	file:
+channel	examples/rc_pingpong.c	/^	struct ibv_comp_channel *channel;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_comp_channel	file:
+channel	examples/srq_pingpong.c	/^	struct ibv_comp_channel *channel;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_comp_channel	file:
+channel	examples/uc_pingpong.c	/^	struct ibv_comp_channel *channel;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_comp_channel	file:
+channel	examples/ud_pingpong.c	/^	struct ibv_comp_channel *channel;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_comp_channel	file:
+channel	include/infiniband/verbs.h	/^	struct ibv_comp_channel *channel;$/;"	m	struct:ibv_cq	typeref:struct:ibv_cq::ibv_comp_channel
+channel	src/ibverbs.h	/^	struct ibv_comp_channel	channel;$/;"	m	struct:ibv_abi_compat_v2	typeref:struct:ibv_abi_compat_v2::ibv_comp_channel
+check_abi_version	src/init.c	/^static int check_abi_version(const char *path)$/;"	f	file:
+check_memlock_limit	src/init.c	/^static void check_memlock_limit(void)$/;"	f	file:
+cmd_fd	include/infiniband/verbs.h	/^	int			cmd_fd;$/;"	m	struct:ibv_context
+cmd_fd	src/compat-1_0.c	/^	int				cmd_fd;$/;"	m	struct:ibv_context_1_0	file:
+color	src/memory.c	/^	}			color;$/;"	m	struct:ibv_mem_node	typeref:enum:ibv_mem_node::__anon1	file:
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_alloc_pd
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_attach_mcast
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_create_ah
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_create_comp_channel
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_create_cq
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_create_cq_v2
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_create_qp
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_create_srq
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_dealloc_pd
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_dereg_mr
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_destroy_ah
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_destroy_cq
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_destroy_cq_v1
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_destroy_qp
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_destroy_qp_v1
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_destroy_srq
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_destroy_srq_v1
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_detach_mcast
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_get_context
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_get_context_v2
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_modify_qp
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_modify_srq
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_modify_srq_v3
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_poll_cq
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_post_recv
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_post_send
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_post_srq_recv
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_query_device
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_query_params
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_query_port
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_query_qp
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_query_srq
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_reg_mr
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_req_notify_cq
+command	include/infiniband/kern-abi.h	/^	__u32 command;$/;"	m	struct:ibv_resize_cq
+command	src/kern_abi.h	/^	__u32 command;$/;"	m	struct:ibv_get_context
+command	src/kern_abi.h	/^	__u32 command;$/;"	m	struct:ibv_get_event_fds
+comp_channel	include/infiniband/kern-abi.h	/^	__s32 comp_channel;$/;"	m	struct:ibv_create_cq
+comp_events_completed	include/infiniband/verbs.h	/^	uint32_t		comp_events_completed;$/;"	m	struct:ibv_cq
+comp_events_completed	src/compat-1_0.c	/^	uint32_t		comp_events_completed;$/;"	m	struct:ibv_cq_1_0	file:
+comp_events_reported	include/infiniband/kern-abi.h	/^	__u32 comp_events_reported;$/;"	m	struct:ibv_destroy_cq_resp
+comp_vector	include/infiniband/kern-abi.h	/^	__u32 comp_vector;$/;"	m	struct:ibv_create_cq
+compare_add	include/infiniband/kern-abi.h	/^			__u64 compare_add;$/;"	m	struct:ibv_kern_send_wr::__anon15::__anon17
+compare_add	include/infiniband/verbs.h	/^			uint64_t	compare_add;$/;"	m	struct:ibv_send_wr::__anon9::__anon11
+compare_add	src/compat-1_0.c	/^			uint64_t	compare_add;$/;"	m	struct:ibv_send_wr_1_0::__anon2::__anon4	file:
+cond	include/infiniband/verbs.h	/^	pthread_cond_t		cond;$/;"	m	struct:ibv_cq
+cond	include/infiniband/verbs.h	/^	pthread_cond_t		cond;$/;"	m	struct:ibv_qp
+cond	include/infiniband/verbs.h	/^	pthread_cond_t		cond;$/;"	m	struct:ibv_srq
+cond	src/compat-1_0.c	/^	pthread_cond_t		cond;$/;"	m	struct:ibv_cq_1_0	file:
+cond	src/compat-1_0.c	/^	pthread_cond_t		cond;$/;"	m	struct:ibv_qp_1_0	file:
+cond	src/compat-1_0.c	/^	pthread_cond_t		cond;$/;"	m	struct:ibv_srq_1_0	file:
+context	examples/rc_pingpong.c	/^	struct ibv_context	*context;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_context	file:
+context	examples/srq_pingpong.c	/^	struct ibv_context	*context;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_context	file:
+context	examples/uc_pingpong.c	/^	struct ibv_context	*context;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_context	file:
+context	examples/ud_pingpong.c	/^	struct ibv_context	*context;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_context	file:
+context	include/infiniband/verbs.h	/^	struct ibv_context     *context;$/;"	m	struct:ibv_ah	typeref:struct:ibv_ah::ibv_context
+context	include/infiniband/verbs.h	/^	struct ibv_context     *context;$/;"	m	struct:ibv_comp_channel	typeref:struct:ibv_comp_channel::ibv_context
+context	include/infiniband/verbs.h	/^	struct ibv_context     *context;$/;"	m	struct:ibv_cq	typeref:struct:ibv_cq::ibv_context
+context	include/infiniband/verbs.h	/^	struct ibv_context     *context;$/;"	m	struct:ibv_mr	typeref:struct:ibv_mr::ibv_context
+context	include/infiniband/verbs.h	/^	struct ibv_context     *context;$/;"	m	struct:ibv_mw	typeref:struct:ibv_mw::ibv_context
+context	include/infiniband/verbs.h	/^	struct ibv_context     *context;$/;"	m	struct:ibv_pd	typeref:struct:ibv_pd::ibv_context
+context	include/infiniband/verbs.h	/^	struct ibv_context     *context;$/;"	m	struct:ibv_qp	typeref:struct:ibv_qp::ibv_context
+context	include/infiniband/verbs.h	/^	struct ibv_context     *context;$/;"	m	struct:ibv_srq	typeref:struct:ibv_srq::ibv_context
+context	src/compat-1_0.c	/^	struct ibv_context_1_0 *context;$/;"	m	struct:ibv_ah_1_0	typeref:struct:ibv_ah_1_0::ibv_context_1_0	file:
+context	src/compat-1_0.c	/^	struct ibv_context_1_0 *context;$/;"	m	struct:ibv_cq_1_0	typeref:struct:ibv_cq_1_0::ibv_context_1_0	file:
+context	src/compat-1_0.c	/^	struct ibv_context_1_0 *context;$/;"	m	struct:ibv_mr_1_0	typeref:struct:ibv_mr_1_0::ibv_context_1_0	file:
+context	src/compat-1_0.c	/^	struct ibv_context_1_0 *context;$/;"	m	struct:ibv_pd_1_0	typeref:struct:ibv_pd_1_0::ibv_context_1_0	file:
+context	src/compat-1_0.c	/^	struct ibv_context_1_0 *context;$/;"	m	struct:ibv_qp_1_0	typeref:struct:ibv_qp_1_0::ibv_context_1_0	file:
+context	src/compat-1_0.c	/^	struct ibv_context_1_0 *context;$/;"	m	struct:ibv_srq_1_0	typeref:struct:ibv_srq_1_0::ibv_context_1_0	file:
+count	include/infiniband/kern-abi.h	/^	__u32 count;$/;"	m	struct:ibv_poll_cq_resp
+cq	examples/rc_pingpong.c	/^	struct ibv_cq		*cq;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_cq	file:
+cq	examples/srq_pingpong.c	/^	struct ibv_cq		*cq;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_cq	file:
+cq	examples/uc_pingpong.c	/^	struct ibv_cq		*cq;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_cq	file:
+cq	examples/ud_pingpong.c	/^	struct ibv_cq		*cq;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_cq	file:
+cq	include/infiniband/verbs.h	/^		struct ibv_cq  *cq;$/;"	m	union:ibv_async_event::__anon8	typeref:struct:ibv_async_event::__anon8::ibv_cq
+cq_context	include/infiniband/verbs.h	/^	void		       *cq_context;$/;"	m	struct:ibv_cq
+cq_context	src/compat-1_0.c	/^	void		       *cq_context;$/;"	m	struct:ibv_cq_1_0	file:
+cq_event	include/infiniband/verbs.h	/^	void			(*cq_event)(struct ibv_cq *cq);$/;"	m	struct:ibv_context_ops
+cq_event	src/compat-1_0.c	/^	void			(*cq_event)(struct ibv_cq *cq);$/;"	m	struct:ibv_context_ops_1_0	file:
+cq_fd	src/kern_abi.h	/^	__u32 cq_fd[1];$/;"	m	struct:ibv_get_event_fds_resp
+cq_fd_tab	include/infiniband/kern-abi.h	/^	__u64 cq_fd_tab;$/;"	m	struct:ibv_get_context_v2
+cq_handle	include/infiniband/kern-abi.h	/^	__u32 cq_handle;$/;"	m	struct:ibv_create_cq_resp
+cq_handle	include/infiniband/kern-abi.h	/^	__u32 cq_handle;$/;"	m	struct:ibv_destroy_cq
+cq_handle	include/infiniband/kern-abi.h	/^	__u32 cq_handle;$/;"	m	struct:ibv_destroy_cq_v1
+cq_handle	include/infiniband/kern-abi.h	/^	__u32 cq_handle;$/;"	m	struct:ibv_poll_cq
+cq_handle	include/infiniband/kern-abi.h	/^	__u32 cq_handle;$/;"	m	struct:ibv_req_notify_cq
+cq_handle	include/infiniband/kern-abi.h	/^	__u32 cq_handle;$/;"	m	struct:ibv_resize_cq
+cq_handle	include/infiniband/kern-abi.h	/^	__u64 cq_handle;$/;"	m	struct:ibv_comp_event
+cq_handle	src/kern_abi.h	/^	__u32 cq_handle;$/;"	m	struct:ibv_comp_event
+cqe	include/infiniband/kern-abi.h	/^	__u32 cqe;$/;"	m	struct:ibv_create_cq
+cqe	include/infiniband/kern-abi.h	/^	__u32 cqe;$/;"	m	struct:ibv_create_cq_resp
+cqe	include/infiniband/kern-abi.h	/^	__u32 cqe;$/;"	m	struct:ibv_create_cq_v2
+cqe	include/infiniband/kern-abi.h	/^	__u32 cqe;$/;"	m	struct:ibv_resize_cq
+cqe	include/infiniband/kern-abi.h	/^	__u32 cqe;$/;"	m	struct:ibv_resize_cq_resp
+cqe	include/infiniband/verbs.h	/^	int			cqe;$/;"	m	struct:ibv_cq
+cqe	src/compat-1_0.c	/^	int			cqe;$/;"	m	struct:ibv_cq_1_0	file:
+create_ah	include/infiniband/verbs.h	/^	struct ibv_ah *		(*create_ah)(struct ibv_pd *pd, struct ibv_ah_attr *attr);$/;"	m	struct:ibv_context_ops	typeref:struct:ibv_context_ops::create_ah
+create_ah	src/compat-1_0.c	/^	struct ibv_ah *		(*create_ah)(struct ibv_pd *pd, struct ibv_ah_attr *attr);$/;"	m	struct:ibv_context_ops_1_0	typeref:struct:ibv_context_ops_1_0::create_ah	file:
+create_cq	include/infiniband/verbs.h	/^	struct ibv_cq *		(*create_cq)(struct ibv_context *context, int cqe,$/;"	m	struct:ibv_context_ops	typeref:struct:ibv_context_ops::create_cq
+create_cq	src/compat-1_0.c	/^	struct ibv_cq *		(*create_cq)(struct ibv_context *context, int cqe,$/;"	m	struct:ibv_context_ops_1_0	typeref:struct:ibv_context_ops_1_0::create_cq	file:
+create_qp	include/infiniband/verbs.h	/^	struct ibv_qp *		(*create_qp)(struct ibv_pd *pd, struct ibv_qp_init_attr *attr);$/;"	m	struct:ibv_context_ops	typeref:struct:ibv_context_ops::create_qp
+create_qp	src/compat-1_0.c	/^	struct ibv_qp *		(*create_qp)(struct ibv_pd *pd, struct ibv_qp_init_attr *attr);$/;"	m	struct:ibv_context_ops_1_0	typeref:struct:ibv_context_ops_1_0::create_qp	file:
+create_srq	include/infiniband/verbs.h	/^	struct ibv_srq *	(*create_srq)(struct ibv_pd *pd,$/;"	m	struct:ibv_context_ops	typeref:struct:ibv_context_ops::create_srq
+create_srq	src/compat-1_0.c	/^	struct ibv_srq *	(*create_srq)(struct ibv_pd *pd,$/;"	m	struct:ibv_context_ops_1_0	typeref:struct:ibv_context_ops_1_0::create_srq	file:
+cur_qp_state	include/infiniband/kern-abi.h	/^	__u32	cur_qp_state;$/;"	m	struct:ibv_kern_qp_attr
+cur_qp_state	include/infiniband/kern-abi.h	/^	__u8  cur_qp_state;$/;"	m	struct:ibv_modify_qp
+cur_qp_state	include/infiniband/kern-abi.h	/^	__u8  cur_qp_state;$/;"	m	struct:ibv_query_qp_resp
+cur_qp_state	include/infiniband/verbs.h	/^	enum ibv_qp_state	cur_qp_state;$/;"	m	struct:ibv_qp_attr	typeref:enum:ibv_qp_attr::ibv_qp_state
+data16	include/infiniband/sa.h	/^	uint16_t      data16[8];$/;"	m	struct:ibv_sa_service_rec
+data32	include/infiniband/sa.h	/^	uint32_t      data32[4];$/;"	m	struct:ibv_sa_service_rec
+data64	include/infiniband/sa.h	/^	uint64_t      data64[2];$/;"	m	struct:ibv_sa_service_rec
+data8	include/infiniband/sa.h	/^	uint8_t       data8[16];$/;"	m	struct:ibv_sa_service_rec
+dealloc_mw	include/infiniband/verbs.h	/^	int			(*dealloc_mw)(struct ibv_mw *mw);$/;"	m	struct:ibv_context_ops
+dealloc_pd	include/infiniband/verbs.h	/^	int			(*dealloc_pd)(struct ibv_pd *pd);$/;"	m	struct:ibv_context_ops
+dealloc_pd	src/compat-1_0.c	/^	int			(*dealloc_pd)(struct ibv_pd *pd);$/;"	m	struct:ibv_context_ops_1_0	file:
+default_symver	src/ibverbs.h	65;"	d
+default_symver	src/ibverbs.h	69;"	d
+dereg_mr	include/infiniband/verbs.h	/^	int			(*dereg_mr)(struct ibv_mr *mr);$/;"	m	struct:ibv_context_ops
+dereg_mr	src/compat-1_0.c	/^	int			(*dereg_mr)(struct ibv_mr *mr);$/;"	m	struct:ibv_context_ops_1_0	file:
+dest	include/infiniband/kern-abi.h	/^	struct ibv_qp_dest dest;$/;"	m	struct:ibv_modify_qp	typeref:struct:ibv_modify_qp::ibv_qp_dest
+dest	include/infiniband/kern-abi.h	/^	struct ibv_qp_dest dest;$/;"	m	struct:ibv_query_qp_resp	typeref:struct:ibv_query_qp_resp::ibv_qp_dest
+dest_qp_num	include/infiniband/kern-abi.h	/^	__u32	dest_qp_num;$/;"	m	struct:ibv_kern_qp_attr
+dest_qp_num	include/infiniband/kern-abi.h	/^	__u32 dest_qp_num;$/;"	m	struct:ibv_modify_qp
+dest_qp_num	include/infiniband/kern-abi.h	/^	__u32 dest_qp_num;$/;"	m	struct:ibv_query_qp_resp
+dest_qp_num	include/infiniband/verbs.h	/^	uint32_t		dest_qp_num;$/;"	m	struct:ibv_qp_attr
+destroy_ah	include/infiniband/verbs.h	/^	int			(*destroy_ah)(struct ibv_ah *ah);$/;"	m	struct:ibv_context_ops
+destroy_ah	src/compat-1_0.c	/^	int			(*destroy_ah)(struct ibv_ah *ah);$/;"	m	struct:ibv_context_ops_1_0	file:
+destroy_cq	include/infiniband/verbs.h	/^	int			(*destroy_cq)(struct ibv_cq *cq);$/;"	m	struct:ibv_context_ops
+destroy_cq	src/compat-1_0.c	/^	int			(*destroy_cq)(struct ibv_cq *cq);$/;"	m	struct:ibv_context_ops_1_0	file:
+destroy_qp	include/infiniband/verbs.h	/^	int			(*destroy_qp)(struct ibv_qp *qp);$/;"	m	struct:ibv_context_ops
+destroy_qp	src/compat-1_0.c	/^	int			(*destroy_qp)(struct ibv_qp *qp);$/;"	m	struct:ibv_context_ops_1_0	file:
+destroy_srq	include/infiniband/verbs.h	/^	int			(*destroy_srq)(struct ibv_srq *srq);$/;"	m	struct:ibv_context_ops
+destroy_srq	src/compat-1_0.c	/^	int			(*destroy_srq)(struct ibv_srq *srq);$/;"	m	struct:ibv_context_ops_1_0	file:
+detach_mcast	include/infiniband/verbs.h	/^	int			(*detach_mcast)(struct ibv_qp *qp, const union ibv_gid *gid,$/;"	m	struct:ibv_context_ops
+detach_mcast	src/compat-1_0.c	/^	int			(*detach_mcast)(struct ibv_qp *qp, union ibv_gid *gid,$/;"	m	struct:ibv_context_ops_1_0	file:
+dev_name	include/infiniband/verbs.h	/^	char			dev_name[IBV_SYSFS_NAME_MAX];$/;"	m	struct:ibv_device
+dev_path	include/infiniband/verbs.h	/^	char			dev_path[IBV_SYSFS_PATH_MAX];$/;"	m	struct:ibv_device
+device	include/infiniband/verbs.h	/^	struct ibv_device      *device;$/;"	m	struct:ibv_context	typeref:struct:ibv_context::ibv_device
+device	src/compat-1_0.c	/^	struct ibv_device_1_0	       *device;$/;"	m	struct:ibv_context_1_0	typeref:struct:ibv_context_1_0::ibv_device_1_0	file:
+device_cap_flags	include/infiniband/kern-abi.h	/^	__u32 device_cap_flags;$/;"	m	struct:ibv_query_device_resp
+device_cap_flags	include/infiniband/verbs.h	/^	int			device_cap_flags;$/;"	m	struct:ibv_device_attr
+device_list	src/device.c	/^static struct ibv_device **device_list;$/;"	v	typeref:struct:ibv_device	file:
+device_list_lock	src/device.c	/^static pthread_mutex_t device_list_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+dgid	include/infiniband/kern-abi.h	/^	__u8  dgid[16];$/;"	m	struct:ibv_kern_global_route
+dgid	include/infiniband/kern-abi.h	/^	__u8  dgid[16];$/;"	m	struct:ibv_qp_dest
+dgid	include/infiniband/sa-kern-abi.h	/^	__u8  dgid[16];$/;"	m	struct:ibv_kern_path_rec
+dgid	include/infiniband/sa.h	/^	union ibv_gid dgid;$/;"	m	struct:ibv_sa_path_rec	typeref:union:ibv_sa_path_rec::ibv_gid
+dgid	include/infiniband/verbs.h	/^	union ibv_gid		dgid;$/;"	m	struct:ibv_global_route	typeref:union:ibv_global_route::ibv_gid
+dgid	include/infiniband/verbs.h	/^	union ibv_gid		dgid;$/;"	m	struct:ibv_grh	typeref:union:ibv_grh::ibv_gid
+dlid	include/infiniband/kern-abi.h	/^	__u16 dlid;$/;"	m	struct:ibv_kern_ah_attr
+dlid	include/infiniband/kern-abi.h	/^	__u16 dlid;$/;"	m	struct:ibv_qp_dest
+dlid	include/infiniband/sa-kern-abi.h	/^	__u16 dlid;$/;"	m	struct:ibv_kern_path_rec
+dlid	include/infiniband/sa.h	/^	uint16_t      dlid;$/;"	m	struct:ibv_sa_path_rec
+dlid	include/infiniband/verbs.h	/^	uint16_t		dlid;$/;"	m	struct:ibv_ah_attr
+dlid_path_bits	include/infiniband/kern-abi.h	/^	__u8   dlid_path_bits;$/;"	m	struct:ibv_kern_wc
+dlid_path_bits	include/infiniband/verbs.h	/^	uint8_t			dlid_path_bits;$/;"	m	struct:ibv_wc
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_alloc_pd
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_attach_mcast
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_create_cq
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_create_cq_v2
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_create_qp
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_create_srq
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_detach_mcast
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_get_context
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_get_context_v2
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_modify_qp
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_modify_srq
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_modify_srq_v3
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_query_device
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_query_port
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_query_qp
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_query_qp_resp
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_query_srq
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_reg_mr
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_resize_cq
+driver_data	include/infiniband/kern-abi.h	/^	__u64 driver_data[0];$/;"	m	struct:ibv_resize_cq_resp
+driver_name_list	src/init.c	/^static struct ibv_driver_name *driver_name_list;$/;"	v	typeref:struct:ibv_driver_name	file:
+element	include/infiniband/kern-abi.h	/^	__u64 element;$/;"	m	struct:ibv_kern_async_event
+element	include/infiniband/verbs.h	/^	} element;$/;"	m	struct:ibv_async_event	typeref:union:ibv_async_event::__anon8
+element	src/kern_abi.h	/^	__u32 element;$/;"	m	struct:ibv_kern_async_event
+en_sqd_async_notify	include/infiniband/kern-abi.h	/^	__u8	en_sqd_async_notify;$/;"	m	struct:ibv_kern_qp_attr
+en_sqd_async_notify	include/infiniband/kern-abi.h	/^	__u8  en_sqd_async_notify;$/;"	m	struct:ibv_modify_qp
+en_sqd_async_notify	include/infiniband/verbs.h	/^	uint8_t			en_sqd_async_notify;$/;"	m	struct:ibv_qp_attr
+end	src/memory.c	/^	uintptr_t		start, end;$/;"	m	struct:ibv_mem_node	file:
+event_handler	include/infiniband/kern-abi.h	/^	__u32 event_handler;$/;"	m	struct:ibv_create_cq_v2
+event_name_str	examples/asyncwatch.c	/^static const char *event_name_str(enum ibv_event_type event_type)$/;"	f	file:
+event_type	include/infiniband/kern-abi.h	/^	__u32 event_type;$/;"	m	struct:ibv_kern_async_event
+event_type	include/infiniband/verbs.h	/^	enum ibv_event_type	event_type;$/;"	m	struct:ibv_async_event	typeref:enum:ibv_async_event::ibv_event_type
+event_type	src/kern_abi.h	/^	__u32 event_type;$/;"	m	struct:ibv_kern_async_event
+events_completed	include/infiniband/verbs.h	/^	uint32_t		events_completed;$/;"	m	struct:ibv_qp
+events_completed	include/infiniband/verbs.h	/^	uint32_t		events_completed;$/;"	m	struct:ibv_srq
+events_completed	src/compat-1_0.c	/^	uint32_t		events_completed;$/;"	m	struct:ibv_qp_1_0	file:
+events_completed	src/compat-1_0.c	/^	uint32_t		events_completed;$/;"	m	struct:ibv_srq_1_0	file:
+events_reported	include/infiniband/kern-abi.h	/^	__u32 events_reported;$/;"	m	struct:ibv_destroy_qp_resp
+events_reported	include/infiniband/kern-abi.h	/^	__u32 events_reported;$/;"	m	struct:ibv_destroy_srq_resp
+fd	include/infiniband/kern-abi.h	/^	__u32 fd;$/;"	m	struct:ibv_create_comp_channel_resp
+fd	include/infiniband/verbs.h	/^	int			fd;$/;"	m	struct:ibv_comp_channel
+find_qp	examples/srq_pingpong.c	/^static int find_qp(int qpn, struct pingpong_context *ctx, int num_qp)$/;"	f	file:
+find_sysfs_devs	src/init.c	/^static int find_sysfs_devs(void)$/;"	f	file:
+flow_label	include/infiniband/kern-abi.h	/^	__u32 flow_label;$/;"	m	struct:ibv_kern_global_route
+flow_label	include/infiniband/kern-abi.h	/^	__u32 flow_label;$/;"	m	struct:ibv_qp_dest
+flow_label	include/infiniband/sa-kern-abi.h	/^	__u32 flow_label;$/;"	m	struct:ibv_kern_path_rec
+flow_label	include/infiniband/sa.h	/^	uint32_t      flow_label;$/;"	m	struct:ibv_sa_mcmember_rec
+flow_label	include/infiniband/sa.h	/^	uint32_t      flow_label;$/;"	m	struct:ibv_sa_path_rec
+flow_label	include/infiniband/verbs.h	/^	uint32_t		flow_label;$/;"	m	struct:ibv_global_route
+free_context	include/infiniband/verbs.h	/^	void			(*free_context)(struct ibv_context *context);$/;"	m	struct:ibv_device_ops
+fw_ver	include/infiniband/kern-abi.h	/^	__u64 fw_ver;$/;"	m	struct:ibv_query_device_resp
+fw_ver	include/infiniband/verbs.h	/^	char			fw_ver[64];$/;"	m	struct:ibv_device_attr
+gid	include/infiniband/kern-abi.h	/^	__u8  gid[16];$/;"	m	struct:ibv_attach_mcast
+gid	include/infiniband/kern-abi.h	/^	__u8  gid[16];$/;"	m	struct:ibv_detach_mcast
+gid	include/infiniband/sa.h	/^	union ibv_gid gid;$/;"	m	struct:ibv_sa_service_rec	typeref:union:ibv_sa_service_rec::ibv_gid
+gid_tbl_len	include/infiniband/kern-abi.h	/^	__u32 gid_tbl_len;$/;"	m	struct:ibv_query_port_resp
+gid_tbl_len	include/infiniband/verbs.h	/^	int			gid_tbl_len;$/;"	m	struct:ibv_port_attr
+global	include/infiniband/verbs.h	/^	} global;$/;"	m	union:ibv_gid	typeref:struct:ibv_gid::__anon7
+grh	include/infiniband/kern-abi.h	/^	struct ibv_kern_global_route grh;$/;"	m	struct:ibv_kern_ah_attr	typeref:struct:ibv_kern_ah_attr::ibv_kern_global_route
+grh	include/infiniband/verbs.h	/^	struct ibv_global_route	grh;$/;"	m	struct:ibv_ah_attr	typeref:struct:ibv_ah_attr::ibv_global_route
+guid_str	examples/devinfo.c	/^static const char *guid_str(uint64_t node_guid, char *str)$/;"	f	file:
+handle	include/infiniband/kern-abi.h	/^	__u32 handle;$/;"	m	struct:ibv_create_ah_resp
+handle	include/infiniband/verbs.h	/^	uint32_t		handle;$/;"	m	struct:ibv_ah
+handle	include/infiniband/verbs.h	/^	uint32_t		handle;$/;"	m	struct:ibv_cq
+handle	include/infiniband/verbs.h	/^	uint32_t		handle;$/;"	m	struct:ibv_mr
+handle	include/infiniband/verbs.h	/^	uint32_t		handle;$/;"	m	struct:ibv_pd
+handle	include/infiniband/verbs.h	/^	uint32_t		handle;$/;"	m	struct:ibv_qp
+handle	include/infiniband/verbs.h	/^	uint32_t		handle;$/;"	m	struct:ibv_srq
+handle	src/compat-1_0.c	/^	uint32_t		handle;$/;"	m	struct:ibv_ah_1_0	file:
+handle	src/compat-1_0.c	/^	uint32_t		handle;$/;"	m	struct:ibv_cq_1_0	file:
+handle	src/compat-1_0.c	/^	uint32_t		handle;$/;"	m	struct:ibv_mr_1_0	file:
+handle	src/compat-1_0.c	/^	uint32_t		handle;$/;"	m	struct:ibv_pd_1_0	file:
+handle	src/compat-1_0.c	/^	uint32_t		handle;$/;"	m	struct:ibv_qp_1_0	file:
+handle	src/compat-1_0.c	/^	uint32_t		handle;$/;"	m	struct:ibv_srq_1_0	file:
+have_driver	src/init.c	/^	int			have_driver;$/;"	m	struct:ibv_sysfs_dev	file:
+hca_va	include/infiniband/kern-abi.h	/^	__u64 hca_va;$/;"	m	struct:ibv_reg_mr
+head_driver	src/init.c	/^static struct ibv_driver *head_driver, *tail_driver;$/;"	v	typeref:struct:ibv_driver	file:
+hop_limit	include/infiniband/kern-abi.h	/^	__u8  hop_limit;$/;"	m	struct:ibv_kern_global_route
+hop_limit	include/infiniband/kern-abi.h	/^	__u8  hop_limit;$/;"	m	struct:ibv_qp_dest
+hop_limit	include/infiniband/sa-kern-abi.h	/^	__u8  hop_limit;$/;"	m	struct:ibv_kern_path_rec
+hop_limit	include/infiniband/sa.h	/^	uint8_t       hop_limit;$/;"	m	struct:ibv_sa_mcmember_rec
+hop_limit	include/infiniband/sa.h	/^	uint8_t       hop_limit;$/;"	m	struct:ibv_sa_path_rec
+hop_limit	include/infiniband/verbs.h	/^	uint8_t			hop_limit;$/;"	m	struct:ibv_global_route
+hop_limit	include/infiniband/verbs.h	/^	uint8_t			hop_limit;$/;"	m	struct:ibv_grh
+htonll	include/infiniband/arch.h	/^static inline uint64_t htonll(uint64_t x) { return bswap_64(x); }$/;"	f
+htonll	include/infiniband/arch.h	/^static inline uint64_t htonll(uint64_t x) { return x; }$/;"	f
+hw_ver	include/infiniband/kern-abi.h	/^	__u32 hw_ver;$/;"	m	struct:ibv_query_device_resp
+hw_ver	include/infiniband/verbs.h	/^	uint32_t		hw_ver;$/;"	m	struct:ibv_device_attr
+ib_kern_path_rec	include/infiniband/sa-kern-abi.h	41;"	d
+ibdev_name	src/init.c	/^	char		        ibdev_name[IBV_SYSFS_NAME_MAX];$/;"	m	struct:ibv_sysfs_dev	file:
+ibdev_path	include/infiniband/verbs.h	/^	char			ibdev_path[IBV_SYSFS_PATH_MAX];$/;"	m	struct:ibv_device
+ibdev_path	src/init.c	/^	char		        ibdev_path[IBV_SYSFS_PATH_MAX];$/;"	m	struct:ibv_sysfs_dev	file:
+ibv_abi_compat_v2	src/ibverbs.h	/^struct ibv_abi_compat_v2 {$/;"	s
+ibv_access_flags	include/infiniband/verbs.h	/^enum ibv_access_flags {$/;"	g
+ibv_ah	include/infiniband/verbs.h	/^struct ibv_ah {$/;"	s
+ibv_ah_1_0	src/compat-1_0.c	/^struct ibv_ah_1_0 {$/;"	s	file:
+ibv_ah_attr	include/infiniband/verbs.h	/^struct ibv_ah_attr {$/;"	s
+ibv_alloc_pd	include/infiniband/kern-abi.h	/^struct ibv_alloc_pd {$/;"	s
+ibv_alloc_pd_resp	include/infiniband/kern-abi.h	/^struct ibv_alloc_pd_resp {$/;"	s
+ibv_async_event	include/infiniband/verbs.h	/^struct ibv_async_event {$/;"	s
+ibv_atomic_cap	include/infiniband/verbs.h	/^enum ibv_atomic_cap {$/;"	g
+ibv_attach_mcast	include/infiniband/kern-abi.h	/^struct ibv_attach_mcast {$/;"	s
+ibv_cmd_alloc_pd	src/cmd.c	/^int ibv_cmd_alloc_pd(struct ibv_context *context, struct ibv_pd *pd,$/;"	f
+ibv_cmd_attach_mcast	src/cmd.c	/^int ibv_cmd_attach_mcast(struct ibv_qp *qp, const union ibv_gid *gid, uint16_t lid)$/;"	f
+ibv_cmd_create_ah	src/cmd.c	/^int ibv_cmd_create_ah(struct ibv_pd *pd, struct ibv_ah *ah,$/;"	f
+ibv_cmd_create_cq	src/cmd.c	/^int ibv_cmd_create_cq(struct ibv_context *context, int cqe,$/;"	f
+ibv_cmd_create_cq_v2	src/cmd.c	/^static int ibv_cmd_create_cq_v2(struct ibv_context *context, int cqe,$/;"	f	file:
+ibv_cmd_create_qp	src/cmd.c	/^int ibv_cmd_create_qp(struct ibv_pd *pd,$/;"	f
+ibv_cmd_create_srq	src/cmd.c	/^int ibv_cmd_create_srq(struct ibv_pd *pd,$/;"	f
+ibv_cmd_dealloc_pd	src/cmd.c	/^int ibv_cmd_dealloc_pd(struct ibv_pd *pd)$/;"	f
+ibv_cmd_dereg_mr	src/cmd.c	/^int ibv_cmd_dereg_mr(struct ibv_mr *mr)$/;"	f
+ibv_cmd_destroy_ah	src/cmd.c	/^int ibv_cmd_destroy_ah(struct ibv_ah *ah)$/;"	f
+ibv_cmd_destroy_cq	src/cmd.c	/^int ibv_cmd_destroy_cq(struct ibv_cq *cq)$/;"	f
+ibv_cmd_destroy_cq_v1	src/cmd.c	/^static int ibv_cmd_destroy_cq_v1(struct ibv_cq *cq)$/;"	f	file:
+ibv_cmd_destroy_qp	src/cmd.c	/^int ibv_cmd_destroy_qp(struct ibv_qp *qp)$/;"	f
+ibv_cmd_destroy_qp_v1	src/cmd.c	/^static int ibv_cmd_destroy_qp_v1(struct ibv_qp *qp)$/;"	f	file:
+ibv_cmd_destroy_srq	src/cmd.c	/^int ibv_cmd_destroy_srq(struct ibv_srq *srq)$/;"	f
+ibv_cmd_destroy_srq_v1	src/cmd.c	/^static int ibv_cmd_destroy_srq_v1(struct ibv_srq *srq)$/;"	f	file:
+ibv_cmd_detach_mcast	src/cmd.c	/^int ibv_cmd_detach_mcast(struct ibv_qp *qp, const union ibv_gid *gid, uint16_t lid)$/;"	f
+ibv_cmd_get_context	src/cmd.c	/^int ibv_cmd_get_context(struct ibv_context *context, struct ibv_get_context *cmd,$/;"	f
+ibv_cmd_get_context_v2	src/cmd.c	/^static int ibv_cmd_get_context_v2(struct ibv_context *context,$/;"	f	file:
+ibv_cmd_modify_qp	src/cmd.c	/^int ibv_cmd_modify_qp(struct ibv_qp *qp, struct ibv_qp_attr *attr,$/;"	f
+ibv_cmd_modify_srq	src/cmd.c	/^int ibv_cmd_modify_srq(struct ibv_srq *srq,$/;"	f
+ibv_cmd_modify_srq_v3	src/cmd.c	/^static int ibv_cmd_modify_srq_v3(struct ibv_srq *srq,$/;"	f	file:
+ibv_cmd_poll_cq	src/cmd.c	/^int ibv_cmd_poll_cq(struct ibv_cq *ibcq, int ne, struct ibv_wc *wc)$/;"	f
+ibv_cmd_post_recv	src/cmd.c	/^int ibv_cmd_post_recv(struct ibv_qp *ibqp, struct ibv_recv_wr *wr,$/;"	f
+ibv_cmd_post_send	src/cmd.c	/^int ibv_cmd_post_send(struct ibv_qp *ibqp, struct ibv_send_wr *wr,$/;"	f
+ibv_cmd_post_srq_recv	src/cmd.c	/^int ibv_cmd_post_srq_recv(struct ibv_srq *srq, struct ibv_recv_wr *wr,$/;"	f
+ibv_cmd_query_device	src/cmd.c	/^int ibv_cmd_query_device(struct ibv_context *context,$/;"	f
+ibv_cmd_query_port	src/cmd.c	/^int ibv_cmd_query_port(struct ibv_context *context, uint8_t port_num,$/;"	f
+ibv_cmd_query_qp	src/cmd.c	/^int ibv_cmd_query_qp(struct ibv_qp *qp, struct ibv_qp_attr *attr,$/;"	f
+ibv_cmd_query_srq	src/cmd.c	/^int ibv_cmd_query_srq(struct ibv_srq *srq, struct ibv_srq_attr *srq_attr,$/;"	f
+ibv_cmd_reg_mr	src/cmd.c	/^int ibv_cmd_reg_mr(struct ibv_pd *pd, void *addr, size_t length,$/;"	f
+ibv_cmd_req_notify_cq	src/cmd.c	/^int ibv_cmd_req_notify_cq(struct ibv_cq *ibcq, int solicited_only)$/;"	f
+ibv_cmd_resize_cq	src/cmd.c	/^int ibv_cmd_resize_cq(struct ibv_cq *cq, int cqe,$/;"	f
+ibv_comp_channel	include/infiniband/verbs.h	/^struct ibv_comp_channel {$/;"	s
+ibv_comp_event	include/infiniband/kern-abi.h	/^struct ibv_comp_event {$/;"	s
+ibv_comp_event	src/kern_abi.h	/^struct ibv_comp_event {$/;"	s
+ibv_context	include/infiniband/verbs.h	/^struct ibv_context {$/;"	s
+ibv_context_1_0	src/compat-1_0.c	/^struct ibv_context_1_0 {$/;"	s	file:
+ibv_context_ops	include/infiniband/verbs.h	/^struct ibv_context_ops {$/;"	s
+ibv_context_ops_1_0	src/compat-1_0.c	/^struct ibv_context_ops_1_0 {$/;"	s	file:
+ibv_copy_ah_attr_from_kern	src/marshall.c	/^void ibv_copy_ah_attr_from_kern(struct ibv_ah_attr *dst,$/;"	f
+ibv_copy_path_rec_from_kern	src/marshall.c	/^void ibv_copy_path_rec_from_kern(struct ibv_sa_path_rec *dst,$/;"	f
+ibv_copy_path_rec_to_kern	src/marshall.c	/^void ibv_copy_path_rec_to_kern(struct ibv_kern_path_rec *dst,$/;"	f
+ibv_copy_qp_attr_from_kern	src/marshall.c	/^void ibv_copy_qp_attr_from_kern(struct ibv_qp_attr *dst,$/;"	f
+ibv_cq	include/infiniband/verbs.h	/^struct ibv_cq {$/;"	s
+ibv_cq_1_0	src/compat-1_0.c	/^struct ibv_cq_1_0 {$/;"	s	file:
+ibv_create_ah	include/infiniband/kern-abi.h	/^struct ibv_create_ah {$/;"	s
+ibv_create_ah_from_wc	src/verbs.c	/^struct ibv_ah *ibv_create_ah_from_wc(struct ibv_pd *pd, struct ibv_wc *wc,$/;"	f
+ibv_create_ah_resp	include/infiniband/kern-abi.h	/^struct ibv_create_ah_resp {$/;"	s
+ibv_create_comp_channel	include/infiniband/kern-abi.h	/^struct ibv_create_comp_channel {$/;"	s
+ibv_create_comp_channel	src/verbs.c	/^struct ibv_comp_channel *ibv_create_comp_channel(struct ibv_context *context)$/;"	f
+ibv_create_comp_channel_resp	include/infiniband/kern-abi.h	/^struct ibv_create_comp_channel_resp {$/;"	s
+ibv_create_comp_channel_v2	src/verbs.c	/^static struct ibv_comp_channel *ibv_create_comp_channel_v2(struct ibv_context *context)$/;"	f	file:
+ibv_create_cq	include/infiniband/kern-abi.h	/^struct ibv_create_cq {$/;"	s
+ibv_create_cq_resp	include/infiniband/kern-abi.h	/^struct ibv_create_cq_resp {$/;"	s
+ibv_create_cq_v2	include/infiniband/kern-abi.h	/^struct ibv_create_cq_v2 {$/;"	s
+ibv_create_qp	include/infiniband/kern-abi.h	/^struct ibv_create_qp {$/;"	s
+ibv_create_qp_resp	include/infiniband/kern-abi.h	/^struct ibv_create_qp_resp {$/;"	s
+ibv_create_qp_resp_v3	include/infiniband/kern-abi.h	/^struct ibv_create_qp_resp_v3 {$/;"	s
+ibv_create_qp_resp_v4	include/infiniband/kern-abi.h	/^struct ibv_create_qp_resp_v4 {$/;"	s
+ibv_create_srq	include/infiniband/kern-abi.h	/^struct ibv_create_srq {$/;"	s
+ibv_create_srq_resp	include/infiniband/kern-abi.h	/^struct ibv_create_srq_resp {$/;"	s
+ibv_create_srq_resp_v5	include/infiniband/kern-abi.h	/^struct ibv_create_srq_resp_v5 {$/;"	s
+ibv_dealloc_pd	include/infiniband/kern-abi.h	/^struct ibv_dealloc_pd {$/;"	s
+ibv_dereg_mr	include/infiniband/kern-abi.h	/^struct ibv_dereg_mr {$/;"	s
+ibv_destroy_ah	include/infiniband/kern-abi.h	/^struct ibv_destroy_ah {$/;"	s
+ibv_destroy_comp_channel	src/verbs.c	/^int ibv_destroy_comp_channel(struct ibv_comp_channel *channel)$/;"	f
+ibv_destroy_comp_channel_v2	src/verbs.c	/^static int ibv_destroy_comp_channel_v2(struct ibv_comp_channel *channel)$/;"	f	file:
+ibv_destroy_cq	include/infiniband/kern-abi.h	/^struct ibv_destroy_cq {$/;"	s
+ibv_destroy_cq_resp	include/infiniband/kern-abi.h	/^struct ibv_destroy_cq_resp {$/;"	s
+ibv_destroy_cq_v1	include/infiniband/kern-abi.h	/^struct ibv_destroy_cq_v1 {$/;"	s
+ibv_destroy_qp	include/infiniband/kern-abi.h	/^struct ibv_destroy_qp {$/;"	s
+ibv_destroy_qp_resp	include/infiniband/kern-abi.h	/^struct ibv_destroy_qp_resp {$/;"	s
+ibv_destroy_qp_v1	include/infiniband/kern-abi.h	/^struct ibv_destroy_qp_v1 {$/;"	s
+ibv_destroy_srq	include/infiniband/kern-abi.h	/^struct ibv_destroy_srq {$/;"	s
+ibv_destroy_srq_resp	include/infiniband/kern-abi.h	/^struct ibv_destroy_srq_resp {$/;"	s
+ibv_destroy_srq_v1	include/infiniband/kern-abi.h	/^struct ibv_destroy_srq_v1 {$/;"	s
+ibv_detach_mcast	include/infiniband/kern-abi.h	/^struct ibv_detach_mcast {$/;"	s
+ibv_device	include/infiniband/verbs.h	/^struct ibv_device {$/;"	s
+ibv_device_1_0	src/compat-1_0.c	/^struct ibv_device_1_0 {$/;"	s	file:
+ibv_device_attr	include/infiniband/verbs.h	/^struct ibv_device_attr {$/;"	s
+ibv_device_cap_flags	include/infiniband/verbs.h	/^enum ibv_device_cap_flags {$/;"	g
+ibv_device_ops	include/infiniband/verbs.h	/^struct ibv_device_ops {$/;"	s
+ibv_dofork_range	src/memory.c	/^int ibv_dofork_range(void *base, size_t size)$/;"	f
+ibv_dontfork_range	src/memory.c	/^int ibv_dontfork_range(void *base, size_t size)$/;"	f
+ibv_driver	src/init.c	/^struct ibv_driver {$/;"	s	file:
+ibv_driver_init_func	include/infiniband/driver.h	/^typedef struct ibv_device *(*ibv_driver_init_func)(const char *uverbs_sys_path,$/;"	t	typeref:struct:ibv_driver_init_func
+ibv_driver_name	src/init.c	/^struct ibv_driver_name {$/;"	s	file:
+ibv_event_type	include/infiniband/verbs.h	/^enum ibv_event_type {$/;"	g
+ibv_event_type_str	src/enum_strs.c	/^const char *ibv_event_type_str(enum ibv_event_type event)$/;"	f
+ibv_find_gid_index	src/verbs.c	/^static int ibv_find_gid_index(struct ibv_context *context, uint8_t port_num,$/;"	f	file:
+ibv_fork_init	src/memory.c	/^int ibv_fork_init(void)$/;"	f
+ibv_get_context	include/infiniband/kern-abi.h	/^struct ibv_get_context {$/;"	s
+ibv_get_context	src/kern_abi.h	/^struct ibv_get_context {$/;"	s
+ibv_get_context_resp	include/infiniband/kern-abi.h	/^struct ibv_get_context_resp {$/;"	s
+ibv_get_context_resp	src/kern_abi.h	/^struct ibv_get_context_resp {$/;"	s
+ibv_get_context_v2	include/infiniband/kern-abi.h	/^struct ibv_get_context_v2 {$/;"	s
+ibv_get_event_fds	src/kern_abi.h	/^struct ibv_get_event_fds {$/;"	s
+ibv_get_event_fds_resp	src/kern_abi.h	/^struct ibv_get_event_fds_resp {$/;"	s
+ibv_get_sysfs_path	src/sysfs.c	/^const char *ibv_get_sysfs_path(void)$/;"	f
+ibv_gid	include/infiniband/verbs.h	/^union ibv_gid {$/;"	u
+ibv_global_route	include/infiniband/verbs.h	/^struct ibv_global_route {$/;"	s
+ibv_grh	include/infiniband/verbs.h	/^struct ibv_grh {$/;"	s
+ibv_init_ah_from_wc	src/verbs.c	/^int ibv_init_ah_from_wc(struct ibv_context *context, uint8_t port_num,$/;"	f
+ibv_kern_ah_attr	include/infiniband/kern-abi.h	/^struct ibv_kern_ah_attr {$/;"	s
+ibv_kern_async_event	include/infiniband/kern-abi.h	/^struct ibv_kern_async_event {$/;"	s
+ibv_kern_async_event	src/kern_abi.h	/^struct ibv_kern_async_event {$/;"	s
+ibv_kern_global_route	include/infiniband/kern-abi.h	/^struct ibv_kern_global_route {$/;"	s
+ibv_kern_path_rec	include/infiniband/sa-kern-abi.h	/^struct ibv_kern_path_rec {$/;"	s
+ibv_kern_qp_attr	include/infiniband/kern-abi.h	/^struct ibv_kern_qp_attr {$/;"	s
+ibv_kern_recv_wr	include/infiniband/kern-abi.h	/^struct ibv_kern_recv_wr {$/;"	s
+ibv_kern_send_wr	include/infiniband/kern-abi.h	/^struct ibv_kern_send_wr {$/;"	s
+ibv_kern_wc	include/infiniband/kern-abi.h	/^struct ibv_kern_wc {$/;"	s
+ibv_madvise_range	src/memory.c	/^static int ibv_madvise_range(void *base, size_t size, int advice)$/;"	f	file:
+ibv_mem_node	src/memory.c	/^struct ibv_mem_node {$/;"	s	file:
+ibv_mig_state	include/infiniband/verbs.h	/^enum ibv_mig_state {$/;"	g
+ibv_modify_qp	include/infiniband/kern-abi.h	/^struct ibv_modify_qp {$/;"	s
+ibv_modify_srq	include/infiniband/kern-abi.h	/^struct ibv_modify_srq {$/;"	s
+ibv_modify_srq_v3	include/infiniband/kern-abi.h	/^struct ibv_modify_srq_v3 {$/;"	s
+ibv_mr	include/infiniband/verbs.h	/^struct ibv_mr {$/;"	s
+ibv_mr_1_0	src/compat-1_0.c	/^struct ibv_mr_1_0 {$/;"	s	file:
+ibv_mtu	include/infiniband/verbs.h	/^enum ibv_mtu {$/;"	g
+ibv_mw	include/infiniband/verbs.h	/^struct ibv_mw {$/;"	s
+ibv_mw_bind	include/infiniband/verbs.h	/^struct ibv_mw_bind {$/;"	s
+ibv_mw_type	include/infiniband/verbs.h	/^enum ibv_mw_type {$/;"	g
+ibv_node_type	include/infiniband/verbs.h	/^enum ibv_node_type {$/;"	g
+ibv_node_type_str	src/enum_strs.c	/^const char *ibv_node_type_str(enum ibv_node_type node_type)$/;"	f
+ibv_pd	include/infiniband/verbs.h	/^struct ibv_pd {$/;"	s
+ibv_pd_1_0	src/compat-1_0.c	/^struct ibv_pd_1_0 {$/;"	s	file:
+ibv_poll_cq	include/infiniband/kern-abi.h	/^struct ibv_poll_cq {$/;"	s
+ibv_poll_cq	include/infiniband/verbs.h	/^static inline int ibv_poll_cq(struct ibv_cq *cq, int num_entries, struct ibv_wc *wc)$/;"	f
+ibv_poll_cq_resp	include/infiniband/kern-abi.h	/^struct ibv_poll_cq_resp {$/;"	s
+ibv_port_attr	include/infiniband/verbs.h	/^struct ibv_port_attr {$/;"	s
+ibv_port_state	include/infiniband/verbs.h	/^enum ibv_port_state {$/;"	g
+ibv_port_state_str	src/enum_strs.c	/^const char *ibv_port_state_str(enum ibv_port_state port_state)$/;"	f
+ibv_post_recv	include/infiniband/kern-abi.h	/^struct ibv_post_recv {$/;"	s
+ibv_post_recv	include/infiniband/verbs.h	/^static inline int ibv_post_recv(struct ibv_qp *qp, struct ibv_recv_wr *wr,$/;"	f
+ibv_post_recv_resp	include/infiniband/kern-abi.h	/^struct ibv_post_recv_resp {$/;"	s
+ibv_post_send	include/infiniband/kern-abi.h	/^struct ibv_post_send {$/;"	s
+ibv_post_send	include/infiniband/verbs.h	/^static inline int ibv_post_send(struct ibv_qp *qp, struct ibv_send_wr *wr,$/;"	f
+ibv_post_send_resp	include/infiniband/kern-abi.h	/^struct ibv_post_send_resp {$/;"	s
+ibv_post_srq_recv	include/infiniband/kern-abi.h	/^struct ibv_post_srq_recv {$/;"	s
+ibv_post_srq_recv	include/infiniband/verbs.h	/^static inline int ibv_post_srq_recv(struct ibv_srq *srq,$/;"	f
+ibv_post_srq_recv_resp	include/infiniband/kern-abi.h	/^struct ibv_post_srq_recv_resp {$/;"	s
+ibv_qp	include/infiniband/verbs.h	/^struct ibv_qp {$/;"	s
+ibv_qp_1_0	src/compat-1_0.c	/^struct ibv_qp_1_0 {$/;"	s	file:
+ibv_qp_attr	include/infiniband/verbs.h	/^struct ibv_qp_attr {$/;"	s
+ibv_qp_attr_mask	include/infiniband/verbs.h	/^enum ibv_qp_attr_mask {$/;"	g
+ibv_qp_cap	include/infiniband/verbs.h	/^struct ibv_qp_cap {$/;"	s
+ibv_qp_dest	include/infiniband/kern-abi.h	/^struct ibv_qp_dest {$/;"	s
+ibv_qp_init_attr	include/infiniband/verbs.h	/^struct ibv_qp_init_attr {$/;"	s
+ibv_qp_init_attr_1_0	src/compat-1_0.c	/^struct ibv_qp_init_attr_1_0 {$/;"	s	file:
+ibv_qp_state	include/infiniband/verbs.h	/^enum ibv_qp_state {$/;"	g
+ibv_qp_type	include/infiniband/verbs.h	/^enum ibv_qp_type {$/;"	g
+ibv_query_device	include/infiniband/kern-abi.h	/^struct ibv_query_device {$/;"	s
+ibv_query_device_resp	include/infiniband/kern-abi.h	/^struct ibv_query_device_resp {$/;"	s
+ibv_query_params	include/infiniband/kern-abi.h	/^struct ibv_query_params {$/;"	s
+ibv_query_params_resp	include/infiniband/kern-abi.h	/^struct ibv_query_params_resp {$/;"	s
+ibv_query_port	include/infiniband/kern-abi.h	/^struct ibv_query_port {$/;"	s
+ibv_query_port_resp	include/infiniband/kern-abi.h	/^struct ibv_query_port_resp {$/;"	s
+ibv_query_qp	include/infiniband/kern-abi.h	/^struct ibv_query_qp {$/;"	s
+ibv_query_qp_resp	include/infiniband/kern-abi.h	/^struct ibv_query_qp_resp {$/;"	s
+ibv_query_srq	include/infiniband/kern-abi.h	/^struct ibv_query_srq {$/;"	s
+ibv_query_srq_resp	include/infiniband/kern-abi.h	/^struct ibv_query_srq_resp {$/;"	s
+ibv_rate	include/infiniband/verbs.h	/^enum ibv_rate {$/;"	g
+ibv_rate_to_mult	src/verbs.c	/^int ibv_rate_to_mult(enum ibv_rate rate)$/;"	f
+ibv_read_sysfs_file	src/sysfs.c	/^int ibv_read_sysfs_file(const char *dir, const char *file,$/;"	f
+ibv_recv_wr	include/infiniband/verbs.h	/^struct ibv_recv_wr {$/;"	s
+ibv_recv_wr_1_0	src/compat-1_0.c	/^struct ibv_recv_wr_1_0 {$/;"	s	file:
+ibv_reg_mr	include/infiniband/kern-abi.h	/^struct ibv_reg_mr {$/;"	s
+ibv_reg_mr_resp	include/infiniband/kern-abi.h	/^struct ibv_reg_mr_resp {$/;"	s
+ibv_register_driver	src/init.c	/^void ibv_register_driver(const char *name, ibv_driver_init_func init_func)$/;"	f
+ibv_req_notify_cq	include/infiniband/kern-abi.h	/^struct ibv_req_notify_cq {$/;"	s
+ibv_req_notify_cq	include/infiniband/verbs.h	/^static inline int ibv_req_notify_cq(struct ibv_cq *cq, int solicited_only)$/;"	f
+ibv_rereg_mr_flags	include/infiniband/verbs.h	/^enum ibv_rereg_mr_flags {$/;"	g
+ibv_resize_cq	include/infiniband/kern-abi.h	/^struct ibv_resize_cq {$/;"	s
+ibv_resize_cq_resp	include/infiniband/kern-abi.h	/^struct ibv_resize_cq_resp {$/;"	s
+ibv_sa_mcmember_rec	include/infiniband/sa.h	/^struct ibv_sa_mcmember_rec {$/;"	s
+ibv_sa_path_rec	include/infiniband/sa.h	/^struct ibv_sa_path_rec {$/;"	s
+ibv_sa_service_rec	include/infiniband/sa.h	/^struct ibv_sa_service_rec {$/;"	s
+ibv_send_flags	include/infiniband/verbs.h	/^enum ibv_send_flags {$/;"	g
+ibv_send_wr	include/infiniband/verbs.h	/^struct ibv_send_wr {$/;"	s
+ibv_send_wr_1_0	src/compat-1_0.c	/^struct ibv_send_wr_1_0 {$/;"	s	file:
+ibv_sge	include/infiniband/verbs.h	/^struct ibv_sge {$/;"	s
+ibv_srq	include/infiniband/verbs.h	/^struct ibv_srq {$/;"	s
+ibv_srq_1_0	src/compat-1_0.c	/^struct ibv_srq_1_0 {$/;"	s	file:
+ibv_srq_attr	include/infiniband/verbs.h	/^struct ibv_srq_attr {$/;"	s
+ibv_srq_attr_mask	include/infiniband/verbs.h	/^enum ibv_srq_attr_mask {$/;"	g
+ibv_srq_init_attr	include/infiniband/verbs.h	/^struct ibv_srq_init_attr {$/;"	s
+ibv_sysfs_dev	src/init.c	/^struct ibv_sysfs_dev {$/;"	s	file:
+ibv_transport_type	include/infiniband/verbs.h	/^enum ibv_transport_type {$/;"	g
+ibv_wc	include/infiniband/verbs.h	/^struct ibv_wc {$/;"	s
+ibv_wc_flags	include/infiniband/verbs.h	/^enum ibv_wc_flags {$/;"	g
+ibv_wc_opcode	include/infiniband/verbs.h	/^enum ibv_wc_opcode {$/;"	g
+ibv_wc_status	include/infiniband/verbs.h	/^enum ibv_wc_status {$/;"	g
+ibv_wc_status_str	src/enum_strs.c	/^const char *ibv_wc_status_str(enum ibv_wc_status status)$/;"	f
+ibv_wr_opcode	include/infiniband/verbs.h	/^enum ibv_wr_opcode {$/;"	g
+ibverbs_init	src/init.c	/^HIDDEN int ibverbs_init(struct ibv_device ***list)$/;"	f
+id	include/infiniband/sa.h	/^	uint64_t      id;$/;"	m	struct:ibv_sa_service_rec
+imm_data	include/infiniband/kern-abi.h	/^	__u32  imm_data;$/;"	m	struct:ibv_kern_wc
+imm_data	include/infiniband/kern-abi.h	/^	__u32 imm_data;$/;"	m	struct:ibv_kern_send_wr
+imm_data	include/infiniband/verbs.h	/^	uint32_t		imm_data;	\/* in network byte order *\/$/;"	m	struct:ibv_send_wr
+imm_data	include/infiniband/verbs.h	/^	uint32_t		imm_data;	\/* in network byte order *\/$/;"	m	struct:ibv_wc
+imm_data	src/compat-1_0.c	/^	uint32_t		imm_data;	\/* in network byte order *\/$/;"	m	struct:ibv_send_wr_1_0	file:
+in_use	src/ibverbs.h	/^	pthread_mutex_t		in_use;$/;"	m	struct:ibv_abi_compat_v2
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_alloc_pd
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_attach_mcast
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_create_ah
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_create_comp_channel
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_create_cq
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_create_cq_v2
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_create_qp
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_create_srq
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_dealloc_pd
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_dereg_mr
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_destroy_ah
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_destroy_cq
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_destroy_cq_v1
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_destroy_qp
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_destroy_qp_v1
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_destroy_srq
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_destroy_srq_v1
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_detach_mcast
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_get_context
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_get_context_v2
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_modify_qp
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_modify_srq
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_modify_srq_v3
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_poll_cq
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_post_recv
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_post_send
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_post_srq_recv
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_query_device
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_query_params
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_query_port
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_query_qp
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_query_srq
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_reg_mr
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_req_notify_cq
+in_words	include/infiniband/kern-abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_resize_cq
+in_words	src/kern_abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_get_context
+in_words	src/kern_abi.h	/^	__u16 in_words;$/;"	m	struct:ibv_get_event_fds
+init_func	src/init.c	/^	ibv_driver_init_func	init_func;$/;"	m	struct:ibv_driver	file:
+init_type_reply	include/infiniband/kern-abi.h	/^	__u8  init_type_reply;$/;"	m	struct:ibv_query_port_resp
+init_type_reply	include/infiniband/verbs.h	/^	uint8_t			init_type_reply;$/;"	m	struct:ibv_port_attr
+interface_id	include/infiniband/verbs.h	/^		uint64_t	interface_id;$/;"	m	struct:ibv_gid::__anon7
+is_global	include/infiniband/kern-abi.h	/^	__u8  is_global;$/;"	m	struct:ibv_kern_ah_attr
+is_global	include/infiniband/kern-abi.h	/^	__u8  is_global;$/;"	m	struct:ibv_qp_dest
+is_global	include/infiniband/verbs.h	/^	uint8_t			is_global;$/;"	m	struct:ibv_ah_attr
+is_srq	include/infiniband/kern-abi.h	/^	__u8  is_srq;$/;"	m	struct:ibv_create_qp
+join_state	include/infiniband/sa.h	/^	uint8_t       join_state;$/;"	m	struct:ibv_sa_mcmember_rec
+key	include/infiniband/sa.h	/^	uint8_t       key[16];$/;"	m	struct:ibv_sa_service_rec
+lease	include/infiniband/sa.h	/^	uint32_t      lease;$/;"	m	struct:ibv_sa_service_rec
+left	src/memory.c	/^	struct ibv_mem_node    *left, *right;$/;"	m	struct:ibv_mem_node	typeref:struct:ibv_mem_node::ibv_mem_node	file:
+length	include/infiniband/kern-abi.h	/^	__u64 length;$/;"	m	struct:ibv_reg_mr
+length	include/infiniband/verbs.h	/^	size_t			length;$/;"	m	struct:ibv_mr
+length	include/infiniband/verbs.h	/^	size_t			length;$/;"	m	struct:ibv_mw_bind
+length	include/infiniband/verbs.h	/^	uint32_t		length;$/;"	m	struct:ibv_sge
+lid	examples/rc_pingpong.c	/^	int lid;$/;"	m	struct:pingpong_dest	file:
+lid	examples/srq_pingpong.c	/^	int lid;$/;"	m	struct:pingpong_dest	file:
+lid	examples/uc_pingpong.c	/^	int lid;$/;"	m	struct:pingpong_dest	file:
+lid	examples/ud_pingpong.c	/^	int lid;$/;"	m	struct:pingpong_dest	file:
+lid	include/infiniband/kern-abi.h	/^	__u16 lid;$/;"	m	struct:ibv_query_port_resp
+lid	include/infiniband/verbs.h	/^	uint16_t		lid;$/;"	m	struct:ibv_port_attr
+lkey	include/infiniband/kern-abi.h	/^	__u32 lkey;$/;"	m	struct:ibv_reg_mr_resp
+lkey	include/infiniband/verbs.h	/^	uint32_t		lkey;$/;"	m	struct:ibv_mr
+lkey	include/infiniband/verbs.h	/^	uint32_t		lkey;$/;"	m	struct:ibv_sge
+lkey	src/compat-1_0.c	/^	uint32_t		lkey;$/;"	m	struct:ibv_mr_1_0	file:
+lmc	include/infiniband/kern-abi.h	/^	__u8  lmc;$/;"	m	struct:ibv_query_port_resp
+lmc	include/infiniband/verbs.h	/^	uint8_t			lmc;$/;"	m	struct:ibv_port_attr
+load_driver	src/init.c	/^static void load_driver(const char *name)$/;"	f	file:
+load_drivers	src/init.c	/^static void load_drivers(void)$/;"	f	file:
+local_ca_ack_delay	include/infiniband/kern-abi.h	/^	__u8  local_ca_ack_delay;$/;"	m	struct:ibv_query_device_resp
+local_ca_ack_delay	include/infiniband/verbs.h	/^	uint8_t			local_ca_ack_delay;$/;"	m	struct:ibv_device_attr
+main	examples/asyncwatch.c	/^int main(int argc, char *argv[])$/;"	f
+main	examples/device_list.c	/^int main(int argc, char *argv[])$/;"	f
+main	examples/devinfo.c	/^int main(int argc, char *argv[])$/;"	f
+main	examples/rc_pingpong.c	/^int main(int argc, char *argv[])$/;"	f
+main	examples/srq_pingpong.c	/^int main(int argc, char *argv[])$/;"	f
+main	examples/uc_pingpong.c	/^int main(int argc, char *argv[])$/;"	f
+main	examples/ud_pingpong.c	/^int main(int argc, char *argv[])$/;"	f
+max_ah	include/infiniband/kern-abi.h	/^	__u32 max_ah;$/;"	m	struct:ibv_query_device_resp
+max_ah	include/infiniband/verbs.h	/^	int			max_ah;$/;"	m	struct:ibv_device_attr
+max_cq	include/infiniband/kern-abi.h	/^	__u32 max_cq;$/;"	m	struct:ibv_query_device_resp
+max_cq	include/infiniband/verbs.h	/^	int			max_cq;$/;"	m	struct:ibv_device_attr
+max_cqe	include/infiniband/kern-abi.h	/^	__u32 max_cqe;$/;"	m	struct:ibv_query_device_resp
+max_cqe	include/infiniband/verbs.h	/^	int			max_cqe;$/;"	m	struct:ibv_device_attr
+max_dest_rd_atomic	include/infiniband/kern-abi.h	/^	__u8	max_dest_rd_atomic;$/;"	m	struct:ibv_kern_qp_attr
+max_dest_rd_atomic	include/infiniband/kern-abi.h	/^	__u8  max_dest_rd_atomic;$/;"	m	struct:ibv_modify_qp
+max_dest_rd_atomic	include/infiniband/kern-abi.h	/^	__u8  max_dest_rd_atomic;$/;"	m	struct:ibv_query_qp_resp
+max_dest_rd_atomic	include/infiniband/verbs.h	/^	uint8_t			max_dest_rd_atomic;$/;"	m	struct:ibv_qp_attr
+max_ee	include/infiniband/kern-abi.h	/^	__u32 max_ee;$/;"	m	struct:ibv_query_device_resp
+max_ee	include/infiniband/verbs.h	/^	int			max_ee;$/;"	m	struct:ibv_device_attr
+max_ee_init_rd_atom	include/infiniband/kern-abi.h	/^	__u32 max_ee_init_rd_atom;$/;"	m	struct:ibv_query_device_resp
+max_ee_init_rd_atom	include/infiniband/verbs.h	/^	int			max_ee_init_rd_atom;$/;"	m	struct:ibv_device_attr
+max_ee_rd_atom	include/infiniband/kern-abi.h	/^	__u32 max_ee_rd_atom;$/;"	m	struct:ibv_query_device_resp
+max_ee_rd_atom	include/infiniband/verbs.h	/^	int			max_ee_rd_atom;$/;"	m	struct:ibv_device_attr
+max_fmr	include/infiniband/kern-abi.h	/^	__u32 max_fmr;$/;"	m	struct:ibv_query_device_resp
+max_fmr	include/infiniband/verbs.h	/^	int			max_fmr;$/;"	m	struct:ibv_device_attr
+max_inline_data	include/infiniband/kern-abi.h	/^	__u32	max_inline_data;$/;"	m	struct:ibv_kern_qp_attr
+max_inline_data	include/infiniband/kern-abi.h	/^	__u32 max_inline_data;$/;"	m	struct:ibv_create_qp
+max_inline_data	include/infiniband/kern-abi.h	/^	__u32 max_inline_data;$/;"	m	struct:ibv_create_qp_resp
+max_inline_data	include/infiniband/kern-abi.h	/^	__u32 max_inline_data;$/;"	m	struct:ibv_create_qp_resp_v4
+max_inline_data	include/infiniband/kern-abi.h	/^	__u32 max_inline_data;$/;"	m	struct:ibv_query_qp_resp
+max_inline_data	include/infiniband/verbs.h	/^	uint32_t		max_inline_data;$/;"	m	struct:ibv_qp_cap
+max_map_per_fmr	include/infiniband/kern-abi.h	/^	__u32 max_map_per_fmr;$/;"	m	struct:ibv_query_device_resp
+max_map_per_fmr	include/infiniband/verbs.h	/^	int			max_map_per_fmr;$/;"	m	struct:ibv_device_attr
+max_mcast_grp	include/infiniband/kern-abi.h	/^	__u32 max_mcast_grp;$/;"	m	struct:ibv_query_device_resp
+max_mcast_grp	include/infiniband/verbs.h	/^	int			max_mcast_grp;$/;"	m	struct:ibv_device_attr
+max_mcast_qp_attach	include/infiniband/kern-abi.h	/^	__u32 max_mcast_qp_attach;$/;"	m	struct:ibv_query_device_resp
+max_mcast_qp_attach	include/infiniband/verbs.h	/^	int			max_mcast_qp_attach;$/;"	m	struct:ibv_device_attr
+max_mr	include/infiniband/kern-abi.h	/^	__u32 max_mr;$/;"	m	struct:ibv_query_device_resp
+max_mr	include/infiniband/verbs.h	/^	int			max_mr;$/;"	m	struct:ibv_device_attr
+max_mr_size	include/infiniband/kern-abi.h	/^	__u64 max_mr_size;$/;"	m	struct:ibv_query_device_resp
+max_mr_size	include/infiniband/verbs.h	/^	uint64_t		max_mr_size;$/;"	m	struct:ibv_device_attr
+max_msg_sz	include/infiniband/kern-abi.h	/^	__u32 max_msg_sz;$/;"	m	struct:ibv_query_port_resp
+max_msg_sz	include/infiniband/verbs.h	/^	uint32_t		max_msg_sz;$/;"	m	struct:ibv_port_attr
+max_mtu	include/infiniband/kern-abi.h	/^	__u8  max_mtu;$/;"	m	struct:ibv_query_port_resp
+max_mtu	include/infiniband/verbs.h	/^	enum ibv_mtu		max_mtu;$/;"	m	struct:ibv_port_attr	typeref:enum:ibv_port_attr::ibv_mtu
+max_mw	include/infiniband/kern-abi.h	/^	__u32 max_mw;$/;"	m	struct:ibv_query_device_resp
+max_mw	include/infiniband/verbs.h	/^	int			max_mw;$/;"	m	struct:ibv_device_attr
+max_pd	include/infiniband/kern-abi.h	/^	__u32 max_pd;$/;"	m	struct:ibv_query_device_resp
+max_pd	include/infiniband/verbs.h	/^	int			max_pd;$/;"	m	struct:ibv_device_attr
+max_pkeys	include/infiniband/kern-abi.h	/^	__u16 max_pkeys;$/;"	m	struct:ibv_query_device_resp
+max_pkeys	include/infiniband/verbs.h	/^	uint16_t		max_pkeys;$/;"	m	struct:ibv_device_attr
+max_qp	include/infiniband/kern-abi.h	/^	__u32 max_qp;$/;"	m	struct:ibv_query_device_resp
+max_qp	include/infiniband/verbs.h	/^	int			max_qp;$/;"	m	struct:ibv_device_attr
+max_qp_init_rd_atom	include/infiniband/kern-abi.h	/^	__u32 max_qp_init_rd_atom;$/;"	m	struct:ibv_query_device_resp
+max_qp_init_rd_atom	include/infiniband/verbs.h	/^	int			max_qp_init_rd_atom;$/;"	m	struct:ibv_device_attr
+max_qp_rd_atom	include/infiniband/kern-abi.h	/^	__u32 max_qp_rd_atom;$/;"	m	struct:ibv_query_device_resp
+max_qp_rd_atom	include/infiniband/verbs.h	/^	int			max_qp_rd_atom;$/;"	m	struct:ibv_device_attr
+max_qp_wr	include/infiniband/kern-abi.h	/^	__u32 max_qp_wr;$/;"	m	struct:ibv_query_device_resp
+max_qp_wr	include/infiniband/verbs.h	/^	int			max_qp_wr;$/;"	m	struct:ibv_device_attr
+max_raw_ethy_qp	include/infiniband/kern-abi.h	/^	__u32 max_raw_ethy_qp;$/;"	m	struct:ibv_query_device_resp
+max_raw_ethy_qp	include/infiniband/verbs.h	/^	int			max_raw_ethy_qp;$/;"	m	struct:ibv_device_attr
+max_raw_ipv6_qp	include/infiniband/kern-abi.h	/^	__u32 max_raw_ipv6_qp;$/;"	m	struct:ibv_query_device_resp
+max_raw_ipv6_qp	include/infiniband/verbs.h	/^	int			max_raw_ipv6_qp;$/;"	m	struct:ibv_device_attr
+max_rd_atomic	include/infiniband/kern-abi.h	/^	__u8	max_rd_atomic;$/;"	m	struct:ibv_kern_qp_attr
+max_rd_atomic	include/infiniband/kern-abi.h	/^	__u8  max_rd_atomic;$/;"	m	struct:ibv_modify_qp
+max_rd_atomic	include/infiniband/kern-abi.h	/^	__u8  max_rd_atomic;$/;"	m	struct:ibv_query_qp_resp
+max_rd_atomic	include/infiniband/verbs.h	/^	uint8_t			max_rd_atomic;$/;"	m	struct:ibv_qp_attr
+max_rdd	include/infiniband/kern-abi.h	/^	__u32 max_rdd;$/;"	m	struct:ibv_query_device_resp
+max_rdd	include/infiniband/verbs.h	/^	int			max_rdd;$/;"	m	struct:ibv_device_attr
+max_recv_sge	include/infiniband/kern-abi.h	/^	__u32	max_recv_sge;$/;"	m	struct:ibv_kern_qp_attr
+max_recv_sge	include/infiniband/kern-abi.h	/^	__u32 max_recv_sge;$/;"	m	struct:ibv_create_qp
+max_recv_sge	include/infiniband/kern-abi.h	/^	__u32 max_recv_sge;$/;"	m	struct:ibv_create_qp_resp
+max_recv_sge	include/infiniband/kern-abi.h	/^	__u32 max_recv_sge;$/;"	m	struct:ibv_create_qp_resp_v4
+max_recv_sge	include/infiniband/kern-abi.h	/^	__u32 max_recv_sge;$/;"	m	struct:ibv_query_qp_resp
+max_recv_sge	include/infiniband/verbs.h	/^	uint32_t		max_recv_sge;$/;"	m	struct:ibv_qp_cap
+max_recv_wr	include/infiniband/kern-abi.h	/^	__u32	max_recv_wr;$/;"	m	struct:ibv_kern_qp_attr
+max_recv_wr	include/infiniband/kern-abi.h	/^	__u32 max_recv_wr;$/;"	m	struct:ibv_create_qp
+max_recv_wr	include/infiniband/kern-abi.h	/^	__u32 max_recv_wr;$/;"	m	struct:ibv_create_qp_resp
+max_recv_wr	include/infiniband/kern-abi.h	/^	__u32 max_recv_wr;$/;"	m	struct:ibv_create_qp_resp_v4
+max_recv_wr	include/infiniband/kern-abi.h	/^	__u32 max_recv_wr;$/;"	m	struct:ibv_query_qp_resp
+max_recv_wr	include/infiniband/verbs.h	/^	uint32_t		max_recv_wr;$/;"	m	struct:ibv_qp_cap
+max_res_rd_atom	include/infiniband/kern-abi.h	/^	__u32 max_res_rd_atom;$/;"	m	struct:ibv_query_device_resp
+max_res_rd_atom	include/infiniband/verbs.h	/^	int			max_res_rd_atom;$/;"	m	struct:ibv_device_attr
+max_send_sge	include/infiniband/kern-abi.h	/^	__u32	max_send_sge;$/;"	m	struct:ibv_kern_qp_attr
+max_send_sge	include/infiniband/kern-abi.h	/^	__u32 max_send_sge;$/;"	m	struct:ibv_create_qp
+max_send_sge	include/infiniband/kern-abi.h	/^	__u32 max_send_sge;$/;"	m	struct:ibv_create_qp_resp
+max_send_sge	include/infiniband/kern-abi.h	/^	__u32 max_send_sge;$/;"	m	struct:ibv_create_qp_resp_v4
+max_send_sge	include/infiniband/kern-abi.h	/^	__u32 max_send_sge;$/;"	m	struct:ibv_query_qp_resp
+max_send_sge	include/infiniband/verbs.h	/^	uint32_t		max_send_sge;$/;"	m	struct:ibv_qp_cap
+max_send_wr	include/infiniband/kern-abi.h	/^	__u32	max_send_wr;$/;"	m	struct:ibv_kern_qp_attr
+max_send_wr	include/infiniband/kern-abi.h	/^	__u32 max_send_wr;$/;"	m	struct:ibv_create_qp
+max_send_wr	include/infiniband/kern-abi.h	/^	__u32 max_send_wr;$/;"	m	struct:ibv_create_qp_resp
+max_send_wr	include/infiniband/kern-abi.h	/^	__u32 max_send_wr;$/;"	m	struct:ibv_create_qp_resp_v4
+max_send_wr	include/infiniband/kern-abi.h	/^	__u32 max_send_wr;$/;"	m	struct:ibv_query_qp_resp
+max_send_wr	include/infiniband/verbs.h	/^	uint32_t		max_send_wr;$/;"	m	struct:ibv_qp_cap
+max_sge	include/infiniband/kern-abi.h	/^	__u32 max_sge;$/;"	m	struct:ibv_create_srq
+max_sge	include/infiniband/kern-abi.h	/^	__u32 max_sge;$/;"	m	struct:ibv_create_srq_resp
+max_sge	include/infiniband/kern-abi.h	/^	__u32 max_sge;$/;"	m	struct:ibv_modify_srq_v3
+max_sge	include/infiniband/kern-abi.h	/^	__u32 max_sge;$/;"	m	struct:ibv_query_device_resp
+max_sge	include/infiniband/kern-abi.h	/^	__u32 max_sge;$/;"	m	struct:ibv_query_srq_resp
+max_sge	include/infiniband/verbs.h	/^	int			max_sge;$/;"	m	struct:ibv_device_attr
+max_sge	include/infiniband/verbs.h	/^	uint32_t		max_sge;$/;"	m	struct:ibv_srq_attr
+max_sge_rd	include/infiniband/kern-abi.h	/^	__u32 max_sge_rd;$/;"	m	struct:ibv_query_device_resp
+max_sge_rd	include/infiniband/verbs.h	/^	int			max_sge_rd;$/;"	m	struct:ibv_device_attr
+max_srq	include/infiniband/kern-abi.h	/^	__u32 max_srq;$/;"	m	struct:ibv_query_device_resp
+max_srq	include/infiniband/verbs.h	/^	int			max_srq;$/;"	m	struct:ibv_device_attr
+max_srq_sge	include/infiniband/kern-abi.h	/^	__u32 max_srq_sge;$/;"	m	struct:ibv_query_device_resp
+max_srq_sge	include/infiniband/verbs.h	/^	int			max_srq_sge;$/;"	m	struct:ibv_device_attr
+max_srq_wr	include/infiniband/kern-abi.h	/^	__u32 max_srq_wr;$/;"	m	struct:ibv_query_device_resp
+max_srq_wr	include/infiniband/verbs.h	/^	int			max_srq_wr;$/;"	m	struct:ibv_device_attr
+max_total_mcast_qp_attach	include/infiniband/kern-abi.h	/^	__u32 max_total_mcast_qp_attach;$/;"	m	struct:ibv_query_device_resp
+max_total_mcast_qp_attach	include/infiniband/verbs.h	/^	int			max_total_mcast_qp_attach;$/;"	m	struct:ibv_device_attr
+max_vl_num	include/infiniband/kern-abi.h	/^	__u8  max_vl_num;$/;"	m	struct:ibv_query_port_resp
+max_vl_num	include/infiniband/verbs.h	/^	uint8_t			max_vl_num;$/;"	m	struct:ibv_port_attr
+max_wr	include/infiniband/kern-abi.h	/^	__u32 max_wr;$/;"	m	struct:ibv_create_srq
+max_wr	include/infiniband/kern-abi.h	/^	__u32 max_wr;$/;"	m	struct:ibv_create_srq_resp
+max_wr	include/infiniband/kern-abi.h	/^	__u32 max_wr;$/;"	m	struct:ibv_modify_srq
+max_wr	include/infiniband/kern-abi.h	/^	__u32 max_wr;$/;"	m	struct:ibv_modify_srq_v3
+max_wr	include/infiniband/kern-abi.h	/^	__u32 max_wr;$/;"	m	struct:ibv_query_srq_resp
+max_wr	include/infiniband/verbs.h	/^	uint32_t		max_wr;$/;"	m	struct:ibv_srq_attr
+mb	include/infiniband/arch.h	106;"	d
+mb	include/infiniband/arch.h	113;"	d
+mb	include/infiniband/arch.h	122;"	d
+mb	include/infiniband/arch.h	67;"	d
+mb	include/infiniband/arch.h	78;"	d
+mb	include/infiniband/arch.h	85;"	d
+mb	include/infiniband/arch.h	92;"	d
+mb	include/infiniband/arch.h	99;"	d
+mgid	include/infiniband/sa.h	/^	union ibv_gid mgid;$/;"	m	struct:ibv_sa_mcmember_rec	typeref:union:ibv_sa_mcmember_rec::ibv_gid
+min_rnr_timer	include/infiniband/kern-abi.h	/^	__u8	min_rnr_timer;$/;"	m	struct:ibv_kern_qp_attr
+min_rnr_timer	include/infiniband/kern-abi.h	/^	__u8  min_rnr_timer;$/;"	m	struct:ibv_modify_qp
+min_rnr_timer	include/infiniband/kern-abi.h	/^	__u8  min_rnr_timer;$/;"	m	struct:ibv_query_qp_resp
+min_rnr_timer	include/infiniband/verbs.h	/^	uint8_t			min_rnr_timer;$/;"	m	struct:ibv_qp_attr
+mlid	include/infiniband/kern-abi.h	/^	__u16 mlid;$/;"	m	struct:ibv_attach_mcast
+mlid	include/infiniband/kern-abi.h	/^	__u16 mlid;$/;"	m	struct:ibv_detach_mcast
+mlid	include/infiniband/sa.h	/^	uint16_t      mlid;$/;"	m	struct:ibv_sa_mcmember_rec
+mm_mutex	src/memory.c	/^static pthread_mutex_t mm_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+mm_root	src/memory.c	/^static struct ibv_mem_node *mm_root;$/;"	v	typeref:struct:ibv_mem_node	file:
+modify_qp	include/infiniband/verbs.h	/^	int			(*modify_qp)(struct ibv_qp *qp, struct ibv_qp_attr *attr,$/;"	m	struct:ibv_context_ops
+modify_qp	src/compat-1_0.c	/^	int			(*modify_qp)(struct ibv_qp *qp, struct ibv_qp_attr *attr,$/;"	m	struct:ibv_context_ops_1_0	file:
+modify_srq	include/infiniband/verbs.h	/^	int			(*modify_srq)(struct ibv_srq *srq,$/;"	m	struct:ibv_context_ops
+modify_srq	src/compat-1_0.c	/^	int			(*modify_srq)(struct ibv_srq *srq,$/;"	m	struct:ibv_context_ops_1_0	file:
+mr	examples/rc_pingpong.c	/^	struct ibv_mr		*mr;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_mr	file:
+mr	examples/srq_pingpong.c	/^	struct ibv_mr		*mr;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_mr	file:
+mr	examples/uc_pingpong.c	/^	struct ibv_mr		*mr;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_mr	file:
+mr	examples/ud_pingpong.c	/^	struct ibv_mr		*mr;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_mr	file:
+mr	include/infiniband/verbs.h	/^	struct ibv_mr	       *mr;$/;"	m	struct:ibv_mw_bind	typeref:struct:ibv_mw_bind::ibv_mr
+mr_handle	include/infiniband/kern-abi.h	/^	__u32 mr_handle;$/;"	m	struct:ibv_dereg_mr
+mr_handle	include/infiniband/kern-abi.h	/^	__u32 mr_handle;$/;"	m	struct:ibv_reg_mr_resp
+mtu	include/infiniband/sa-kern-abi.h	/^	__u32 mtu;$/;"	m	struct:ibv_kern_path_rec
+mtu	include/infiniband/sa.h	/^	uint8_t	      mtu;$/;"	m	struct:ibv_sa_path_rec
+mtu	include/infiniband/sa.h	/^	uint8_t       mtu;$/;"	m	struct:ibv_sa_mcmember_rec
+mtu_selector	include/infiniband/sa-kern-abi.h	/^	__u8  mtu_selector;$/;"	m	struct:ibv_kern_path_rec
+mtu_selector	include/infiniband/sa.h	/^	uint8_t       mtu_selector;$/;"	m	struct:ibv_sa_mcmember_rec
+mtu_selector	include/infiniband/sa.h	/^	uint8_t       mtu_selector;$/;"	m	struct:ibv_sa_path_rec
+mtu_str	examples/devinfo.c	/^static const char *mtu_str(enum ibv_mtu max_mtu)$/;"	f	file:
+mult_to_ibv_rate	src/verbs.c	/^enum ibv_rate mult_to_ibv_rate(int mult)$/;"	f
+mutex	include/infiniband/verbs.h	/^	pthread_mutex_t		mutex;$/;"	m	struct:ibv_context
+mutex	include/infiniband/verbs.h	/^	pthread_mutex_t		mutex;$/;"	m	struct:ibv_cq
+mutex	include/infiniband/verbs.h	/^	pthread_mutex_t		mutex;$/;"	m	struct:ibv_qp
+mutex	include/infiniband/verbs.h	/^	pthread_mutex_t		mutex;$/;"	m	struct:ibv_srq
+mutex	src/compat-1_0.c	/^	pthread_mutex_t		mutex;$/;"	m	struct:ibv_cq_1_0	file:
+mutex	src/compat-1_0.c	/^	pthread_mutex_t		mutex;$/;"	m	struct:ibv_qp_1_0	file:
+mutex	src/compat-1_0.c	/^	pthread_mutex_t		mutex;$/;"	m	struct:ibv_srq_1_0	file:
+mw_access_flags	include/infiniband/verbs.h	/^	int			mw_access_flags;$/;"	m	struct:ibv_mw_bind
+name	include/infiniband/sa.h	/^	uint8_t       name[64];$/;"	m	struct:ibv_sa_service_rec
+name	include/infiniband/verbs.h	/^	char			name[IBV_SYSFS_NAME_MAX];$/;"	m	struct:ibv_device
+name	src/init.c	/^	char		       *name;$/;"	m	struct:ibv_driver_name	file:
+name	src/init.c	/^	const char	       *name;$/;"	m	struct:ibv_driver	file:
+ne	include/infiniband/kern-abi.h	/^	__u32 ne;$/;"	m	struct:ibv_poll_cq
+next	include/infiniband/verbs.h	/^	struct ibv_recv_wr     *next;$/;"	m	struct:ibv_recv_wr	typeref:struct:ibv_recv_wr::ibv_recv_wr
+next	include/infiniband/verbs.h	/^	struct ibv_send_wr     *next;$/;"	m	struct:ibv_send_wr	typeref:struct:ibv_send_wr::ibv_send_wr
+next	src/compat-1_0.c	/^	struct ibv_recv_wr_1_0 *next;$/;"	m	struct:ibv_recv_wr_1_0	typeref:struct:ibv_recv_wr_1_0::ibv_recv_wr_1_0	file:
+next	src/compat-1_0.c	/^	struct ibv_send_wr_1_0 *next;$/;"	m	struct:ibv_send_wr_1_0	typeref:struct:ibv_send_wr_1_0::ibv_send_wr_1_0	file:
+next	src/init.c	/^	struct ibv_driver      *next;$/;"	m	struct:ibv_driver	typeref:struct:ibv_driver::ibv_driver	file:
+next	src/init.c	/^	struct ibv_driver_name *next;$/;"	m	struct:ibv_driver_name	typeref:struct:ibv_driver_name::ibv_driver_name	file:
+next	src/init.c	/^	struct ibv_sysfs_dev   *next;$/;"	m	struct:ibv_sysfs_dev	typeref:struct:ibv_sysfs_dev::ibv_sysfs_dev	file:
+next_hdr	include/infiniband/verbs.h	/^	uint8_t			next_hdr;$/;"	m	struct:ibv_grh
+node_guid	include/infiniband/kern-abi.h	/^	__u64 node_guid;$/;"	m	struct:ibv_query_device_resp
+node_guid	include/infiniband/verbs.h	/^	uint64_t		node_guid;$/;"	m	struct:ibv_device_attr
+node_type	include/infiniband/verbs.h	/^	enum ibv_node_type	node_type;$/;"	m	struct:ibv_device	typeref:enum:ibv_device::ibv_node_type
+ntohll	include/infiniband/arch.h	/^static inline uint64_t ntohll(uint64_t x) { return bswap_64(x); }$/;"	f
+ntohll	include/infiniband/arch.h	/^static inline uint64_t ntohll(uint64_t x) { return x; }$/;"	f
+null_gid	examples/devinfo.c	/^static int null_gid(union ibv_gid *gid)$/;"	f	file:
+num_comp_vectors	include/infiniband/kern-abi.h	/^	__u32 num_comp_vectors;$/;"	m	struct:ibv_get_context_resp
+num_comp_vectors	include/infiniband/verbs.h	/^	int			num_comp_vectors;$/;"	m	struct:ibv_context
+num_comp_vectors	src/compat-1_0.c	/^	int				num_comp_vectors;$/;"	m	struct:ibv_context_1_0	file:
+num_cq_events	include/infiniband/kern-abi.h	/^	__u32 num_cq_events;$/;"	m	struct:ibv_query_params_resp
+num_cq_events	src/kern_abi.h	/^	__u32 num_cq_events;$/;"	m	struct:ibv_get_context_resp
+num_devices	src/device.c	/^static int num_devices;$/;"	v	file:
+num_qp	examples/srq_pingpong.c	/^	int			 num_qp;$/;"	m	struct:pingpong_context	file:
+num_sge	include/infiniband/kern-abi.h	/^	__u32 num_sge;$/;"	m	struct:ibv_kern_recv_wr
+num_sge	include/infiniband/kern-abi.h	/^	__u32 num_sge;$/;"	m	struct:ibv_kern_send_wr
+num_sge	include/infiniband/verbs.h	/^	int			num_sge;$/;"	m	struct:ibv_recv_wr
+num_sge	include/infiniband/verbs.h	/^	int			num_sge;$/;"	m	struct:ibv_send_wr
+num_sge	src/compat-1_0.c	/^	int			num_sge;$/;"	m	struct:ibv_recv_wr_1_0	file:
+num_sge	src/compat-1_0.c	/^	int			num_sge;$/;"	m	struct:ibv_send_wr_1_0	file:
+numb_path	include/infiniband/sa-kern-abi.h	/^	__u8  numb_path;$/;"	m	struct:ibv_kern_path_rec
+numb_path	include/infiniband/sa.h	/^	uint8_t       numb_path;$/;"	m	struct:ibv_sa_path_rec
+obsolete_sysfs_dev	src/compat-1_0.c	/^	void		       *obsolete_sysfs_dev;$/;"	m	struct:ibv_device_1_0	file:
+obsolete_sysfs_ibdev	src/compat-1_0.c	/^	void		       *obsolete_sysfs_ibdev;$/;"	m	struct:ibv_device_1_0	file:
+opcode	include/infiniband/kern-abi.h	/^	__u32  opcode;$/;"	m	struct:ibv_kern_wc
+opcode	include/infiniband/kern-abi.h	/^	__u32 opcode;$/;"	m	struct:ibv_kern_send_wr
+opcode	include/infiniband/verbs.h	/^	enum ibv_wc_opcode	opcode;$/;"	m	struct:ibv_wc	typeref:enum:ibv_wc::ibv_wc_opcode
+opcode	include/infiniband/verbs.h	/^	enum ibv_wr_opcode	opcode;$/;"	m	struct:ibv_send_wr	typeref:enum:ibv_send_wr::ibv_wr_opcode
+opcode	src/compat-1_0.c	/^	enum ibv_wr_opcode	opcode;$/;"	m	struct:ibv_send_wr_1_0	typeref:enum:ibv_send_wr_1_0::ibv_wr_opcode	file:
+ops	include/infiniband/verbs.h	/^	struct ibv_context_ops	ops;$/;"	m	struct:ibv_context	typeref:struct:ibv_context::ibv_context_ops
+ops	include/infiniband/verbs.h	/^	struct ibv_device_ops	ops;$/;"	m	struct:ibv_device	typeref:struct:ibv_device::ibv_device_ops
+ops	src/compat-1_0.c	/^	struct ibv_context_ops_1_0	ops;$/;"	m	struct:ibv_context_1_0	typeref:struct:ibv_context_1_0::ibv_context_ops_1_0	file:
+ops	src/compat-1_0.c	/^	struct ibv_device_ops	ops;$/;"	m	struct:ibv_device_1_0	typeref:struct:ibv_device_1_0::ibv_device_ops	file:
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_alloc_pd
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_attach_mcast
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_create_ah
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_create_comp_channel
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_create_cq
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_create_cq_v2
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_create_qp
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_create_srq
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_dealloc_pd
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_dereg_mr
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_destroy_ah
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_destroy_cq
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_destroy_cq_v1
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_destroy_qp
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_destroy_qp_v1
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_destroy_srq
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_destroy_srq_v1
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_detach_mcast
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_get_context
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_get_context_v2
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_modify_qp
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_modify_srq
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_modify_srq_v3
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_poll_cq
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_post_recv
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_post_send
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_post_srq_recv
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_query_device
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_query_params
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_query_port
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_query_qp
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_query_srq
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_reg_mr
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_req_notify_cq
+out_words	include/infiniband/kern-abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_resize_cq
+out_words	src/kern_abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_get_context
+out_words	src/kern_abi.h	/^	__u16 out_words;$/;"	m	struct:ibv_get_event_fds
+packet_life_time	include/infiniband/sa-kern-abi.h	/^	__u8  packet_life_time;$/;"	m	struct:ibv_kern_path_rec
+packet_life_time	include/infiniband/sa.h	/^	uint8_t       packet_life_time;$/;"	m	struct:ibv_sa_mcmember_rec
+packet_life_time	include/infiniband/sa.h	/^	uint8_t       packet_life_time;$/;"	m	struct:ibv_sa_path_rec
+packet_life_time_selector	include/infiniband/sa-kern-abi.h	/^	__u8  packet_life_time_selector;$/;"	m	struct:ibv_kern_path_rec
+packet_life_time_selector	include/infiniband/sa.h	/^	uint8_t       packet_life_time_selector;$/;"	m	struct:ibv_sa_mcmember_rec
+packet_life_time_selector	include/infiniband/sa.h	/^	uint8_t       packet_life_time_selector;$/;"	m	struct:ibv_sa_path_rec
+page_size	examples/rc_pingpong.c	/^static int page_size;$/;"	v	file:
+page_size	examples/srq_pingpong.c	/^static int page_size;$/;"	v	file:
+page_size	examples/uc_pingpong.c	/^static int page_size;$/;"	v	file:
+page_size	examples/ud_pingpong.c	/^static int page_size;$/;"	v	file:
+page_size	src/memory.c	/^static int page_size;$/;"	v	file:
+page_size_cap	include/infiniband/kern-abi.h	/^	__u64 page_size_cap;$/;"	m	struct:ibv_query_device_resp
+page_size_cap	include/infiniband/verbs.h	/^	uint64_t		page_size_cap;$/;"	m	struct:ibv_device_attr
+parent	src/memory.c	/^	struct ibv_mem_node    *parent;$/;"	m	struct:ibv_mem_node	typeref:struct:ibv_mem_node::ibv_mem_node	file:
+path_mig_state	include/infiniband/kern-abi.h	/^	__u32	path_mig_state;$/;"	m	struct:ibv_kern_qp_attr
+path_mig_state	include/infiniband/kern-abi.h	/^	__u8  path_mig_state;$/;"	m	struct:ibv_modify_qp
+path_mig_state	include/infiniband/kern-abi.h	/^	__u8  path_mig_state;$/;"	m	struct:ibv_query_qp_resp
+path_mig_state	include/infiniband/verbs.h	/^	enum ibv_mig_state	path_mig_state;$/;"	m	struct:ibv_qp_attr	typeref:enum:ibv_qp_attr::ibv_mig_state
+path_mtu	include/infiniband/kern-abi.h	/^	__u32	path_mtu;$/;"	m	struct:ibv_kern_qp_attr
+path_mtu	include/infiniband/kern-abi.h	/^	__u8  path_mtu;$/;"	m	struct:ibv_modify_qp
+path_mtu	include/infiniband/kern-abi.h	/^	__u8  path_mtu;$/;"	m	struct:ibv_query_qp_resp
+path_mtu	include/infiniband/verbs.h	/^	enum ibv_mtu		path_mtu;$/;"	m	struct:ibv_qp_attr	typeref:enum:ibv_qp_attr::ibv_mtu
+paylen	include/infiniband/verbs.h	/^	uint16_t		paylen;$/;"	m	struct:ibv_grh
+pd	examples/rc_pingpong.c	/^	struct ibv_pd		*pd;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_pd	file:
+pd	examples/srq_pingpong.c	/^	struct ibv_pd		*pd;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_pd	file:
+pd	examples/uc_pingpong.c	/^	struct ibv_pd		*pd;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_pd	file:
+pd	examples/ud_pingpong.c	/^	struct ibv_pd		*pd;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_pd	file:
+pd	include/infiniband/verbs.h	/^	struct ibv_pd	       *pd;$/;"	m	struct:ibv_ah	typeref:struct:ibv_ah::ibv_pd
+pd	include/infiniband/verbs.h	/^	struct ibv_pd	       *pd;$/;"	m	struct:ibv_mr	typeref:struct:ibv_mr::ibv_pd
+pd	include/infiniband/verbs.h	/^	struct ibv_pd	       *pd;$/;"	m	struct:ibv_mw	typeref:struct:ibv_mw::ibv_pd
+pd	include/infiniband/verbs.h	/^	struct ibv_pd	       *pd;$/;"	m	struct:ibv_qp	typeref:struct:ibv_qp::ibv_pd
+pd	include/infiniband/verbs.h	/^	struct ibv_pd	       *pd;$/;"	m	struct:ibv_srq	typeref:struct:ibv_srq::ibv_pd
+pd	src/compat-1_0.c	/^	struct ibv_pd_1_0      *pd;$/;"	m	struct:ibv_ah_1_0	typeref:struct:ibv_ah_1_0::ibv_pd_1_0	file:
+pd	src/compat-1_0.c	/^	struct ibv_pd_1_0      *pd;$/;"	m	struct:ibv_mr_1_0	typeref:struct:ibv_mr_1_0::ibv_pd_1_0	file:
+pd	src/compat-1_0.c	/^	struct ibv_pd_1_0      *pd;$/;"	m	struct:ibv_qp_1_0	typeref:struct:ibv_qp_1_0::ibv_pd_1_0	file:
+pd	src/compat-1_0.c	/^	struct ibv_pd_1_0      *pd;$/;"	m	struct:ibv_srq_1_0	typeref:struct:ibv_srq_1_0::ibv_pd_1_0	file:
+pd_handle	include/infiniband/kern-abi.h	/^	__u32 pd_handle;$/;"	m	struct:ibv_alloc_pd_resp
+pd_handle	include/infiniband/kern-abi.h	/^	__u32 pd_handle;$/;"	m	struct:ibv_create_ah
+pd_handle	include/infiniband/kern-abi.h	/^	__u32 pd_handle;$/;"	m	struct:ibv_create_qp
+pd_handle	include/infiniband/kern-abi.h	/^	__u32 pd_handle;$/;"	m	struct:ibv_create_srq
+pd_handle	include/infiniband/kern-abi.h	/^	__u32 pd_handle;$/;"	m	struct:ibv_dealloc_pd
+pd_handle	include/infiniband/kern-abi.h	/^	__u32 pd_handle;$/;"	m	struct:ibv_reg_mr
+pending	examples/rc_pingpong.c	/^	int			 pending;$/;"	m	struct:pingpong_context	file:
+pending	examples/srq_pingpong.c	/^	int			 pending[MAX_QP];$/;"	m	struct:pingpong_context	file:
+pending	examples/uc_pingpong.c	/^	int			 pending;$/;"	m	struct:pingpong_context	file:
+pending	examples/ud_pingpong.c	/^	int			 pending;$/;"	m	struct:pingpong_context	file:
+phys_port_cnt	include/infiniband/kern-abi.h	/^	__u8  phys_port_cnt;$/;"	m	struct:ibv_query_device_resp
+phys_port_cnt	include/infiniband/verbs.h	/^	uint8_t			phys_port_cnt;$/;"	m	struct:ibv_device_attr
+phys_state	include/infiniband/kern-abi.h	/^	__u8  phys_state;$/;"	m	struct:ibv_query_port_resp
+phys_state	include/infiniband/verbs.h	/^	uint8_t			phys_state;$/;"	m	struct:ibv_port_attr
+pingpong_context	examples/rc_pingpong.c	/^struct pingpong_context {$/;"	s	file:
+pingpong_context	examples/srq_pingpong.c	/^struct pingpong_context {$/;"	s	file:
+pingpong_context	examples/uc_pingpong.c	/^struct pingpong_context {$/;"	s	file:
+pingpong_context	examples/ud_pingpong.c	/^struct pingpong_context {$/;"	s	file:
+pingpong_dest	examples/rc_pingpong.c	/^struct pingpong_dest {$/;"	s	file:
+pingpong_dest	examples/srq_pingpong.c	/^struct pingpong_dest {$/;"	s	file:
+pingpong_dest	examples/uc_pingpong.c	/^struct pingpong_dest {$/;"	s	file:
+pingpong_dest	examples/ud_pingpong.c	/^struct pingpong_dest {$/;"	s	file:
+pkey	include/infiniband/sa-kern-abi.h	/^	__u16 pkey;$/;"	m	struct:ibv_kern_path_rec
+pkey	include/infiniband/sa.h	/^	uint16_t      pkey;$/;"	m	struct:ibv_sa_mcmember_rec
+pkey	include/infiniband/sa.h	/^	uint16_t      pkey;$/;"	m	struct:ibv_sa_path_rec
+pkey	include/infiniband/sa.h	/^	uint16_t      pkey;$/;"	m	struct:ibv_sa_service_rec
+pkey_index	include/infiniband/kern-abi.h	/^	__u16	pkey_index;$/;"	m	struct:ibv_kern_qp_attr
+pkey_index	include/infiniband/kern-abi.h	/^	__u16  pkey_index;$/;"	m	struct:ibv_kern_wc
+pkey_index	include/infiniband/kern-abi.h	/^	__u16 pkey_index;$/;"	m	struct:ibv_modify_qp
+pkey_index	include/infiniband/kern-abi.h	/^	__u16 pkey_index;$/;"	m	struct:ibv_query_qp_resp
+pkey_index	include/infiniband/verbs.h	/^	uint16_t		pkey_index;$/;"	m	struct:ibv_qp_attr
+pkey_index	include/infiniband/verbs.h	/^	uint16_t		pkey_index;$/;"	m	struct:ibv_wc
+pkey_tbl_len	include/infiniband/kern-abi.h	/^	__u16 pkey_tbl_len;$/;"	m	struct:ibv_query_port_resp
+pkey_tbl_len	include/infiniband/verbs.h	/^	uint16_t		pkey_tbl_len;$/;"	m	struct:ibv_port_attr
+poll_cq	include/infiniband/verbs.h	/^	int			(*poll_cq)(struct ibv_cq *cq, int num_entries, struct ibv_wc *wc);$/;"	m	struct:ibv_context_ops
+poll_cq	src/compat-1_0.c	/^	int			(*poll_cq)(struct ibv_cq_1_0 *cq, int num_entries,$/;"	m	struct:ibv_context_ops_1_0	file:
+poll_cq_wrapper_1_0	src/compat-1_0.c	/^static int poll_cq_wrapper_1_0(struct ibv_cq_1_0 *cq, int num_entries,$/;"	f	file:
+port_cap_flags	include/infiniband/kern-abi.h	/^	__u32 port_cap_flags;$/;"	m	struct:ibv_query_port_resp
+port_cap_flags	include/infiniband/verbs.h	/^	uint32_t		port_cap_flags;$/;"	m	struct:ibv_port_attr
+port_gid	include/infiniband/sa.h	/^	union ibv_gid port_gid;$/;"	m	struct:ibv_sa_mcmember_rec	typeref:union:ibv_sa_mcmember_rec::ibv_gid
+port_num	include/infiniband/kern-abi.h	/^	__u8	port_num;$/;"	m	struct:ibv_kern_qp_attr
+port_num	include/infiniband/kern-abi.h	/^	__u8   port_num;$/;"	m	struct:ibv_kern_wc
+port_num	include/infiniband/kern-abi.h	/^	__u8  port_num;$/;"	m	struct:ibv_kern_ah_attr
+port_num	include/infiniband/kern-abi.h	/^	__u8  port_num;$/;"	m	struct:ibv_modify_qp
+port_num	include/infiniband/kern-abi.h	/^	__u8  port_num;$/;"	m	struct:ibv_qp_dest
+port_num	include/infiniband/kern-abi.h	/^	__u8  port_num;$/;"	m	struct:ibv_query_port
+port_num	include/infiniband/kern-abi.h	/^	__u8  port_num;$/;"	m	struct:ibv_query_qp_resp
+port_num	include/infiniband/verbs.h	/^		int		port_num;$/;"	m	union:ibv_async_event::__anon8
+port_num	include/infiniband/verbs.h	/^	uint8_t			port_num;$/;"	m	struct:ibv_ah_attr
+port_num	include/infiniband/verbs.h	/^	uint8_t			port_num;$/;"	m	struct:ibv_qp_attr
+port_phy_state_str	examples/devinfo.c	/^static const char *port_phy_state_str(uint8_t phys_state)$/;"	f	file:
+port_state_str	examples/devinfo.c	/^static const char *port_state_str(enum ibv_port_state pstate)$/;"	f	file:
+post_recv	include/infiniband/verbs.h	/^	int			(*post_recv)(struct ibv_qp *qp, struct ibv_recv_wr *wr,$/;"	m	struct:ibv_context_ops
+post_recv	src/compat-1_0.c	/^	int			(*post_recv)(struct ibv_qp_1_0 *qp,$/;"	m	struct:ibv_context_ops_1_0	file:
+post_recv_wrapper_1_0	src/compat-1_0.c	/^static int post_recv_wrapper_1_0(struct ibv_qp_1_0 *qp, struct ibv_recv_wr_1_0 *wr,$/;"	f	file:
+post_send	include/infiniband/verbs.h	/^	int			(*post_send)(struct ibv_qp *qp, struct ibv_send_wr *wr,$/;"	m	struct:ibv_context_ops
+post_send	src/compat-1_0.c	/^	int			(*post_send)(struct ibv_qp_1_0 *qp,$/;"	m	struct:ibv_context_ops_1_0	file:
+post_send_wrapper_1_0	src/compat-1_0.c	/^static int post_send_wrapper_1_0(struct ibv_qp_1_0 *qp, struct ibv_send_wr_1_0 *wr,$/;"	f	file:
+post_srq_recv	include/infiniband/verbs.h	/^	int			(*post_srq_recv)(struct ibv_srq *srq,$/;"	m	struct:ibv_context_ops
+post_srq_recv	src/compat-1_0.c	/^	int			(*post_srq_recv)(struct ibv_srq_1_0 *srq,$/;"	m	struct:ibv_context_ops_1_0	file:
+post_srq_recv_wrapper_1_0	src/compat-1_0.c	/^static int post_srq_recv_wrapper_1_0(struct ibv_srq_1_0 *srq, struct ibv_recv_wr_1_0 *wr,$/;"	f	file:
+pp_client_exch_dest	examples/rc_pingpong.c	/^static struct pingpong_dest *pp_client_exch_dest(const char *servername, int port,$/;"	f	file:
+pp_client_exch_dest	examples/srq_pingpong.c	/^static struct pingpong_dest *pp_client_exch_dest(const char *servername, int port,$/;"	f	file:
+pp_client_exch_dest	examples/uc_pingpong.c	/^static struct pingpong_dest *pp_client_exch_dest(const char *servername, int port,$/;"	f	file:
+pp_client_exch_dest	examples/ud_pingpong.c	/^static struct pingpong_dest *pp_client_exch_dest(const char *servername, int port,$/;"	f	file:
+pp_close_ctx	examples/rc_pingpong.c	/^int pp_close_ctx(struct pingpong_context *ctx)$/;"	f
+pp_close_ctx	examples/srq_pingpong.c	/^int pp_close_ctx(struct pingpong_context *ctx, int num_qp)$/;"	f
+pp_close_ctx	examples/uc_pingpong.c	/^int pp_close_ctx(struct pingpong_context *ctx)$/;"	f
+pp_close_ctx	examples/ud_pingpong.c	/^int pp_close_ctx(struct pingpong_context *ctx)$/;"	f
+pp_connect_ctx	examples/rc_pingpong.c	/^static int pp_connect_ctx(struct pingpong_context *ctx, int port, int my_psn,$/;"	f	file:
+pp_connect_ctx	examples/srq_pingpong.c	/^static int pp_connect_ctx(struct pingpong_context *ctx, int port, enum ibv_mtu mtu,$/;"	f	file:
+pp_connect_ctx	examples/uc_pingpong.c	/^static int pp_connect_ctx(struct pingpong_context *ctx, int port, int my_psn,$/;"	f	file:
+pp_connect_ctx	examples/ud_pingpong.c	/^static int pp_connect_ctx(struct pingpong_context *ctx, int port, int my_psn,$/;"	f	file:
+pp_get_local_lid	examples/pingpong.c	/^uint16_t pp_get_local_lid(struct ibv_context *context, int port)$/;"	f
+pp_init_ctx	examples/rc_pingpong.c	/^static struct pingpong_context *pp_init_ctx(struct ibv_device *ib_dev, int size,$/;"	f	file:
+pp_init_ctx	examples/srq_pingpong.c	/^static struct pingpong_context *pp_init_ctx(struct ibv_device *ib_dev, int size,$/;"	f	file:
+pp_init_ctx	examples/uc_pingpong.c	/^static struct pingpong_context *pp_init_ctx(struct ibv_device *ib_dev, int size,$/;"	f	file:
+pp_init_ctx	examples/ud_pingpong.c	/^static struct pingpong_context *pp_init_ctx(struct ibv_device *ib_dev, int size,$/;"	f	file:
+pp_mtu_to_enum	examples/pingpong.c	/^enum ibv_mtu pp_mtu_to_enum(int mtu)$/;"	f
+pp_post_recv	examples/rc_pingpong.c	/^static int pp_post_recv(struct pingpong_context *ctx, int n)$/;"	f	file:
+pp_post_recv	examples/srq_pingpong.c	/^static int pp_post_recv(struct pingpong_context *ctx, int n)$/;"	f	file:
+pp_post_recv	examples/uc_pingpong.c	/^static int pp_post_recv(struct pingpong_context *ctx, int n)$/;"	f	file:
+pp_post_recv	examples/ud_pingpong.c	/^static int pp_post_recv(struct pingpong_context *ctx, int n)$/;"	f	file:
+pp_post_send	examples/rc_pingpong.c	/^static int pp_post_send(struct pingpong_context *ctx)$/;"	f	file:
+pp_post_send	examples/srq_pingpong.c	/^static int pp_post_send(struct pingpong_context *ctx, int qp_index)$/;"	f	file:
+pp_post_send	examples/uc_pingpong.c	/^static int pp_post_send(struct pingpong_context *ctx)$/;"	f	file:
+pp_post_send	examples/ud_pingpong.c	/^static int pp_post_send(struct pingpong_context *ctx, uint32_t qpn)$/;"	f	file:
+pp_server_exch_dest	examples/rc_pingpong.c	/^static struct pingpong_dest *pp_server_exch_dest(struct pingpong_context *ctx,$/;"	f	file:
+pp_server_exch_dest	examples/srq_pingpong.c	/^static struct pingpong_dest *pp_server_exch_dest(struct pingpong_context *ctx,$/;"	f	file:
+pp_server_exch_dest	examples/uc_pingpong.c	/^static struct pingpong_dest *pp_server_exch_dest(struct pingpong_context *ctx,$/;"	f	file:
+pp_server_exch_dest	examples/ud_pingpong.c	/^static struct pingpong_dest *pp_server_exch_dest(struct pingpong_context *ctx,$/;"	f	file:
+preference	include/infiniband/sa-kern-abi.h	/^	__u8  preference;$/;"	m	struct:ibv_kern_path_rec
+preference	include/infiniband/sa.h	/^	uint8_t       preference;$/;"	m	struct:ibv_sa_path_rec
+print_all_port_gids	examples/devinfo.c	/^static int print_all_port_gids(struct ibv_context *ctx, uint8_t port_num, int tbl_len)$/;"	f	file:
+print_hca_cap	examples/devinfo.c	/^static int print_hca_cap(struct ibv_device *ib_dev, uint8_t ib_port)$/;"	f	file:
+proxy_join	include/infiniband/sa.h	/^	int           proxy_join;$/;"	m	struct:ibv_sa_mcmember_rec
+psn	examples/rc_pingpong.c	/^	int psn;$/;"	m	struct:pingpong_dest	file:
+psn	examples/srq_pingpong.c	/^	int psn;$/;"	m	struct:pingpong_dest	file:
+psn	examples/uc_pingpong.c	/^	int psn;$/;"	m	struct:pingpong_dest	file:
+psn	examples/ud_pingpong.c	/^	int psn;$/;"	m	struct:pingpong_dest	file:
+qkey	include/infiniband/kern-abi.h	/^	__u32	qkey;$/;"	m	struct:ibv_kern_qp_attr
+qkey	include/infiniband/kern-abi.h	/^	__u32 qkey;$/;"	m	struct:ibv_modify_qp
+qkey	include/infiniband/kern-abi.h	/^	__u32 qkey;$/;"	m	struct:ibv_query_qp_resp
+qkey	include/infiniband/sa.h	/^	uint32_t      qkey;$/;"	m	struct:ibv_sa_mcmember_rec
+qkey	include/infiniband/verbs.h	/^	uint32_t		qkey;$/;"	m	struct:ibv_qp_attr
+qkey_viol_cntr	include/infiniband/kern-abi.h	/^	__u32 qkey_viol_cntr;$/;"	m	struct:ibv_query_port_resp
+qkey_viol_cntr	include/infiniband/verbs.h	/^	uint32_t		qkey_viol_cntr;$/;"	m	struct:ibv_port_attr
+qp	examples/rc_pingpong.c	/^	struct ibv_qp		*qp;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_qp	file:
+qp	examples/srq_pingpong.c	/^	struct ibv_qp		*qp[MAX_QP];$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_qp	file:
+qp	examples/uc_pingpong.c	/^	struct ibv_qp		*qp;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_qp	file:
+qp	examples/ud_pingpong.c	/^	struct ibv_qp		*qp;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_qp	file:
+qp	include/infiniband/verbs.h	/^		struct ibv_qp  *qp;$/;"	m	union:ibv_async_event::__anon8	typeref:struct:ibv_async_event::__anon8::ibv_qp
+qp_access_flags	include/infiniband/kern-abi.h	/^	__u32	qp_access_flags;$/;"	m	struct:ibv_kern_qp_attr
+qp_access_flags	include/infiniband/kern-abi.h	/^	__u32 qp_access_flags;$/;"	m	struct:ibv_modify_qp
+qp_access_flags	include/infiniband/kern-abi.h	/^	__u32 qp_access_flags;$/;"	m	struct:ibv_query_qp_resp
+qp_access_flags	include/infiniband/verbs.h	/^	int			qp_access_flags;$/;"	m	struct:ibv_qp_attr
+qp_attr_mask	include/infiniband/kern-abi.h	/^	__u32	qp_attr_mask;$/;"	m	struct:ibv_kern_qp_attr
+qp_context	include/infiniband/verbs.h	/^	void		       *qp_context;$/;"	m	struct:ibv_qp
+qp_context	include/infiniband/verbs.h	/^	void		       *qp_context;$/;"	m	struct:ibv_qp_init_attr
+qp_context	src/compat-1_0.c	/^	void		       *qp_context;$/;"	m	struct:ibv_qp_1_0	file:
+qp_context	src/compat-1_0.c	/^	void		       *qp_context;$/;"	m	struct:ibv_qp_init_attr_1_0	file:
+qp_handle	include/infiniband/kern-abi.h	/^	__u32 qp_handle;$/;"	m	struct:ibv_attach_mcast
+qp_handle	include/infiniband/kern-abi.h	/^	__u32 qp_handle;$/;"	m	struct:ibv_create_qp_resp
+qp_handle	include/infiniband/kern-abi.h	/^	__u32 qp_handle;$/;"	m	struct:ibv_create_qp_resp_v3
+qp_handle	include/infiniband/kern-abi.h	/^	__u32 qp_handle;$/;"	m	struct:ibv_create_qp_resp_v4
+qp_handle	include/infiniband/kern-abi.h	/^	__u32 qp_handle;$/;"	m	struct:ibv_destroy_qp
+qp_handle	include/infiniband/kern-abi.h	/^	__u32 qp_handle;$/;"	m	struct:ibv_destroy_qp_v1
+qp_handle	include/infiniband/kern-abi.h	/^	__u32 qp_handle;$/;"	m	struct:ibv_detach_mcast
+qp_handle	include/infiniband/kern-abi.h	/^	__u32 qp_handle;$/;"	m	struct:ibv_modify_qp
+qp_handle	include/infiniband/kern-abi.h	/^	__u32 qp_handle;$/;"	m	struct:ibv_post_recv
+qp_handle	include/infiniband/kern-abi.h	/^	__u32 qp_handle;$/;"	m	struct:ibv_post_send
+qp_handle	include/infiniband/kern-abi.h	/^	__u32 qp_handle;$/;"	m	struct:ibv_query_qp
+qp_num	include/infiniband/kern-abi.h	/^	__u32  qp_num;$/;"	m	struct:ibv_kern_wc
+qp_num	include/infiniband/verbs.h	/^	uint32_t		qp_num;$/;"	m	struct:ibv_qp
+qp_num	include/infiniband/verbs.h	/^	uint32_t		qp_num;$/;"	m	struct:ibv_wc
+qp_num	src/compat-1_0.c	/^	uint32_t		qp_num;$/;"	m	struct:ibv_qp_1_0	file:
+qp_state	include/infiniband/kern-abi.h	/^	__u32	qp_state;$/;"	m	struct:ibv_kern_qp_attr
+qp_state	include/infiniband/kern-abi.h	/^	__u8  qp_state;$/;"	m	struct:ibv_modify_qp
+qp_state	include/infiniband/kern-abi.h	/^	__u8  qp_state;$/;"	m	struct:ibv_query_qp_resp
+qp_state	include/infiniband/verbs.h	/^	enum ibv_qp_state	qp_state;$/;"	m	struct:ibv_qp_attr	typeref:enum:ibv_qp_attr::ibv_qp_state
+qp_type	include/infiniband/kern-abi.h	/^	__u8  qp_type;$/;"	m	struct:ibv_create_qp
+qp_type	include/infiniband/verbs.h	/^	enum ibv_qp_type	qp_type;$/;"	m	struct:ibv_qp	typeref:enum:ibv_qp::ibv_qp_type
+qp_type	include/infiniband/verbs.h	/^	enum ibv_qp_type	qp_type;$/;"	m	struct:ibv_qp_init_attr	typeref:enum:ibv_qp_init_attr::ibv_qp_type
+qp_type	src/compat-1_0.c	/^	enum ibv_qp_type	qp_type;$/;"	m	struct:ibv_qp_1_0	typeref:enum:ibv_qp_1_0::ibv_qp_type	file:
+qp_type	src/compat-1_0.c	/^	enum ibv_qp_type	qp_type;$/;"	m	struct:ibv_qp_init_attr_1_0	typeref:enum:ibv_qp_init_attr_1_0::ibv_qp_type	file:
+qpn	examples/rc_pingpong.c	/^	int qpn;$/;"	m	struct:pingpong_dest	file:
+qpn	examples/srq_pingpong.c	/^	int qpn;$/;"	m	struct:pingpong_dest	file:
+qpn	examples/uc_pingpong.c	/^	int qpn;$/;"	m	struct:pingpong_dest	file:
+qpn	examples/ud_pingpong.c	/^	int qpn;$/;"	m	struct:pingpong_dest	file:
+qpn	include/infiniband/kern-abi.h	/^	__u32 qpn;$/;"	m	struct:ibv_create_qp_resp
+qpn	include/infiniband/kern-abi.h	/^	__u32 qpn;$/;"	m	struct:ibv_create_qp_resp_v3
+qpn	include/infiniband/kern-abi.h	/^	__u32 qpn;$/;"	m	struct:ibv_create_qp_resp_v4
+query_device	include/infiniband/verbs.h	/^	int			(*query_device)(struct ibv_context *context,$/;"	m	struct:ibv_context_ops
+query_device	src/compat-1_0.c	/^	int			(*query_device)(struct ibv_context *context,$/;"	m	struct:ibv_context_ops_1_0	file:
+query_port	include/infiniband/verbs.h	/^	int			(*query_port)(struct ibv_context *context, uint8_t port_num,$/;"	m	struct:ibv_context_ops
+query_port	src/compat-1_0.c	/^	int			(*query_port)(struct ibv_context *context, uint8_t port_num,$/;"	m	struct:ibv_context_ops_1_0	file:
+query_qp	include/infiniband/verbs.h	/^	int			(*query_qp)(struct ibv_qp *qp, struct ibv_qp_attr *attr,$/;"	m	struct:ibv_context_ops
+query_qp	src/compat-1_0.c	/^	int			(*query_qp)(struct ibv_qp *qp, struct ibv_qp_attr *attr,$/;"	m	struct:ibv_context_ops_1_0	file:
+query_srq	include/infiniband/verbs.h	/^	int			(*query_srq)(struct ibv_srq *srq,$/;"	m	struct:ibv_context_ops
+query_srq	src/compat-1_0.c	/^	int			(*query_srq)(struct ibv_srq *srq,$/;"	m	struct:ibv_context_ops_1_0	file:
+rate	include/infiniband/sa-kern-abi.h	/^	__u8  rate;$/;"	m	struct:ibv_kern_path_rec
+rate	include/infiniband/sa.h	/^	uint8_t       rate;$/;"	m	struct:ibv_sa_mcmember_rec
+rate	include/infiniband/sa.h	/^	uint8_t       rate;$/;"	m	struct:ibv_sa_path_rec
+rate_selector	include/infiniband/sa-kern-abi.h	/^	__u8  rate_selector;$/;"	m	struct:ibv_kern_path_rec
+rate_selector	include/infiniband/sa.h	/^	uint8_t       rate_selector;$/;"	m	struct:ibv_sa_mcmember_rec
+rate_selector	include/infiniband/sa.h	/^	uint8_t       rate_selector;$/;"	m	struct:ibv_sa_path_rec
+raw	include/infiniband/verbs.h	/^	uint8_t			raw[16];$/;"	m	union:ibv_gid
+raw_traffic	include/infiniband/sa-kern-abi.h	/^	__u32 raw_traffic;$/;"	m	struct:ibv_kern_path_rec
+raw_traffic	include/infiniband/sa.h	/^	int           raw_traffic;$/;"	m	struct:ibv_sa_path_rec
+rdma	include/infiniband/kern-abi.h	/^		} rdma;$/;"	m	union:ibv_kern_send_wr::__anon15	typeref:struct:ibv_kern_send_wr::__anon15::__anon16
+rdma	include/infiniband/verbs.h	/^		} rdma;$/;"	m	union:ibv_send_wr::__anon9	typeref:struct:ibv_send_wr::__anon9::__anon10
+rdma	src/compat-1_0.c	/^		} rdma;$/;"	m	union:ibv_send_wr_1_0::__anon2	typeref:struct:ibv_send_wr_1_0::__anon2::__anon3	file:
+read_config	src/init.c	/^static void read_config(void)$/;"	f	file:
+read_config_file	src/init.c	/^static void read_config_file(const char *path)$/;"	f	file:
+real_ah	src/compat-1_0.c	/^	struct ibv_ah	       *real_ah;$/;"	m	struct:ibv_ah_1_0	typeref:struct:ibv_ah_1_0::ibv_ah	file:
+real_context	src/compat-1_0.c	/^	struct ibv_context	       *real_context; \/* was abi_compat member *\/$/;"	m	struct:ibv_context_1_0	typeref:struct:ibv_context_1_0::ibv_context	file:
+real_cq	src/compat-1_0.c	/^	struct ibv_cq	       *real_cq;$/;"	m	struct:ibv_cq_1_0	typeref:struct:ibv_cq_1_0::ibv_cq	file:
+real_device	src/compat-1_0.c	/^	struct ibv_device      *real_device; \/* was obsolete driver member *\/$/;"	m	struct:ibv_device_1_0	typeref:struct:ibv_device_1_0::ibv_device	file:
+real_mr	src/compat-1_0.c	/^	struct ibv_mr	       *real_mr;$/;"	m	struct:ibv_mr_1_0	typeref:struct:ibv_mr_1_0::ibv_mr	file:
+real_pd	src/compat-1_0.c	/^	struct ibv_pd	       *real_pd;$/;"	m	struct:ibv_pd_1_0	typeref:struct:ibv_pd_1_0::ibv_pd	file:
+real_qp	src/compat-1_0.c	/^	struct ibv_qp	       *real_qp;$/;"	m	struct:ibv_qp_1_0	typeref:struct:ibv_qp_1_0::ibv_qp	file:
+real_srq	src/compat-1_0.c	/^	struct ibv_srq	       *real_srq;$/;"	m	struct:ibv_srq_1_0	typeref:struct:ibv_srq_1_0::ibv_srq	file:
+recv_cq	include/infiniband/verbs.h	/^	struct ibv_cq	       *recv_cq;$/;"	m	struct:ibv_qp	typeref:struct:ibv_qp::ibv_cq
+recv_cq	include/infiniband/verbs.h	/^	struct ibv_cq	       *recv_cq;$/;"	m	struct:ibv_qp_init_attr	typeref:struct:ibv_qp_init_attr::ibv_cq
+recv_cq	src/compat-1_0.c	/^	struct ibv_cq_1_0      *recv_cq;$/;"	m	struct:ibv_qp_1_0	typeref:struct:ibv_qp_1_0::ibv_cq_1_0	file:
+recv_cq	src/compat-1_0.c	/^	struct ibv_cq_1_0      *recv_cq;$/;"	m	struct:ibv_qp_init_attr_1_0	typeref:struct:ibv_qp_init_attr_1_0::ibv_cq_1_0	file:
+recv_cq_handle	include/infiniband/kern-abi.h	/^	__u32 recv_cq_handle;$/;"	m	struct:ibv_create_qp
+recv_wr	include/infiniband/kern-abi.h	/^	struct ibv_kern_recv_wr recv_wr[0];$/;"	m	struct:ibv_post_recv	typeref:struct:ibv_post_recv::ibv_kern_recv_wr
+recv_wr	include/infiniband/kern-abi.h	/^	struct ibv_kern_recv_wr recv_wr[0];$/;"	m	struct:ibv_post_srq_recv	typeref:struct:ibv_post_srq_recv::ibv_kern_recv_wr
+refcnt	include/infiniband/verbs.h	/^	int			refcnt;$/;"	m	struct:ibv_comp_channel
+refcnt	src/memory.c	/^	int			refcnt;$/;"	m	struct:ibv_mem_node	file:
+reg_mr	include/infiniband/verbs.h	/^	struct ibv_mr *		(*reg_mr)(struct ibv_pd *pd, void *addr, size_t length,$/;"	m	struct:ibv_context_ops	typeref:struct:ibv_context_ops::reg_mr
+reg_mr	src/compat-1_0.c	/^	struct ibv_mr *		(*reg_mr)(struct ibv_pd *pd, void *addr, size_t length,$/;"	m	struct:ibv_context_ops_1_0	typeref:struct:ibv_context_ops_1_0::reg_mr	file:
+remote_addr	include/infiniband/kern-abi.h	/^			__u64 remote_addr;$/;"	m	struct:ibv_kern_send_wr::__anon15::__anon16
+remote_addr	include/infiniband/kern-abi.h	/^			__u64 remote_addr;$/;"	m	struct:ibv_kern_send_wr::__anon15::__anon17
+remote_addr	include/infiniband/verbs.h	/^			uint64_t	remote_addr;$/;"	m	struct:ibv_send_wr::__anon9::__anon10
+remote_addr	include/infiniband/verbs.h	/^			uint64_t	remote_addr;$/;"	m	struct:ibv_send_wr::__anon9::__anon11
+remote_addr	src/compat-1_0.c	/^			uint64_t	remote_addr;$/;"	m	struct:ibv_send_wr_1_0::__anon2::__anon3	file:
+remote_addr	src/compat-1_0.c	/^			uint64_t	remote_addr;$/;"	m	struct:ibv_send_wr_1_0::__anon2::__anon4	file:
+remote_qkey	include/infiniband/kern-abi.h	/^			__u32 remote_qkey;$/;"	m	struct:ibv_kern_send_wr::__anon15::__anon18
+remote_qkey	include/infiniband/verbs.h	/^			uint32_t	remote_qkey;$/;"	m	struct:ibv_send_wr::__anon9::__anon12
+remote_qkey	src/compat-1_0.c	/^			uint32_t	remote_qkey;$/;"	m	struct:ibv_send_wr_1_0::__anon2::__anon5	file:
+remote_qpn	include/infiniband/kern-abi.h	/^			__u32 remote_qpn;$/;"	m	struct:ibv_kern_send_wr::__anon15::__anon18
+remote_qpn	include/infiniband/verbs.h	/^			uint32_t	remote_qpn;$/;"	m	struct:ibv_send_wr::__anon9::__anon12
+remote_qpn	src/compat-1_0.c	/^			uint32_t	remote_qpn;$/;"	m	struct:ibv_send_wr_1_0::__anon2::__anon5	file:
+req_notify_cq	include/infiniband/verbs.h	/^	int			(*req_notify_cq)(struct ibv_cq *cq, int solicited_only);$/;"	m	struct:ibv_context_ops
+req_notify_cq	src/compat-1_0.c	/^	int			(*req_notify_cq)(struct ibv_cq_1_0 *cq,$/;"	m	struct:ibv_context_ops_1_0	file:
+req_notify_cq_wrapper_1_0	src/compat-1_0.c	/^static int req_notify_cq_wrapper_1_0(struct ibv_cq_1_0 *cq, int sol_only)$/;"	f	file:
+rereg_mr	include/infiniband/verbs.h	/^	struct ibv_mr *		(*rereg_mr)(struct ibv_mr *mr,$/;"	m	struct:ibv_context_ops	typeref:struct:ibv_context_ops::rereg_mr
+reserved	include/infiniband/kern-abi.h	/^			__u32 reserved;$/;"	m	struct:ibv_kern_send_wr::__anon15::__anon16
+reserved	include/infiniband/kern-abi.h	/^			__u32 reserved;$/;"	m	struct:ibv_kern_send_wr::__anon15::__anon17
+reserved	include/infiniband/kern-abi.h	/^			__u32 reserved;$/;"	m	struct:ibv_kern_send_wr::__anon15::__anon18
+reserved	include/infiniband/kern-abi.h	/^	__u16 reserved;$/;"	m	struct:ibv_attach_mcast
+reserved	include/infiniband/kern-abi.h	/^	__u16 reserved;$/;"	m	struct:ibv_detach_mcast
+reserved	include/infiniband/kern-abi.h	/^	__u16 reserved;$/;"	m	struct:ibv_qp_dest
+reserved	include/infiniband/kern-abi.h	/^	__u32 reserved;$/;"	m	struct:ibv_create_ah
+reserved	include/infiniband/kern-abi.h	/^	__u32 reserved;$/;"	m	struct:ibv_create_cq
+reserved	include/infiniband/kern-abi.h	/^	__u32 reserved;$/;"	m	struct:ibv_create_qp_resp
+reserved	include/infiniband/kern-abi.h	/^	__u32 reserved;$/;"	m	struct:ibv_create_srq_resp
+reserved	include/infiniband/kern-abi.h	/^	__u32 reserved;$/;"	m	struct:ibv_destroy_cq
+reserved	include/infiniband/kern-abi.h	/^	__u32 reserved;$/;"	m	struct:ibv_destroy_qp
+reserved	include/infiniband/kern-abi.h	/^	__u32 reserved;$/;"	m	struct:ibv_destroy_srq
+reserved	include/infiniband/kern-abi.h	/^	__u32 reserved;$/;"	m	struct:ibv_kern_async_event
+reserved	include/infiniband/kern-abi.h	/^	__u32 reserved;$/;"	m	struct:ibv_kern_recv_wr
+reserved	include/infiniband/kern-abi.h	/^	__u32 reserved;$/;"	m	struct:ibv_modify_srq_v3
+reserved	include/infiniband/kern-abi.h	/^	__u32 reserved;$/;"	m	struct:ibv_poll_cq_resp
+reserved	include/infiniband/kern-abi.h	/^	__u32 reserved;$/;"	m	struct:ibv_query_srq
+reserved	include/infiniband/kern-abi.h	/^	__u32 reserved;$/;"	m	struct:ibv_query_srq_resp
+reserved	include/infiniband/kern-abi.h	/^	__u32 reserved;$/;"	m	struct:ibv_resize_cq_resp
+reserved	include/infiniband/kern-abi.h	/^	__u8	reserved[5];$/;"	m	struct:ibv_kern_qp_attr
+reserved	include/infiniband/kern-abi.h	/^	__u8   reserved;$/;"	m	struct:ibv_kern_wc
+reserved	include/infiniband/kern-abi.h	/^	__u8  reserved;$/;"	m	struct:ibv_create_qp
+reserved	include/infiniband/kern-abi.h	/^	__u8  reserved;$/;"	m	struct:ibv_kern_ah_attr
+reserved	include/infiniband/kern-abi.h	/^	__u8  reserved;$/;"	m	struct:ibv_kern_global_route
+reserved	include/infiniband/kern-abi.h	/^	__u8  reserved[2];$/;"	m	struct:ibv_modify_qp
+reserved	include/infiniband/kern-abi.h	/^	__u8  reserved[3];$/;"	m	struct:ibv_query_port_resp
+reserved	include/infiniband/kern-abi.h	/^	__u8  reserved[4];$/;"	m	struct:ibv_query_device_resp
+reserved	include/infiniband/kern-abi.h	/^	__u8  reserved[5];$/;"	m	struct:ibv_query_qp_resp
+reserved	include/infiniband/kern-abi.h	/^	__u8  reserved[7];$/;"	m	struct:ibv_query_port
+resize_cq	include/infiniband/verbs.h	/^	int			(*resize_cq)(struct ibv_cq *cq, int cqe);$/;"	m	struct:ibv_context_ops
+resize_cq	src/compat-1_0.c	/^	int			(*resize_cq)(struct ibv_cq *cq, int cqe);$/;"	m	struct:ibv_context_ops_1_0	file:
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_alloc_pd
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_create_ah
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_create_comp_channel
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_create_cq
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_create_cq_v2
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_create_qp
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_create_srq
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_destroy_cq
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_destroy_qp
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_destroy_srq
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_get_context
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_get_context_v2
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_poll_cq
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_post_recv
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_post_send
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_post_srq_recv
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_query_device
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_query_params
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_query_port
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_query_qp
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_query_srq
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_reg_mr
+response	include/infiniband/kern-abi.h	/^	__u64 response;$/;"	m	struct:ibv_resize_cq
+response	src/kern_abi.h	/^	__u64 response;$/;"	m	struct:ibv_get_context
+response	src/kern_abi.h	/^	__u64 response;$/;"	m	struct:ibv_get_event_fds
+retry_cnt	include/infiniband/kern-abi.h	/^	__u8	retry_cnt;$/;"	m	struct:ibv_kern_qp_attr
+retry_cnt	include/infiniband/kern-abi.h	/^	__u8  retry_cnt;$/;"	m	struct:ibv_modify_qp
+retry_cnt	include/infiniband/kern-abi.h	/^	__u8  retry_cnt;$/;"	m	struct:ibv_query_qp_resp
+retry_cnt	include/infiniband/verbs.h	/^	uint8_t			retry_cnt;$/;"	m	struct:ibv_qp_attr
+reversible	include/infiniband/sa-kern-abi.h	/^	__u32 reversible;$/;"	m	struct:ibv_kern_path_rec
+reversible	include/infiniband/sa.h	/^	int           reversible;$/;"	m	struct:ibv_sa_path_rec
+right	src/memory.c	/^	struct ibv_mem_node    *left, *right;$/;"	m	struct:ibv_mem_node	typeref:struct:ibv_mem_node::	file:
+rkey	include/infiniband/kern-abi.h	/^			__u32 rkey;$/;"	m	struct:ibv_kern_send_wr::__anon15::__anon16
+rkey	include/infiniband/kern-abi.h	/^			__u32 rkey;$/;"	m	struct:ibv_kern_send_wr::__anon15::__anon17
+rkey	include/infiniband/kern-abi.h	/^	__u32 rkey;$/;"	m	struct:ibv_reg_mr_resp
+rkey	include/infiniband/verbs.h	/^			uint32_t	rkey;$/;"	m	struct:ibv_send_wr::__anon9::__anon10
+rkey	include/infiniband/verbs.h	/^			uint32_t	rkey;$/;"	m	struct:ibv_send_wr::__anon9::__anon11
+rkey	include/infiniband/verbs.h	/^	uint32_t		rkey;$/;"	m	struct:ibv_mr
+rkey	include/infiniband/verbs.h	/^	uint32_t		rkey;$/;"	m	struct:ibv_mw
+rkey	src/compat-1_0.c	/^			uint32_t	rkey;$/;"	m	struct:ibv_send_wr_1_0::__anon2::__anon3	file:
+rkey	src/compat-1_0.c	/^			uint32_t	rkey;$/;"	m	struct:ibv_send_wr_1_0::__anon2::__anon4	file:
+rkey	src/compat-1_0.c	/^	uint32_t		rkey;$/;"	m	struct:ibv_mr_1_0	file:
+rmb	include/infiniband/arch.h	100;"	d
+rmb	include/infiniband/arch.h	107;"	d
+rmb	include/infiniband/arch.h	114;"	d
+rmb	include/infiniband/arch.h	123;"	d
+rmb	include/infiniband/arch.h	68;"	d
+rmb	include/infiniband/arch.h	79;"	d
+rmb	include/infiniband/arch.h	86;"	d
+rmb	include/infiniband/arch.h	93;"	d
+rnr_retry	include/infiniband/kern-abi.h	/^	__u8	rnr_retry;$/;"	m	struct:ibv_kern_qp_attr
+rnr_retry	include/infiniband/kern-abi.h	/^	__u8  rnr_retry;$/;"	m	struct:ibv_modify_qp
+rnr_retry	include/infiniband/kern-abi.h	/^	__u8  rnr_retry;$/;"	m	struct:ibv_query_qp_resp
+rnr_retry	include/infiniband/verbs.h	/^	uint8_t			rnr_retry;$/;"	m	struct:ibv_qp_attr
+rq_psn	include/infiniband/kern-abi.h	/^	__u32	rq_psn;$/;"	m	struct:ibv_kern_qp_attr
+rq_psn	include/infiniband/kern-abi.h	/^	__u32 rq_psn;$/;"	m	struct:ibv_modify_qp
+rq_psn	include/infiniband/kern-abi.h	/^	__u32 rq_psn;$/;"	m	struct:ibv_query_qp_resp
+rq_psn	include/infiniband/verbs.h	/^	uint32_t		rq_psn;$/;"	m	struct:ibv_qp_attr
+rx_depth	examples/rc_pingpong.c	/^	int			 rx_depth;$/;"	m	struct:pingpong_context	file:
+rx_depth	examples/srq_pingpong.c	/^	int			 rx_depth;$/;"	m	struct:pingpong_context	file:
+rx_depth	examples/uc_pingpong.c	/^	int			 rx_depth;$/;"	m	struct:pingpong_context	file:
+rx_depth	examples/ud_pingpong.c	/^	int			 rx_depth;$/;"	m	struct:pingpong_context	file:
+scope	include/infiniband/sa.h	/^	uint8_t       scope;$/;"	m	struct:ibv_sa_mcmember_rec
+send_cq	include/infiniband/verbs.h	/^	struct ibv_cq	       *send_cq;$/;"	m	struct:ibv_qp	typeref:struct:ibv_qp::ibv_cq
+send_cq	include/infiniband/verbs.h	/^	struct ibv_cq	       *send_cq;$/;"	m	struct:ibv_qp_init_attr	typeref:struct:ibv_qp_init_attr::ibv_cq
+send_cq	src/compat-1_0.c	/^	struct ibv_cq_1_0      *send_cq;$/;"	m	struct:ibv_qp_1_0	typeref:struct:ibv_qp_1_0::ibv_cq_1_0	file:
+send_cq	src/compat-1_0.c	/^	struct ibv_cq_1_0      *send_cq;$/;"	m	struct:ibv_qp_init_attr_1_0	typeref:struct:ibv_qp_init_attr_1_0::ibv_cq_1_0	file:
+send_cq_handle	include/infiniband/kern-abi.h	/^	__u32 send_cq_handle;$/;"	m	struct:ibv_create_qp
+send_flags	include/infiniband/kern-abi.h	/^	__u32 send_flags;$/;"	m	struct:ibv_kern_send_wr
+send_flags	include/infiniband/verbs.h	/^	int			send_flags;$/;"	m	struct:ibv_mw_bind
+send_flags	include/infiniband/verbs.h	/^	int			send_flags;$/;"	m	struct:ibv_send_wr
+send_flags	src/compat-1_0.c	/^	int			send_flags;$/;"	m	struct:ibv_send_wr_1_0	file:
+send_wr	include/infiniband/kern-abi.h	/^	struct ibv_kern_send_wr send_wr[0];$/;"	m	struct:ibv_post_send	typeref:struct:ibv_post_send::ibv_kern_send_wr
+sg_list	include/infiniband/verbs.h	/^	struct ibv_sge	       *sg_list;$/;"	m	struct:ibv_recv_wr	typeref:struct:ibv_recv_wr::ibv_sge
+sg_list	include/infiniband/verbs.h	/^	struct ibv_sge	       *sg_list;$/;"	m	struct:ibv_send_wr	typeref:struct:ibv_send_wr::ibv_sge
+sg_list	src/compat-1_0.c	/^	struct ibv_sge	       *sg_list;$/;"	m	struct:ibv_recv_wr_1_0	typeref:struct:ibv_recv_wr_1_0::ibv_sge	file:
+sg_list	src/compat-1_0.c	/^	struct ibv_sge	       *sg_list;$/;"	m	struct:ibv_send_wr_1_0	typeref:struct:ibv_send_wr_1_0::ibv_sge	file:
+sge_count	include/infiniband/kern-abi.h	/^	__u32 sge_count;$/;"	m	struct:ibv_post_recv
+sge_count	include/infiniband/kern-abi.h	/^	__u32 sge_count;$/;"	m	struct:ibv_post_send
+sge_count	include/infiniband/kern-abi.h	/^	__u32 sge_count;$/;"	m	struct:ibv_post_srq_recv
+sgid	include/infiniband/sa-kern-abi.h	/^	__u8  sgid[16];$/;"	m	struct:ibv_kern_path_rec
+sgid	include/infiniband/sa.h	/^	union ibv_gid sgid;$/;"	m	struct:ibv_sa_path_rec	typeref:union:ibv_sa_path_rec::ibv_gid
+sgid	include/infiniband/verbs.h	/^	union ibv_gid		sgid;$/;"	m	struct:ibv_grh	typeref:union:ibv_grh::ibv_gid
+sgid_index	include/infiniband/kern-abi.h	/^	__u8  sgid_index;$/;"	m	struct:ibv_kern_global_route
+sgid_index	include/infiniband/kern-abi.h	/^	__u8  sgid_index;$/;"	m	struct:ibv_qp_dest
+sgid_index	include/infiniband/verbs.h	/^	uint8_t			sgid_index;$/;"	m	struct:ibv_global_route
+size	examples/rc_pingpong.c	/^	int			 size;$/;"	m	struct:pingpong_context	file:
+size	examples/srq_pingpong.c	/^	int			 size;$/;"	m	struct:pingpong_context	file:
+size	examples/uc_pingpong.c	/^	int			 size;$/;"	m	struct:pingpong_context	file:
+size	examples/ud_pingpong.c	/^	int			 size;$/;"	m	struct:pingpong_context	file:
+sl	include/infiniband/kern-abi.h	/^	__u8   sl;$/;"	m	struct:ibv_kern_wc
+sl	include/infiniband/kern-abi.h	/^	__u8  sl;$/;"	m	struct:ibv_kern_ah_attr
+sl	include/infiniband/kern-abi.h	/^	__u8  sl;$/;"	m	struct:ibv_qp_dest
+sl	include/infiniband/sa-kern-abi.h	/^	__u8  sl;$/;"	m	struct:ibv_kern_path_rec
+sl	include/infiniband/sa.h	/^	uint8_t       sl;$/;"	m	struct:ibv_sa_mcmember_rec
+sl	include/infiniband/sa.h	/^	uint8_t       sl;$/;"	m	struct:ibv_sa_path_rec
+sl	include/infiniband/verbs.h	/^	uint8_t			sl;$/;"	m	struct:ibv_ah_attr
+sl	include/infiniband/verbs.h	/^	uint8_t			sl;$/;"	m	struct:ibv_wc
+slid	include/infiniband/kern-abi.h	/^	__u16  slid;$/;"	m	struct:ibv_kern_wc
+slid	include/infiniband/sa-kern-abi.h	/^	__u16 slid;$/;"	m	struct:ibv_kern_path_rec
+slid	include/infiniband/sa.h	/^	uint16_t      slid;$/;"	m	struct:ibv_sa_path_rec
+slid	include/infiniband/verbs.h	/^	uint16_t		slid;$/;"	m	struct:ibv_wc
+sm_lid	include/infiniband/kern-abi.h	/^	__u16 sm_lid;$/;"	m	struct:ibv_query_port_resp
+sm_lid	include/infiniband/verbs.h	/^	uint16_t		sm_lid;$/;"	m	struct:ibv_port_attr
+sm_sl	include/infiniband/kern-abi.h	/^	__u8  sm_sl;$/;"	m	struct:ibv_query_port_resp
+sm_sl	include/infiniband/verbs.h	/^	uint8_t			sm_sl;$/;"	m	struct:ibv_port_attr
+solicited	include/infiniband/kern-abi.h	/^	__u32 solicited;$/;"	m	struct:ibv_req_notify_cq
+speed_str	examples/devinfo.c	/^static const char *speed_str(uint8_t speed)$/;"	f	file:
+sq_draining	include/infiniband/kern-abi.h	/^	__u8	sq_draining;$/;"	m	struct:ibv_kern_qp_attr
+sq_draining	include/infiniband/kern-abi.h	/^	__u8  sq_draining;$/;"	m	struct:ibv_query_qp_resp
+sq_draining	include/infiniband/verbs.h	/^	uint8_t			sq_draining;$/;"	m	struct:ibv_qp_attr
+sq_psn	include/infiniband/kern-abi.h	/^	__u32	sq_psn;$/;"	m	struct:ibv_kern_qp_attr
+sq_psn	include/infiniband/kern-abi.h	/^	__u32 sq_psn;$/;"	m	struct:ibv_modify_qp
+sq_psn	include/infiniband/kern-abi.h	/^	__u32 sq_psn;$/;"	m	struct:ibv_query_qp_resp
+sq_psn	include/infiniband/verbs.h	/^	uint32_t		sq_psn;$/;"	m	struct:ibv_qp_attr
+sq_sig_all	include/infiniband/kern-abi.h	/^	__u8  sq_sig_all;$/;"	m	struct:ibv_create_qp
+sq_sig_all	include/infiniband/kern-abi.h	/^	__u8  sq_sig_all;$/;"	m	struct:ibv_query_qp_resp
+sq_sig_all	include/infiniband/verbs.h	/^	int			sq_sig_all;$/;"	m	struct:ibv_qp_init_attr
+sq_sig_all	src/compat-1_0.c	/^	int			sq_sig_all;$/;"	m	struct:ibv_qp_init_attr_1_0	file:
+src_path_bits	include/infiniband/kern-abi.h	/^	__u8  src_path_bits;$/;"	m	struct:ibv_kern_ah_attr
+src_path_bits	include/infiniband/kern-abi.h	/^	__u8  src_path_bits;$/;"	m	struct:ibv_qp_dest
+src_path_bits	include/infiniband/verbs.h	/^	uint8_t			src_path_bits;$/;"	m	struct:ibv_ah_attr
+src_qp	include/infiniband/kern-abi.h	/^	__u32  src_qp;$/;"	m	struct:ibv_kern_wc
+src_qp	include/infiniband/verbs.h	/^	uint32_t		src_qp;$/;"	m	struct:ibv_wc
+srq	examples/srq_pingpong.c	/^	struct ibv_srq		*srq;$/;"	m	struct:pingpong_context	typeref:struct:pingpong_context::ibv_srq	file:
+srq	include/infiniband/verbs.h	/^		struct ibv_srq *srq;$/;"	m	union:ibv_async_event::__anon8	typeref:struct:ibv_async_event::__anon8::ibv_srq
+srq	include/infiniband/verbs.h	/^	struct ibv_srq	       *srq;$/;"	m	struct:ibv_qp	typeref:struct:ibv_qp::ibv_srq
+srq	include/infiniband/verbs.h	/^	struct ibv_srq	       *srq;$/;"	m	struct:ibv_qp_init_attr	typeref:struct:ibv_qp_init_attr::ibv_srq
+srq	src/compat-1_0.c	/^	struct ibv_srq_1_0     *srq;$/;"	m	struct:ibv_qp_1_0	typeref:struct:ibv_qp_1_0::ibv_srq_1_0	file:
+srq	src/compat-1_0.c	/^	struct ibv_srq_1_0     *srq;$/;"	m	struct:ibv_qp_init_attr_1_0	typeref:struct:ibv_qp_init_attr_1_0::ibv_srq_1_0	file:
+srq_context	include/infiniband/verbs.h	/^	void		       *srq_context;$/;"	m	struct:ibv_srq
+srq_context	include/infiniband/verbs.h	/^	void		       *srq_context;$/;"	m	struct:ibv_srq_init_attr
+srq_context	src/compat-1_0.c	/^	void		       *srq_context;$/;"	m	struct:ibv_srq_1_0	file:
+srq_handle	include/infiniband/kern-abi.h	/^	__u32 srq_handle;$/;"	m	struct:ibv_create_qp
+srq_handle	include/infiniband/kern-abi.h	/^	__u32 srq_handle;$/;"	m	struct:ibv_create_srq_resp
+srq_handle	include/infiniband/kern-abi.h	/^	__u32 srq_handle;$/;"	m	struct:ibv_create_srq_resp_v5
+srq_handle	include/infiniband/kern-abi.h	/^	__u32 srq_handle;$/;"	m	struct:ibv_destroy_srq
+srq_handle	include/infiniband/kern-abi.h	/^	__u32 srq_handle;$/;"	m	struct:ibv_destroy_srq_v1
+srq_handle	include/infiniband/kern-abi.h	/^	__u32 srq_handle;$/;"	m	struct:ibv_modify_srq
+srq_handle	include/infiniband/kern-abi.h	/^	__u32 srq_handle;$/;"	m	struct:ibv_modify_srq_v3
+srq_handle	include/infiniband/kern-abi.h	/^	__u32 srq_handle;$/;"	m	struct:ibv_post_srq_recv
+srq_handle	include/infiniband/kern-abi.h	/^	__u32 srq_handle;$/;"	m	struct:ibv_query_srq
+srq_limit	include/infiniband/kern-abi.h	/^	__u32 srq_limit;$/;"	m	struct:ibv_create_srq
+srq_limit	include/infiniband/kern-abi.h	/^	__u32 srq_limit;$/;"	m	struct:ibv_modify_srq
+srq_limit	include/infiniband/kern-abi.h	/^	__u32 srq_limit;$/;"	m	struct:ibv_modify_srq_v3
+srq_limit	include/infiniband/kern-abi.h	/^	__u32 srq_limit;$/;"	m	struct:ibv_query_srq_resp
+srq_limit	include/infiniband/verbs.h	/^	uint32_t		srq_limit;$/;"	m	struct:ibv_srq_attr
+start	include/infiniband/kern-abi.h	/^	__u64 start;$/;"	m	struct:ibv_reg_mr
+start	src/memory.c	/^	uintptr_t		start, end;$/;"	m	struct:ibv_mem_node	file:
+state	include/infiniband/kern-abi.h	/^	__u8  state;$/;"	m	struct:ibv_query_port_resp
+state	include/infiniband/verbs.h	/^	enum ibv_port_state	state;$/;"	m	struct:ibv_port_attr	typeref:enum:ibv_port_attr::ibv_port_state
+state	include/infiniband/verbs.h	/^	enum ibv_qp_state       state;$/;"	m	struct:ibv_qp	typeref:enum:ibv_qp::ibv_qp_state
+state	src/compat-1_0.c	/^	enum ibv_qp_state       state;$/;"	m	struct:ibv_qp_1_0	typeref:enum:ibv_qp_1_0::ibv_qp_state	file:
+static_rate	include/infiniband/kern-abi.h	/^	__u8  static_rate;$/;"	m	struct:ibv_kern_ah_attr
+static_rate	include/infiniband/kern-abi.h	/^	__u8  static_rate;$/;"	m	struct:ibv_qp_dest
+static_rate	include/infiniband/verbs.h	/^	uint8_t			static_rate;$/;"	m	struct:ibv_ah_attr
+status	include/infiniband/kern-abi.h	/^	__u32  status;$/;"	m	struct:ibv_kern_wc
+status	include/infiniband/verbs.h	/^	enum ibv_wc_status	status;$/;"	m	struct:ibv_wc	typeref:enum:ibv_wc::ibv_wc_status
+subnet_prefix	include/infiniband/verbs.h	/^		uint64_t	subnet_prefix;$/;"	m	struct:ibv_gid::__anon7
+subnet_timeout	include/infiniband/kern-abi.h	/^	__u8  subnet_timeout;$/;"	m	struct:ibv_query_port_resp
+subnet_timeout	include/infiniband/verbs.h	/^	uint8_t			subnet_timeout;$/;"	m	struct:ibv_port_attr
+swap	include/infiniband/kern-abi.h	/^			__u64 swap;$/;"	m	struct:ibv_kern_send_wr::__anon15::__anon17
+swap	include/infiniband/verbs.h	/^			uint64_t	swap;$/;"	m	struct:ibv_send_wr::__anon9::__anon11
+swap	src/compat-1_0.c	/^			uint64_t	swap;$/;"	m	struct:ibv_send_wr_1_0::__anon2::__anon4	file:
+symver	src/ibverbs.h	63;"	d
+symver	src/ibverbs.h	68;"	d
+sys_image_guid	include/infiniband/kern-abi.h	/^	__u64 sys_image_guid;$/;"	m	struct:ibv_query_device_resp
+sys_image_guid	include/infiniband/verbs.h	/^	uint64_t		sys_image_guid;$/;"	m	struct:ibv_device_attr
+sysfs_dev_list	src/init.c	/^static struct ibv_sysfs_dev *sysfs_dev_list;$/;"	v	typeref:struct:ibv_sysfs_dev	file:
+sysfs_name	src/init.c	/^	char		        sysfs_name[IBV_SYSFS_NAME_MAX];$/;"	m	struct:ibv_sysfs_dev	file:
+sysfs_path	src/init.c	/^	char		        sysfs_path[IBV_SYSFS_PATH_MAX];$/;"	m	struct:ibv_sysfs_dev	file:
+sysfs_path	src/sysfs.c	/^static char *sysfs_path;$/;"	v	file:
+tail_driver	src/init.c	/^static struct ibv_driver *head_driver, *tail_driver;$/;"	v	typeref:struct:	file:
+timeout	include/infiniband/kern-abi.h	/^	__u8	timeout;$/;"	m	struct:ibv_kern_qp_attr
+timeout	include/infiniband/kern-abi.h	/^	__u8  timeout;$/;"	m	struct:ibv_modify_qp
+timeout	include/infiniband/kern-abi.h	/^	__u8  timeout;$/;"	m	struct:ibv_query_qp_resp
+timeout	include/infiniband/verbs.h	/^	uint8_t			timeout;$/;"	m	struct:ibv_qp_attr
+too_late	src/memory.c	/^static int too_late;$/;"	v	file:
+traffic_class	include/infiniband/kern-abi.h	/^	__u8  traffic_class;$/;"	m	struct:ibv_kern_global_route
+traffic_class	include/infiniband/kern-abi.h	/^	__u8  traffic_class;$/;"	m	struct:ibv_qp_dest
+traffic_class	include/infiniband/sa-kern-abi.h	/^	__u8  traffic_class;$/;"	m	struct:ibv_kern_path_rec
+traffic_class	include/infiniband/sa.h	/^	uint8_t       traffic_class;$/;"	m	struct:ibv_sa_mcmember_rec
+traffic_class	include/infiniband/sa.h	/^	uint8_t       traffic_class;$/;"	m	struct:ibv_sa_path_rec
+traffic_class	include/infiniband/verbs.h	/^	uint8_t			traffic_class;$/;"	m	struct:ibv_global_route
+transport_str	examples/devinfo.c	/^static const char *transport_str(enum ibv_transport_type transport)$/;"	f	file:
+transport_type	include/infiniband/verbs.h	/^	enum ibv_transport_type	transport_type;$/;"	m	struct:ibv_device	typeref:enum:ibv_device::ibv_transport_type
+try_driver	src/init.c	/^static struct ibv_device *try_driver(struct ibv_driver *driver,$/;"	f	file:
+try_drivers	src/init.c	/^static struct ibv_device *try_drivers(struct ibv_sysfs_dev *sysfs_dev)$/;"	f	file:
+ud	include/infiniband/kern-abi.h	/^		} ud;$/;"	m	union:ibv_kern_send_wr::__anon15	typeref:struct:ibv_kern_send_wr::__anon15::__anon18
+ud	include/infiniband/verbs.h	/^		} ud;$/;"	m	union:ibv_send_wr::__anon9	typeref:struct:ibv_send_wr::__anon9::__anon12
+ud	src/compat-1_0.c	/^		} ud;$/;"	m	union:ibv_send_wr_1_0::__anon2	typeref:struct:ibv_send_wr_1_0::__anon2::__anon5	file:
+usage	examples/devinfo.c	/^static void usage(const char *argv0)$/;"	f	file:
+usage	examples/rc_pingpong.c	/^static void usage(const char *argv0)$/;"	f	file:
+usage	examples/srq_pingpong.c	/^static void usage(const char *argv0)$/;"	f	file:
+usage	examples/uc_pingpong.c	/^static void usage(const char *argv0)$/;"	f	file:
+usage	examples/ud_pingpong.c	/^static void usage(const char *argv0)$/;"	f	file:
+user_handle	include/infiniband/kern-abi.h	/^	__u64 user_handle;$/;"	m	struct:ibv_create_ah
+user_handle	include/infiniband/kern-abi.h	/^	__u64 user_handle;$/;"	m	struct:ibv_create_cq
+user_handle	include/infiniband/kern-abi.h	/^	__u64 user_handle;$/;"	m	struct:ibv_create_cq_v2
+user_handle	include/infiniband/kern-abi.h	/^	__u64 user_handle;$/;"	m	struct:ibv_create_qp
+user_handle	include/infiniband/kern-abi.h	/^	__u64 user_handle;$/;"	m	struct:ibv_create_srq
+vendor_err	include/infiniband/kern-abi.h	/^	__u32  vendor_err;$/;"	m	struct:ibv_kern_wc
+vendor_err	include/infiniband/verbs.h	/^	uint32_t		vendor_err;$/;"	m	struct:ibv_wc
+vendor_id	include/infiniband/kern-abi.h	/^	__u32 vendor_id;$/;"	m	struct:ibv_query_device_resp
+vendor_id	include/infiniband/verbs.h	/^	uint32_t		vendor_id;$/;"	m	struct:ibv_device_attr
+vendor_part_id	include/infiniband/kern-abi.h	/^	__u32 vendor_part_id;$/;"	m	struct:ibv_query_device_resp
+vendor_part_id	include/infiniband/verbs.h	/^	uint32_t		vendor_part_id;$/;"	m	struct:ibv_device_attr
+verbose	examples/devinfo.c	/^static int verbose;$/;"	v	file:
+verify	src/memory.c	/^static int verify(struct ibv_mem_node *node)$/;"	f	file:
+version_tclass_flow	include/infiniband/verbs.h	/^	uint32_t		version_tclass_flow;$/;"	m	struct:ibv_grh
+vl_str	examples/devinfo.c	/^static const char *vl_str(uint8_t vl_num)$/;"	f	file:
+wc	include/infiniband/kern-abi.h	/^	struct ibv_kern_wc wc[0];$/;"	m	struct:ibv_poll_cq_resp	typeref:struct:ibv_poll_cq_resp::ibv_kern_wc
+wc_flags	include/infiniband/kern-abi.h	/^	__u32  wc_flags;$/;"	m	struct:ibv_kern_wc
+wc_flags	include/infiniband/verbs.h	/^	int			wc_flags;$/;"	m	struct:ibv_wc
+wc_wmb	include/infiniband/arch.h	102;"	d
+wc_wmb	include/infiniband/arch.h	109;"	d
+wc_wmb	include/infiniband/arch.h	116;"	d
+wc_wmb	include/infiniband/arch.h	125;"	d
+wc_wmb	include/infiniband/arch.h	70;"	d
+wc_wmb	include/infiniband/arch.h	81;"	d
+wc_wmb	include/infiniband/arch.h	88;"	d
+wc_wmb	include/infiniband/arch.h	95;"	d
+width_str	examples/devinfo.c	/^static const char *width_str(uint8_t width)$/;"	f	file:
+wmb	include/infiniband/arch.h	101;"	d
+wmb	include/infiniband/arch.h	108;"	d
+wmb	include/infiniband/arch.h	115;"	d
+wmb	include/infiniband/arch.h	124;"	d
+wmb	include/infiniband/arch.h	69;"	d
+wmb	include/infiniband/arch.h	80;"	d
+wmb	include/infiniband/arch.h	87;"	d
+wmb	include/infiniband/arch.h	94;"	d
+wqe_size	include/infiniband/kern-abi.h	/^	__u32 wqe_size;$/;"	m	struct:ibv_post_recv
+wqe_size	include/infiniband/kern-abi.h	/^	__u32 wqe_size;$/;"	m	struct:ibv_post_send
+wqe_size	include/infiniband/kern-abi.h	/^	__u32 wqe_size;$/;"	m	struct:ibv_post_srq_recv
+wr	include/infiniband/kern-abi.h	/^	} wr;$/;"	m	struct:ibv_kern_send_wr	typeref:union:ibv_kern_send_wr::__anon15
+wr	include/infiniband/verbs.h	/^	} wr;$/;"	m	struct:ibv_send_wr	typeref:union:ibv_send_wr::__anon9
+wr	src/compat-1_0.c	/^	} wr;$/;"	m	struct:ibv_send_wr_1_0	typeref:union:ibv_send_wr_1_0::__anon2	file:
+wr_count	include/infiniband/kern-abi.h	/^	__u32 wr_count;$/;"	m	struct:ibv_post_recv
+wr_count	include/infiniband/kern-abi.h	/^	__u32 wr_count;$/;"	m	struct:ibv_post_send
+wr_count	include/infiniband/kern-abi.h	/^	__u32 wr_count;$/;"	m	struct:ibv_post_srq_recv
+wr_id	include/infiniband/kern-abi.h	/^	__u64  wr_id;$/;"	m	struct:ibv_kern_wc
+wr_id	include/infiniband/kern-abi.h	/^	__u64 wr_id;$/;"	m	struct:ibv_kern_recv_wr
+wr_id	include/infiniband/kern-abi.h	/^	__u64 wr_id;$/;"	m	struct:ibv_kern_send_wr
+wr_id	include/infiniband/verbs.h	/^	uint64_t		wr_id;$/;"	m	struct:ibv_mw_bind
+wr_id	include/infiniband/verbs.h	/^	uint64_t		wr_id;$/;"	m	struct:ibv_recv_wr
+wr_id	include/infiniband/verbs.h	/^	uint64_t		wr_id;$/;"	m	struct:ibv_send_wr
+wr_id	include/infiniband/verbs.h	/^	uint64_t		wr_id;$/;"	m	struct:ibv_wc
+wr_id	src/compat-1_0.c	/^	uint64_t		wr_id;$/;"	m	struct:ibv_recv_wr_1_0	file:
+wr_id	src/compat-1_0.c	/^	uint64_t		wr_id;$/;"	m	struct:ibv_send_wr_1_0	file:
