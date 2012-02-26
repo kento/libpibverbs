@@ -764,8 +764,8 @@ struct ibv_context {
 
 
 struct pc_ibv_co {
-  uint64_t num_pendding;
-  uint64_t pendding_size;
+  uint64_t pdg_num;
+  uint64_t pdg_size;
 };
 
 /**
@@ -773,7 +773,7 @@ struct pc_ibv_co {
  * Reterun lid(local id) of the HCA
  *
  */
-uint16_t pc_init(struct ibv_pd* pd, struct pc_ibv_co *co, int device_num, struct ibv_mr **pc_mr);
+uint16_t pc_init(struct pc_ibv_co *co, int device_num);
 
 void pc_fin(void);
 

@@ -60,66 +60,131 @@
 #include <net/if.h>
 #include <arpa/inet.h>
 
+//#define DEBUG
+//#define DETAIL
 
 struct pc_ibv_co *co = NULL;
 struct ibv_mr *pc_mr;
 
 lq pc_q;
+struct pc_length {
+  struct ibv_context *ctx;
+  uint64_t length;
+};
 
 struct {
   int num_pendding;
 } pc;
 
+struct pc_hca {
+  uint16_t lid;
+  struct pc_ibv_co *co;
+};
 
+lq ctx_lid_q;
+struct ctx_lid {
+  struct ibv_context *ctx;
+  uint16_t lid;
+};
+
+lq hcas_q;
+//TODO: chage the code to use pthread_mutex lock, not init_hcas_q;
+int init_hcas_q = 0;
+
+static uint16_t get_lid(struct ibv_context *ctx) ;
+static struct pc_hca* get_pc_hca(uint16_t lid);
 static double get_dtime(void);
 static char* get_ip_addr (char* interface);
 
-
 pthread_mutex_t pc_mutex = PTHREAD_MUTEX_INITIALIZER;
 
-uint16_t pc_init(struct ibv_pd* pd, struct pc_ibv_co *input_co, int device_num, struct ibv_mr **pc_mr);
+//uint16_t pc_init(struct ibv_pd* pd, struct pc_ibv_co *input_co, int device_num)
+uint16_t pc_init(struct pc_ibv_co *input_co, int device_num)
 {
-  co = input_co;
-  /*
-  pc_mr = ibv_reg_mr(pd, 
-		     co, 
-		     sizeof(struct pc_ibv_co), 
-		     IBV_ACCESS_LOCAL_WRITE
-		     | IBV_ACCESS_REMOTE_READ);
-  */		     
+  struct ibv_device **dev_list;
+  struct ibv_device *dev;
+  struct ibv_context *ctx;
+  struct ibv_port_attr pattr;
+  struct pc_hca *hca;
+  uint16_t lid;
+  int num_of_hcas;
+
+  dev_list  = ibv_get_device_list(&num_of_hcas);
+  if (num_of_hcas <= device_num) {
+    fprintf(stderr, "Invalide devic_num: %d @%s:%d\n", device_num, __FILE__, __LINE__);
+    exit(1);
+  }
+  dev = dev_list[device_num];
+  ctx = ibv_open_device(dev);
+  ibv_query_port(ctx, 1, &pattr);
+  lid = pattr.lid;
+
+  if (init_hcas_q == 0) {
+    lq_init(&hcas_q);
+    lq_init(&ctx_lid_q);
+    init_hcas_q = 1;
+  } 
+  /*remove*/
+  else 
+      {
+      return -1; 
+    }
+  /*remove*/
+
+  hca = (struct pc_hca*) malloc(sizeof(struct pc_hca));
+  hca->lid = lid;
+  hca->co = input_co;
+  hca->co->pdg_num = 0;
+  hca->co->pdg_size = 0;
+  lq_enq(&hcas_q, hca);
+
   lq_init(&pc_q);
-  return pc_mr;
+  ibv_free_device_list(dev_list);
+  return lid;
 }
 default_symver(__pc_init, pc_init);
 
 void __pc_fin() {
-  ibv_dereg_mr(pc_mr);
-  co = NULL;
   return;
 }
 default_symver(__pc_fin, pc_fin);
 
 void __pc_ibv_poll_cq(struct ibv_cq *cq, int num_entries, struct ibv_wc *wc)
 {
-  struct ibv_context *ctx;
-  if (co == NULL) {
-    //   return;
+
+  struct pc_length *len;
+
+  if (init_hcas_q == 0) {
+    return;
   }
   if (wc->opcode == IBV_WC_RDMA_WRITE) {
       lq_init_it(&pc_q);
-  
-      while ((ctx = (struct ibv_context*)lq_next(&pc_q)) != NULL) {
-	if (ctx == cq->context) {
+
+      while ((len = (struct pc_length*)lq_next(&pc_q)) != NULL) {
+	struct pc_hca *hca;
+	uint16_t lid;
+	if (len->ctx == cq->context) {
+	  lid = get_lid(cq->context);
+	  hca = get_pc_hca(lid);
+
 	  pthread_mutex_lock(&pc_mutex);
-	  pc.num_pendding--;
+	  hca->co->pdg_num--;
+	  hca->co->pdg_size = hca->co->pdg_size - len->length;
 	  pthread_mutex_unlock(&pc_mutex);
-	  lq_remove(&pc_q, ctx);
+
+	  lq_remove(&pc_q, len);
+	  free(len);
 	  lq_fin_it(&pc_q);
-	  fprintf(stderr, "[%f] post_cq   : num_pendding:%lu \n", get_dtime(), pc.num_pendding);
-	  struct ibv_port_attr pattr;
-	  ibv_query_port(cq->context, 1, &pattr);
-	  fprintf(stderr, "\tcp:%p, context:%p(more_ops:%p, abi_compat:%p, num_comp_vectors:%d, slid:%u), :\n", cq, cq->context, cq->context->more_ops, cq->context->abi_compat, cq->context->num_comp_vectors, pattr.lid);
-	  fprintf(stderr, "\twr_id:%lu, status:%d, wc->opcode:%d, vendor_err:%u, byte_len:%u, imm_data:%u, qp_num:%p src_qp:%p, wc_flags:%d,  pkey_index:%u, slid:%u, sl:%u, dlid_path_bits:%u, num_entries:%d \n", wc->wr_id,  wc->status, wc->opcode, wc->vendor_err, wc->byte_len, wc->imm_data, wc->qp_num, wc->src_qp, wc->wc_flags, wc->pkey_index, wc->slid, wc->sl, wc->dlid_path_bits, num_entries);
+
+#ifdef DEBUG
+	  	  fprintf(stderr, "[ %f ] post_cq   : pdg_num: %lu , pdg_size: %lu \n", get_dtime(), hca->co->pdg_num, hca->co->pdg_size);
+#ifdef DETAIL
+	  	  struct ibv_port_attr pattr;
+	  	  ibv_query_port(cq->context, 1, &pattr);
+	  	  fprintf(stderr, "\tcp:%p, context:%p(more_ops:%p, abi_compat:%p, num_comp_vectors:%d, slid:%u), :\n", cq, cq->context, cq->context->more_ops, cq->context->abi_compat, cq->context->num_comp_vectors, pattr.lid);
+	  	  fprintf(stderr, "\twr_id:%lu, status:%d, wc->opcode:%d, vendor_err:%u, byte_len:%u, imm_data:%u, qp_num:%p src_qp:%p, wc_flags:%d,  pkey_index:%u, slid:%u, sl:%u, dlid_path_bits:%u, num_entries:%d \n", wc->wr_id,  wc->status, wc->opcode, wc->vendor_err, wc->byte_len, wc->imm_data, wc->qp_num, wc->src_qp, wc->wc_flags, wc->pkey_index, wc->slid, wc->sl, wc->dlid_path_bits, num_entries);
+#endif
+#endif
 	  return;
 	}
       }
@@ -132,23 +197,84 @@ default_symver(__pc_ibv_poll_cq, pc_ibv_poll_cq);
 void __pc_ibv_post_send(struct ibv_qp *qp, struct ibv_send_wr *wr,
                       struct ibv_send_wr **bad_wr)
 {
-  if (co == NULL) {
-    //    return;
+
+  struct pc_hca *hca;
+  uint16_t lid;
+  double s, e;
+  s = get_dtime();
+  if (init_hcas_q == 0) {
+     return;
   }
   if (wr->opcode == IBV_WR_RDMA_WRITE)
     {
-      lq_enq(&pc_q, qp->context);
+      lid = get_lid(qp->context);
+      hca = get_pc_hca(lid);
+
+      if (hca == NULL) {
+	return ;
+      }
+
+      struct pc_length *len = (struct pc_length*)malloc(sizeof(struct pc_length));
+
+      len->ctx = qp->context;
+      len->length = wr->sg_list->length;
+      lq_enq(&pc_q, len);
+      
       pthread_mutex_lock(&pc_mutex);
-      pc.num_pendding++;
+      hca->co->pdg_num++;
+      hca->co->pdg_size += wr->sg_list->length;
       pthread_mutex_unlock(&pc_mutex);
-      fprintf(stderr, "[%f] post_send : num_pendding:%lu\n", get_dtime(), pc.num_pendding);
+
+#ifdef DEBUG
+      fprintf(stderr, "[ %f ] post_send : pdg_num: %lu , pdg_size: %lu\n", get_dtime(), hca->co->pdg_num, hca->co->pdg_size);
+#ifdef DETAIL
       fprintf(stderr, "\tqp:%p, send_cq: %p, recv_cq: %p, context: %p, qp_context: %p\n", qp, qp->send_cq, qp->recv_cq, qp->context, qp->qp_context);
-      fprintf(stderr, "\twr_id:%lu, num_sge:%d, opcode:%d, send_flags%d, imm_data:%u, remote_add:%lu, rkey:%u, xrc_remote_srq_num:%u\n", wr->wr_id, wr->sg_list->length, wr->opcode, wr->send_flags, wr->imm_data, wr->wr.rdma.remote_addr, wr->wr.rdma.rkey, wr->xrc_remote_srq_num);
+      fprintf(stderr, "\twr_id:%lu, length:%d, opcode:%d, send_flags%d, imm_data:%u, remote_add:%lu, rkey:%u, xrc_remote_srq_num:%u\n", wr->wr_id, wr->sg_list->length, wr->opcode, wr->send_flags, wr->imm_data, wr->wr.rdma.remote_addr, wr->wr.rdma.rkey, wr->xrc_remote_srq_num);
+      fprintf(stderr, "\ttime:%f\n", get_dtime() - s);
+#endif
+#endif
     }
 
   return;
 }
 default_symver(__pc_ibv_post_send, pc_ibv_post_send);
+
+static uint16_t get_lid(struct ibv_context *ctx) 
+{
+  struct ibv_port_attr pattr;
+  struct ctx_lid *cl;
+
+  lq_init_it(&ctx_lid_q);
+  while ((cl = (struct ctx_lid*)lq_next(&ctx_lid_q)) != NULL) {
+    if (cl->ctx == ctx) {
+      lq_fin_it(&ctx_lid_q);
+      return cl->lid;
+    }
+  }
+  lq_fin_it(&ctx_lid_q);
+  
+  ibv_query_port(ctx, 1, &pattr);
+  cl = (struct ctx_lid*)malloc(sizeof(struct ctx_lid));
+  cl->ctx = ctx;
+  cl->lid = pattr.lid;
+  lq_enq(&ctx_lid_q, cl);
+  return pattr.lid;
+}
+
+static struct pc_hca* get_pc_hca(uint16_t lid)
+{
+  struct pc_hca *hca;
+  lq_init_it(&hcas_q);
+  while ((hca = (struct pc_hca*)lq_next(&hcas_q)) != NULL) {
+    if (hca->lid == lid) {
+      lq_fin_it(&hcas_q);
+      return hca;
+    }
+  }
+  lq_fin_it(&hcas_q);
+  //  fprintf(stderr, "No such performace counted lid (lid:%u)", lid);
+  return NULL;
+}
 
 static char* get_ip_addr (char* interface)
 {
@@ -271,6 +397,11 @@ struct ibv_pd *__ibv_alloc_pd(struct ibv_context *context)
 {
 	struct ibv_pd *pd;
 
+	/*Warning remove*/
+	struct pc_ibv_co *co = (struct pc_ibv_co*) malloc(sizeof(struct pc_ibv_co));
+	//	pc_init(co, 0);
+	/*Warning remove*/
+
 	pd = context->ops.alloc_pd(context);
 	if (pd)
 		pd->context = context;
@@ -325,6 +456,7 @@ static struct ibv_comp_channel *ibv_create_comp_channel_v2(struct ibv_context *c
 	struct ibv_abi_compat_v2 *t = context->abi_compat;
 	static int warned;
 
+
 	if (!pthread_mutex_trylock(&t->in_use))
 		return &t->channel;
 
@@ -334,6 +466,9 @@ static struct ibv_comp_channel *ibv_create_comp_channel_v2(struct ibv_context *c
 			abi_ver);
 		++warned;
 	}
+	
+
+
 
 	return NULL;
 }
@@ -409,6 +544,8 @@ struct ibv_cq *__ibv_create_cq(struct ibv_context *context, int cqe, void *cq_co
 	pthread_mutex_lock(&context->mutex);
 
 	cq = context->ops.create_cq(context, cqe, channel, comp_vector);
+
+
 
 	if (cq) {
 		cq->context    	     	   = context;
@@ -488,6 +625,8 @@ struct ibv_srq *__ibv_create_srq(struct ibv_pd *pd,
 				 struct ibv_srq_init_attr *srq_init_attr)
 {
 	struct ibv_srq *srq;
+
+
 
 	if (!pd->context->ops.create_srq)
 		return NULL;
